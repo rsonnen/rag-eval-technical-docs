@@ -28,7 +28,7 @@ lint:
 
 typecheck:
 	@echo "Running mypy type checking..."
-	uv run mypy extract_docs.py extractors converters
+	uv run mypy download_docs.py extractors converters
 
 security:
 	@echo "Running security checks with bandit..."

@@ -1,22 +1,21 @@
 #!/usr/bin/env python
-"""Extract technical documentation for RAG evaluation.
+"""Download technical documentation for RAG evaluation.
 
-This script extracts documentation from various open source projects
-and converts them to formats Docling can ingest (MD, HTML, ADOC).
+Clones git repositories, extracts documentation files, and converts them
+to formats Docling can ingest (MD, HTML, ADOC). Projects are defined in
+config.yaml.
 
 Usage:
+    uv run python download_docs.py <project> --corpus <name> [--max-docs N]
+
     # List available projects
-    uv run python extract_docs.py --list
+    uv run python download_docs.py --list
 
-    # Extract a single project
-    uv run python extract_docs.py python-stdlib --corpus python_docs --max-docs 500
+    # Download rust book
+    uv run python download_docs.py rust-book --corpus rust_docs
 
-    # Extract with custom output directory
-    uv run python extract_docs.py kubernetes --data-dir /path/to/output
-
-Examples:
-    uv run python extract_docs.py rust-book --corpus rust_docs
-    uv run python extract_docs.py django --corpus django_docs --max-docs 200
+    # Download with document limit
+    uv run python download_docs.py django --corpus django_docs --max-docs 200
 """
 
 import argparse

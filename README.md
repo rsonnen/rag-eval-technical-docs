@@ -6,65 +6,56 @@ Evaluation corpus of open source technical documentation for testing RAG systems
 
 This repository contains **evaluation data for RAG systems**:
 
-- **corpus.yaml** - Evaluation configuration defining domain context and testing scenarios
-- **Generated questions** - Validated Q/A pairs for evaluation (where available)
-- **metadata.json** - Document inventory with source info
-- **Extract scripts** - Fetch and convert documentation from open source projects
+- **corpus.yaml** - Evaluation scenarios for each corpus
+- **metadata.json** - Document inventory
+- **Generated questions** - Validated Q/A pairs (where available)
 
-The actual documentation is not included due to licensing - use the extract scripts to fetch from source repositories.
-
-## Purpose
-
-Technical documentation is a prime RAG use case. This corpus tests:
-
-- **Retrieval**: Hierarchical navigation, API reference lookup, conceptual vs. reference content
-- **Document processing**: Markdown with code blocks, RST with directives, interlinked pages
-- **Query types**: "How do I use X?", "What's the difference between Y and Z?", troubleshooting
+The actual documentation is not included. Use the download scripts to fetch from source repositories.
 
 ## Available Corpora
 
-| Corpus | Project | Format | Description |
-|--------|---------|--------|-------------|
-| `django_docs` | Django | RST→HTML | Django web framework documentation |
-| `git_docs` | Git | AsciiDoc | Git version control documentation |
-| `kubernetes_docs` | Kubernetes | Markdown | Kubernetes container orchestration |
-| `python_stdlib` | Python | RST→HTML | Python standard library documentation |
-| `rust_book` | Rust | Markdown | The Rust Programming Language book |
+| Corpus | Documents | Description |
+|--------|-----------|-------------|
+| `django_docs` | 654 | Django web framework documentation |
+| `git_docs` | 180 | Git version control documentation |
+| `kubernetes_docs` | 1,200+ | Kubernetes container orchestration |
+| `python_stdlib` | 500+ | Python standard library documentation |
+| `rust_book` | 112 | The Rust Programming Language book |
 
-## Usage
-
-### Install dependencies
+## Quick Start
 
 ```bash
 cd scripts
 uv sync
-```
 
-### Extract documentation
-
-```bash
 # List available projects
-uv run python extract_docs.py --list
+uv run python download_docs.py --list
 
-# Extract a project
-uv run python extract_docs.py rust-book --corpus rust_docs
+# Download documentation
+uv run python download_docs.py rust-book --corpus rust_docs
 
-# Extract with document limit
-uv run python extract_docs.py django --corpus django_docs --max-docs 200
+# Download with document limit
+uv run python download_docs.py django --corpus django_docs --max-docs 200
 ```
 
-## Output Structure
+## Directory Structure
 
 ```
-<corpus_name>/
-    corpus.yaml               # Evaluation configuration
-    metadata.json             # Corpus metadata
-    docs/                     # Extracted documents (gitignored)
-        document_name.md      # Markdown
-        another_doc.html      # HTML (from RST/DocBook)
+<corpus>/
+    corpus.yaml         # Evaluation configuration
+    metadata.json       # Document inventory
+    docs/               # Documentation files (gitignored)
+
+scripts/
+    download_docs.py    # Download from git repositories
+    config.yaml         # Project definitions
+    converters/         # Format conversion modules
+    extractors/         # Git clone utilities
 ```
 
 ## Available Projects
+
+Projects are defined in `scripts/config.yaml`. The download script clones each git repository, extracts documentation files, and converts them to formats Docling can ingest.
 
 | Project | Format | Converter | Description |
 |---------|--------|-----------|-------------|
@@ -80,15 +71,37 @@ uv run python extract_docs.py django --corpus django_docs --max-docs 200
 
 | Converter | Input | Output | Description |
 |-----------|-------|--------|-------------|
-| `identity` | Markdown | `.md` | Passthrough (Docling supports MD natively) |
+| `identity` | Markdown | `.md` | Passthrough |
 | `rst` | reStructuredText | `.html` | Converts via pypandoc |
-| `asciidoc` | AsciiDoc | `.adoc` | Passthrough (Docling supports AsciiDoc natively) |
+| `asciidoc` | AsciiDoc | `.adoc` | Passthrough |
 | `docbook` | DocBook/SGML | `.html` | Converts via pypandoc |
-| `mdx` | MDX | `.md` | Strips JSX components, outputs Markdown |
+| `mdx` | MDX | `.md` | Strips JSX components |
+
+## Metadata Format
+
+```json
+{
+  "corpus": "rust_docs",
+  "project": "rust-book",
+  "source_url": "https://github.com/rust-lang/book.git",
+  "version": "main",
+  "license": "MIT/Apache-2.0",
+  "converter": "identity",
+  "total_documents": 112,
+  "documents": {
+    "ch01-00-getting-started": {
+      "source_path": "src/ch01-00-getting-started.md",
+      "title": "Getting Started",
+      "file": "docs/src_ch01-00-getting-started.md",
+      "size_bytes": 1234
+    }
+  }
+}
+```
 
 ## Adding New Projects
 
-Edit `scripts/config.yaml` to add new projects:
+Edit `scripts/config.yaml`:
 
 ```yaml
 projects:
@@ -103,9 +116,3 @@ projects:
       license: "MIT"
       version_tag: main
 ```
-
-## Licensing
-
-**This repository** (scripts, configurations): MIT License
-
-**Documentation content**: Licenses vary by project - check each project's license before use.
