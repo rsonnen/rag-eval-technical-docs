@@ -1,0 +1,35 @@
+name: "Django Framework Documentation"
+
+corpus_context: >
+  655 HTML documentation files from the Django web framework. Covers the complete
+  Django documentation including tutorials (8-part beginner series), how-to guides
+  (CSRF, deployment, custom fields), reference documentation (models, forms, views,
+  templates, settings), topic guides (database layer, HTTP handling, testing), FAQ,
+  and release notes from version 0.95 through 5.x. Extracted from django/django
+  repository, converted from reStructuredText to HTML. Documentation uses Django's
+  doc link format with role markers. BSD-3-Clause license.
+
+scenarios:
+  technical_analysis:
+    name: "Django Technical Analysis"
+    description: >
+      You are creating questions for developers learning Django internals.
+      Questions should test understanding of the ORM, middleware pipeline,
+      request/response cycle, template rendering, form validation, and
+      authentication system. Focus on how Django components interact.
+
+  api_reference:
+    name: "Django API Reference Lookup"
+    description: >
+      You are creating questions to test retrieval of specific Django API
+      details - QuerySet methods, model field options, form widget classes,
+      management command arguments, or settings values. Questions should
+      target specific method signatures, parameters, and return values.
+
+  rag_eval:
+    name: "RAG System Evaluation"
+    description: >
+      You are testing whether a retrieval system actually read Django docs.
+      Questions must have specific, verifiable answers - exact method names,
+      setting defaults, deprecation versions, or quoted documentation text
+      that requires the actual docs rather than general Django knowledge.

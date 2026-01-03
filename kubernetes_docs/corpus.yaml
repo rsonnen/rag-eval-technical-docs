@@ -1,0 +1,36 @@
+name: "Kubernetes Documentation"
+
+corpus_context: >
+  1566 Markdown documentation files from the Kubernetes website. Covers concepts
+  (architecture, workloads, services, storage, security, scheduling), reference
+  documentation (API, kubectl, feature gates, admission controllers, RBAC),
+  contributing guides (blog, documentation, localization), and task guides.
+  Includes extensive coverage of Pods, Deployments, StatefulSets, DaemonSets,
+  Services, Ingress, ConfigMaps, Secrets, PersistentVolumes, and NetworkPolicies.
+  Source from kubernetes/website repository. CC-BY-4.0 license. Hugo markdown
+  with frontmatter.
+
+scenarios:
+  technical_analysis:
+    name: "Kubernetes Architecture Analysis"
+    description: >
+      You are creating questions for platform engineers learning Kubernetes.
+      Questions should test understanding of control plane components, node
+      architecture, scheduling algorithms, networking model, storage classes,
+      and security contexts. Focus on how Kubernetes orchestrates containers.
+
+  resource_reference:
+    name: "Kubernetes Resource Reference"
+    description: >
+      You are creating questions to test retrieval of specific Kubernetes
+      resource details - API field names, annotation meanings, label selectors,
+      resource limits, or controller behaviors. Questions should target
+      specific manifest fields, status conditions, and API interactions.
+
+  rag_eval:
+    name: "RAG System Evaluation"
+    description: >
+      You are testing whether a retrieval system actually read K8s docs.
+      Questions must have specific, verifiable answers - exact API field
+      names, feature gate names, annotation keys, or documented behaviors
+      that require the actual docs rather than general Kubernetes knowledge.

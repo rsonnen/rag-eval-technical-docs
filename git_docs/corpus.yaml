@@ -1,0 +1,35 @@
+name: "Git Version Control Documentation"
+
+corpus_context: >
+  247 AsciiDoc documentation files from the Git version control system. Includes
+  man pages for all Git commands (git-add, git-commit, git-rebase, etc.), concept
+  guides (gitworkflows, gitattributes, githooks), tutorials (gittutorial, gitcore-
+  tutorial), format specifications (pack format, commit graph, index), protocol
+  documentation (http, pack, v2), and contributor guides. Source from git/git
+  repository master branch. GPL-2.0 license. Man page format with SYNOPSIS,
+  DESCRIPTION, OPTIONS, and EXAMPLES sections.
+
+scenarios:
+  technical_analysis:
+    name: "Git Internals Analysis"
+    description: >
+      You are creating questions for developers learning Git internals.
+      Questions should test understanding of object storage, pack files,
+      reference handling, merge algorithms, index format, and protocol
+      operations. Focus on how Git implements version control.
+
+  command_reference:
+    name: "Git Command Reference Lookup"
+    description: >
+      You are creating questions to test retrieval of specific Git command
+      details - option flags, configuration variables, environment variables,
+      or subcommand syntax. Questions should target specific command behaviors,
+      flag combinations, and expected outputs.
+
+  rag_eval:
+    name: "RAG System Evaluation"
+    description: >
+      You are testing whether a retrieval system actually read Git docs.
+      Questions must have specific, verifiable answers - exact option names,
+      config variable defaults, format specifications, or documented behaviors
+      that require the actual man pages rather than general Git knowledge.

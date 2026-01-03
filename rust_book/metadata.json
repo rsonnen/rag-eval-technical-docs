@@ -1,0 +1,684 @@
+{
+  "corpus": "rust_book",
+  "project": "rust-book",
+  "source_url": "https://github.com/rust-lang/book.git",
+  "version": "main",
+  "license": "MIT/Apache-2.0",
+  "converter": "identity",
+  "extraction_date": "2025-12-24T14:32:37.544003+00:00",
+  "total_documents": 112,
+  "documents": {
+    "ch17-04-streams": {
+      "source_path": "src/ch17-04-streams.md",
+      "title": "Ch17 04 Streams",
+      "file": "docs/src_ch17-04-streams.md",
+      "size_bytes": 5159
+    },
+    "ch03-02-data-types": {
+      "source_path": "src/ch03-02-data-types.md",
+      "title": "Ch03 02 Data Types",
+      "file": "docs/src_ch03-02-data-types.md",
+      "size_bytes": 17255
+    },
+    "ch19-02-refutability": {
+      "source_path": "src/ch19-02-refutability.md",
+      "title": "Ch19 02 Refutability",
+      "file": "docs/src_ch19-02-refutability.md",
+      "size_bytes": 4339
+    },
+    "ch12-02-reading-a-file": {
+      "source_path": "src/ch12-02-reading-a-file.md",
+      "title": "Ch12 02 Reading A File",
+      "file": "docs/src_ch12-02-reading-a-file.md",
+      "size_bytes": 2372
+    },
+    "ch19-03-pattern-syntax": {
+      "source_path": "src/ch19-03-pattern-syntax.md",
+      "title": "Ch19 03 Pattern Syntax",
+      "file": "docs/src_ch19-03-pattern-syntax.md",
+      "size_bytes": 27808
+    },
+    "ch02-00-guessing-game-tutorial": {
+      "source_path": "src/ch02-00-guessing-game-tutorial.md",
+      "title": "Programming a Guessing Game",
+      "file": "docs/src_ch02-00-guessing-game-tutorial.md",
+      "size_bytes": 40193
+    },
+    "ch09-01-unrecoverable-errors-with-panic": {
+      "source_path": "src/ch09-01-unrecoverable-errors-with-panic.md",
+      "title": "Ch09 01 Unrecoverable Errors With Panic",
+      "file": "docs/src_ch09-01-unrecoverable-errors-with-panic.md",
+      "size_bytes": 8520
+    },
+    "ch08-03-hash-maps": {
+      "source_path": "src/ch08-03-hash-maps.md",
+      "title": "Ch08 03 Hash Maps",
+      "file": "docs/src_ch08-03-hash-maps.md",
+      "size_bytes": 11627
+    },
+    "ch01-00-getting-started": {
+      "source_path": "src/ch01-00-getting-started.md",
+      "title": "Getting Started",
+      "file": "docs/src_ch01-00-getting-started.md",
+      "size_bytes": 303
+    },
+    "ch16-00-concurrency": {
+      "source_path": "src/ch16-00-concurrency.md",
+      "title": "Fearless Concurrency",
+      "file": "docs/src_ch16-00-concurrency.md",
+      "size_bytes": 3010
+    },
+    "appendix-07-nightly-rust": {
+      "source_path": "src/appendix-07-nightly-rust.md",
+      "title": "Appendix 07 Nightly Rust",
+      "file": "docs/src_appendix-07-nightly-rust.md",
+      "size_bytes": 9050
+    },
+    "ch16-01-threads": {
+      "source_path": "src/ch16-01-threads.md",
+      "title": "Ch16 01 Threads",
+      "file": "docs/src_ch16-01-threads.md",
+      "size_bytes": 12564
+    },
+    "ch15-01-box": {
+      "source_path": "src/ch15-01-box.md",
+      "title": "Ch15 01 Box",
+      "file": "docs/src_ch15-01-box.md",
+      "size_bytes": 13269
+    },
+    "ch15-04-rc": {
+      "source_path": "src/ch15-04-rc.md",
+      "title": "Ch15 04 Rc",
+      "file": "docs/src_ch15-04-rc.md",
+      "size_bytes": 8911
+    },
+    "ch16-02-message-passing": {
+      "source_path": "src/ch16-02-message-passing.md",
+      "title": "Ch16 02 Message Passing",
+      "file": "docs/src_ch16-02-message-passing.md",
+      "size_bytes": 11867
+    },
+    "ch10-02-traits": {
+      "source_path": "src/ch10-02-traits.md",
+      "title": "Ch10 02 Traits",
+      "file": "docs/src_ch10-02-traits.md",
+      "size_bytes": 18682
+    },
+    "ch15-05-interior-mutability": {
+      "source_path": "src/ch15-05-interior-mutability.md",
+      "title": "Ch15 05 Interior Mutability",
+      "file": "docs/src_ch15-05-interior-mutability.md",
+      "size_bytes": 18548
+    },
+    "appendix-04-useful-development-tools": {
+      "source_path": "src/appendix-04-useful-development-tools.md",
+      "title": "Appendix 04 Useful Development Tools",
+      "file": "docs/src_appendix-04-useful-development-tools.md",
+      "size_bytes": 5335
+    },
+    "ch21-00-final-project-a-web-server": {
+      "source_path": "src/ch21-00-final-project-a-web-server.md",
+      "title": "Final Project: Building a Multithreaded Web Server",
+      "file": "docs/src_ch21-00-final-project-a-web-server.md",
+      "size_bytes": 2123
+    },
+    "appendix-03-derivable-traits": {
+      "source_path": "src/appendix-03-derivable-traits.md",
+      "title": "Appendix 03 Derivable Traits",
+      "file": "docs/src_appendix-03-derivable-traits.md",
+      "size_bytes": 9870
+    },
+    "ch20-03-advanced-types": {
+      "source_path": "src/ch20-03-advanced-types.md",
+      "title": "Ch20 03 Advanced Types",
+      "file": "docs/src_ch20-03-advanced-types.md",
+      "size_bytes": 14390
+    },
+    "ch07-04-bringing-paths-into-scope-with-the-use-keyword": {
+      "source_path": "src/ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+      "title": "Ch07 04 Bringing Paths Into Scope With The Use Keyword",
+      "file": "docs/src_ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+      "size_bytes": 13646
+    },
+    "ch18-03-oo-design-patterns": {
+      "source_path": "src/ch18-03-oo-design-patterns.md",
+      "title": "Ch18 03 Oo Design Patterns",
+      "file": "docs/src_ch18-03-oo-design-patterns.md",
+      "size_bytes": 28054
+    },
+    "appendix-00": {
+      "source_path": "src/appendix-00.md",
+      "title": "Appendix",
+      "file": "docs/src_appendix-00.md",
+      "size_bytes": 104
+    },
+    "ch15-03-drop": {
+      "source_path": "src/ch15-03-drop.md",
+      "title": "Ch15 03 Drop",
+      "file": "docs/src_ch15-03-drop.md",
+      "size_bytes": 7158
+    },
+    "ch07-05-separating-modules-into-different-files": {
+      "source_path": "src/ch07-05-separating-modules-into-different-files.md",
+      "title": "Ch07 05 Separating Modules Into Different Files",
+      "file": "docs/src_ch07-05-separating-modules-into-different-files.md",
+      "size_bytes": 6077
+    },
+    "ch03-05-control-flow": {
+      "source_path": "src/ch03-05-control-flow.md",
+      "title": "Ch03 05 Control Flow",
+      "file": "docs/src_ch03-05-control-flow.md",
+      "size_bytes": 17064
+    },
+    "ch03-01-variables-and-mutability": {
+      "source_path": "src/ch03-01-variables-and-mutability.md",
+      "title": "Ch03 01 Variables And Mutability",
+      "file": "docs/src_ch03-01-variables-and-mutability.md",
+      "size_bytes": 9435
+    },
+    "ch11-03-test-organization": {
+      "source_path": "src/ch11-03-test-organization.md",
+      "title": "Ch11 03 Test Organization",
+      "file": "docs/src_ch11-03-test-organization.md",
+      "size_bytes": 12716
+    },
+    "ch20-00-advanced-features": {
+      "source_path": "src/ch20-00-advanced-features.md",
+      "title": "Advanced Features",
+      "file": "docs/src_ch20-00-advanced-features.md",
+      "size_bytes": 1178
+    },
+    "appendix-01-keywords": {
+      "source_path": "src/appendix-01-keywords.md",
+      "title": "Appendix 01 Keywords",
+      "file": "docs/src_appendix-01-keywords.md",
+      "size_bytes": 5268
+    },
+    "ch14-02-publishing-to-crates-io": {
+      "source_path": "src/ch14-02-publishing-to-crates-io.md",
+      "title": "Ch14 02 Publishing To Crates Io",
+      "file": "docs/src_ch14-02-publishing-to-crates-io.md",
+      "size_bytes": 21548
+    },
+    "ch17-05-traits-for-async": {
+      "source_path": "src/ch17-05-traits-for-async.md",
+      "title": "Ch17 05 Traits For Async",
+      "file": "docs/src_ch17-05-traits-for-async.md",
+      "size_bytes": 27751
+    },
+    "ch01-01-installation": {
+      "source_path": "src/ch01-01-installation.md",
+      "title": "Ch01 01 Installation",
+      "file": "docs/src_ch01-01-installation.md",
+      "size_bytes": 6407
+    },
+    "ch20-02-advanced-traits": {
+      "source_path": "src/ch20-02-advanced-traits.md",
+      "title": "Ch20 02 Advanced Traits",
+      "file": "docs/src_ch20-02-advanced-traits.md",
+      "size_bytes": 22062
+    },
+    "ch20-05-macros": {
+      "source_path": "src/ch20-05-macros.md",
+      "title": "Ch20 05 Macros",
+      "file": "docs/src_ch20-05-macros.md",
+      "size_bytes": 24927
+    },
+    "ch14-03-cargo-workspaces": {
+      "source_path": "src/ch14-03-cargo-workspaces.md",
+      "title": "Ch14 03 Cargo Workspaces",
+      "file": "docs/src_ch14-03-cargo-workspaces.md",
+      "size_bytes": 14134
+    },
+    "ch20-04-advanced-functions-and-closures": {
+      "source_path": "src/ch20-04-advanced-functions-and-closures.md",
+      "title": "Ch20 04 Advanced Functions And Closures",
+      "file": "docs/src_ch20-04-advanced-functions-and-closures.md",
+      "size_bytes": 8215
+    },
+    "ch17-03-more-futures": {
+      "source_path": "src/ch17-03-more-futures.md",
+      "title": "Ch17 03 More Futures",
+      "file": "docs/src_ch17-03-more-futures.md",
+      "size_bytes": 10329
+    },
+    "ch06-03-if-let": {
+      "source_path": "src/ch06-03-if-let.md",
+      "title": "Ch06 03 If Let",
+      "file": "docs/src_ch06-03-if-let.md",
+      "size_bytes": 6634
+    },
+    "ch13-04-performance": {
+      "source_path": "src/ch13-04-performance.md",
+      "title": "Ch13 04 Performance",
+      "file": "docs/src_ch13-04-performance.md",
+      "size_bytes": 2871
+    },
+    "ch03-03-how-functions-work": {
+      "source_path": "src/ch03-03-how-functions-work.md",
+      "title": "Ch03 03 How Functions Work",
+      "file": "docs/src_ch03-03-how-functions-work.md",
+      "size_bytes": 10772
+    },
+    "ch18-01-what-is-oo": {
+      "source_path": "src/ch18-01-what-is-oo.md",
+      "title": "Ch18 01 What Is Oo",
+      "file": "docs/src_ch18-01-what-is-oo.md",
+      "size_bytes": 8203
+    },
+    "ch21-02-multithreaded": {
+      "source_path": "src/ch21-02-multithreaded.md",
+      "title": "Ch21 02 Multithreaded",
+      "file": "docs/src_ch21-02-multithreaded.md",
+      "size_bytes": 33854
+    },
+    "ch21-01-single-threaded": {
+      "source_path": "src/ch21-01-single-threaded.md",
+      "title": "Ch21 01 Single Threaded",
+      "file": "docs/src_ch21-01-single-threaded.md",
+      "size_bytes": 21877
+    },
+    "ch17-00-async-await": {
+      "source_path": "src/ch17-00-async-await.md",
+      "title": "Fundamentals of Asynchronous Programming: Async, Await, Futures, and Streams",
+      "file": "docs/src_ch17-00-async-await.md",
+      "size_bytes": 9734
+    },
+    "ch07-02-defining-modules-to-control-scope-and-privacy": {
+      "source_path": "src/ch07-02-defining-modules-to-control-scope-and-privacy.md",
+      "title": "Ch07 02 Defining Modules To Control Scope And Privacy",
+      "file": "docs/src_ch07-02-defining-modules-to-control-scope-and-privacy.md",
+      "size_bytes": 8018
+    },
+    "ch17-01-futures-and-syntax": {
+      "source_path": "src/ch17-01-futures-and-syntax.md",
+      "title": "Ch17 01 Futures And Syntax",
+      "file": "docs/src_ch17-01-futures-and-syntax.md",
+      "size_bytes": 19958
+    },
+    "ch09-03-to-panic-or-not-to-panic": {
+      "source_path": "src/ch09-03-to-panic-or-not-to-panic.md",
+      "title": "Ch09 03 To Panic Or Not To Panic",
+      "file": "docs/src_ch09-03-to-panic-or-not-to-panic.md",
+      "size_bytes": 13532
+    },
+    "title-page": {
+      "source_path": "src/title-page.md",
+      "title": "The Rust Programming Language",
+      "file": "docs/src_title-page.md",
+      "size_bytes": 1284
+    },
+    "ch13-01-closures": {
+      "source_path": "src/ch13-01-closures.md",
+      "title": "Ch13 01 Closures",
+      "file": "docs/src_ch13-01-closures.md",
+      "size_bytes": 20936
+    },
+    "ch18-02-trait-objects": {
+      "source_path": "src/ch18-02-trait-objects.md",
+      "title": "Ch18 02 Trait Objects",
+      "file": "docs/src_ch18-02-trait-objects.md",
+      "size_bytes": 13160
+    },
+    "ch05-03-method-syntax": {
+      "source_path": "src/ch05-03-method-syntax.md",
+      "title": "Ch05 03 Method Syntax",
+      "file": "docs/src_ch05-03-method-syntax.md",
+      "size_bytes": 12204
+    },
+    "ch13-03-improving-our-io-project": {
+      "source_path": "src/ch13-03-improving-our-io-project.md",
+      "title": "Ch13 03 Improving Our Io Project",
+      "file": "docs/src_ch13-03-improving-our-io-project.md",
+      "size_bytes": 9090
+    },
+    "ch12-05-working-with-environment-variables": {
+      "source_path": "src/ch12-05-working-with-environment-variables.md",
+      "title": "Ch12 05 Working With Environment Variables",
+      "file": "docs/src_ch12-05-working-with-environment-variables.md",
+      "size_bytes": 9541
+    },
+    "ch00-00-introduction": {
+      "source_path": "src/ch00-00-introduction.md",
+      "title": "Introduction",
+      "file": "docs/src_ch00-00-introduction.md",
+      "size_bytes": 10839
+    },
+    "ch21-03-graceful-shutdown-and-cleanup": {
+      "source_path": "src/ch21-03-graceful-shutdown-and-cleanup.md",
+      "title": "Ch21 03 Graceful Shutdown And Cleanup",
+      "file": "docs/src_ch21-03-graceful-shutdown-and-cleanup.md",
+      "size_bytes": 10563
+    },
+    "ch06-02-match": {
+      "source_path": "src/ch06-02-match.md",
+      "title": "Ch06 02 Match",
+      "file": "docs/src_ch06-02-match.md",
+      "size_bytes": 12595
+    },
+    "ch09-00-error-handling": {
+      "source_path": "src/ch09-00-error-handling.md",
+      "title": "Error Handling",
+      "file": "docs/src_ch09-00-error-handling.md",
+      "size_bytes": 1378
+    },
+    "ch05-02-example-structs": {
+      "source_path": "src/ch05-02-example-structs.md",
+      "title": "Ch05 02 Example Structs",
+      "file": "docs/src_ch05-02-example-structs.md",
+      "size_bytes": 11585
+    },
+    "appendix-06-translation": {
+      "source_path": "src/appendix-06-translation.md",
+      "title": "Appendix 06 Translation",
+      "file": "docs/src_appendix-06-translation.md",
+      "size_bytes": 1991
+    },
+    "ch15-06-reference-cycles": {
+      "source_path": "src/ch15-06-reference-cycles.md",
+      "title": "Ch15 06 Reference Cycles",
+      "file": "docs/src_ch15-06-reference-cycles.md",
+      "size_bytes": 16080
+    },
+    "ch04-03-slices": {
+      "source_path": "src/ch04-03-slices.md",
+      "title": "Ch04 03 Slices",
+      "file": "docs/src_ch04-03-slices.md",
+      "size_bytes": 13237
+    },
+    "foreword": {
+      "source_path": "src/foreword.md",
+      "title": "Foreword",
+      "file": "docs/src_foreword.md",
+      "size_bytes": 2804
+    },
+    "ch12-06-writing-to-stderr-instead-of-stdout": {
+      "source_path": "src/ch12-06-writing-to-stderr-instead-of-stdout.md",
+      "title": "Ch12 06 Writing To Stderr Instead Of Stdout",
+      "file": "docs/src_ch12-06-writing-to-stderr-instead-of-stdout.md",
+      "size_bytes": 4451
+    },
+    "ch19-00-patterns": {
+      "source_path": "src/ch19-00-patterns.md",
+      "title": "Patterns and Matching",
+      "file": "docs/src_ch19-00-patterns.md",
+      "size_bytes": 1436
+    },
+    "ch08-00-common-collections": {
+      "source_path": "src/ch08-00-common-collections.md",
+      "title": "Common Collections",
+      "file": "docs/src_ch08-00-common-collections.md",
+      "size_bytes": 1355
+    },
+    "ch09-02-recoverable-errors-with-result": {
+      "source_path": "src/ch09-02-recoverable-errors-with-result.md",
+      "title": "Ch09 02 Recoverable Errors With Result",
+      "file": "docs/src_ch09-02-recoverable-errors-with-result.md",
+      "size_bytes": 26432
+    },
+    "ch17-02-concurrency-with-async": {
+      "source_path": "src/ch17-02-concurrency-with-async.md",
+      "title": "Ch17 02 Concurrency With Async",
+      "file": "docs/src_ch17-02-concurrency-with-async.md",
+      "size_bytes": 19550
+    },
+    "ch10-00-generics": {
+      "source_path": "src/ch10-00-generics.md",
+      "title": "Generic Types, Traits, and Lifetimes",
+      "file": "docs/src_ch10-00-generics.md",
+      "size_bytes": 5738
+    },
+    "ch15-00-smart-pointers": {
+      "source_path": "src/ch15-00-smart-pointers.md",
+      "title": "Smart Pointers",
+      "file": "docs/src_ch15-00-smart-pointers.md",
+      "size_bytes": 2687
+    },
+    "ch12-03-improving-error-handling-and-modularity": {
+      "source_path": "src/ch12-03-improving-error-handling-and-modularity.md",
+      "title": "Ch12 03 Improving Error Handling And Modularity",
+      "file": "docs/src_ch12-03-improving-error-handling-and-modularity.md",
+      "size_bytes": 25414
+    },
+    "ch07-03-paths-for-referring-to-an-item-in-the-module-tree": {
+      "source_path": "src/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+      "title": "Ch07 03 Paths For Referring To An Item In The Module Tree",
+      "file": "docs/src_ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+      "size_bytes": 15311
+    },
+    "ch19-01-all-the-places-for-patterns": {
+      "source_path": "src/ch19-01-all-the-places-for-patterns.md",
+      "title": "Ch19 01 All The Places For Patterns",
+      "file": "docs/src_ch19-01-all-the-places-for-patterns.md",
+      "size_bytes": 11039
+    },
+    "ch20-01-unsafe-rust": {
+      "source_path": "src/ch20-01-unsafe-rust.md",
+      "title": "Ch20 01 Unsafe Rust",
+      "file": "docs/src_ch20-01-unsafe-rust.md",
+      "size_bytes": 28212
+    },
+    "ch07-00-managing-growing-projects-with-packages-crates-and-modules": {
+      "source_path": "src/ch07-00-managing-growing-projects-with-packages-crates-and-modules.md",
+      "title": "Packages, Crates, and Modules",
+      "file": "docs/src_ch07-00-managing-growing-projects-with-packages-crates-and-modules.md",
+      "size_bytes": 2970
+    },
+    "ch15-02-deref": {
+      "source_path": "src/ch15-02-deref.md",
+      "title": "Ch15 02 Deref",
+      "file": "docs/src_ch15-02-deref.md",
+      "size_bytes": 14476
+    },
+    "ch07-01-packages-and-crates": {
+      "source_path": "src/ch07-01-packages-and-crates.md",
+      "title": "Ch07 01 Packages And Crates",
+      "file": "docs/src_ch07-01-packages-and-crates.md",
+      "size_bytes": 3806
+    },
+    "ch04-00-understanding-ownership": {
+      "source_path": "src/ch04-00-understanding-ownership.md",
+      "title": "Understanding Ownership",
+      "file": "docs/src_ch04-00-understanding-ownership.md",
+      "size_bytes": 406
+    },
+    "ch11-02-running-tests": {
+      "source_path": "src/ch11-02-running-tests.md",
+      "title": "Ch11 02 Running Tests",
+      "file": "docs/src_ch11-02-running-tests.md",
+      "size_bytes": 8133
+    },
+    "ch14-04-installing-binaries": {
+      "source_path": "src/ch14-04-installing-binaries.md",
+      "title": "Ch14 04 Installing Binaries",
+      "file": "docs/src_ch14-04-installing-binaries.md",
+      "size_bytes": 2175
+    },
+    "ch16-04-extensible-concurrency-sync-and-send": {
+      "source_path": "src/ch16-04-extensible-concurrency-sync-and-send.md",
+      "title": "Ch16 04 Extensible Concurrency Sync And Send",
+      "file": "docs/src_ch16-04-extensible-concurrency-sync-and-send.md",
+      "size_bytes": 5153
+    },
+    "ch10-03-lifetime-syntax": {
+      "source_path": "src/ch10-03-lifetime-syntax.md",
+      "title": "Ch10 03 Lifetime Syntax",
+      "file": "docs/src_ch10-03-lifetime-syntax.md",
+      "size_bytes": 30935
+    },
+    "appendix-02-operators": {
+      "source_path": "src/appendix-02-operators.md",
+      "title": "Appendix 02 Operators",
+      "file": "docs/src_appendix-02-operators.md",
+      "size_bytes": 22595
+    },
+    "ch12-01-accepting-command-line-arguments": {
+      "source_path": "src/ch12-01-accepting-command-line-arguments.md",
+      "title": "Ch12 01 Accepting Command Line Arguments",
+      "file": "docs/src_ch12-01-accepting-command-line-arguments.md",
+      "size_bytes": 6275
+    },
+    "ch11-00-testing": {
+      "source_path": "src/ch11-00-testing.md",
+      "title": "Writing Automated Tests",
+      "file": "docs/src_ch11-00-testing.md",
+      "size_bytes": 1987
+    },
+    "ch12-04-testing-the-librarys-functionality": {
+      "source_path": "src/ch12-04-testing-the-librarys-functionality.md",
+      "title": "Ch12 04 Testing The Librarys Functionality",
+      "file": "docs/src_ch12-04-testing-the-librarys-functionality.md",
+      "size_bytes": 9800
+    },
+    "ch10-01-syntax": {
+      "source_path": "src/ch10-01-syntax.md",
+      "title": "Ch10 01 Syntax",
+      "file": "docs/src_ch10-01-syntax.md",
+      "size_bytes": 14580
+    },
+    "ch04-01-what-is-ownership": {
+      "source_path": "src/ch04-01-what-is-ownership.md",
+      "title": "Ch04 01 What Is Ownership",
+      "file": "docs/src_ch04-01-what-is-ownership.md",
+      "size_bytes": 25424
+    },
+    "ch14-01-release-profiles": {
+      "source_path": "src/ch14-01-release-profiles.md",
+      "title": "Ch14 01 Release Profiles",
+      "file": "docs/src_ch14-01-release-profiles.md",
+      "size_bytes": 3018
+    },
+    "ch13-00-functional-features": {
+      "source_path": "src/ch13-00-functional-features.md",
+      "title": "Functional Language Features: Iterators and Closures",
+      "file": "docs/src_ch13-00-functional-features.md",
+      "size_bytes": 1242
+    },
+    "ch05-00-structs": {
+      "source_path": "src/ch05-00-structs.md",
+      "title": "Using Structs to Structure Related Data",
+      "file": "docs/src_ch05-00-structs.md",
+      "size_bytes": 859
+    },
+    "ch03-00-common-programming-concepts": {
+      "source_path": "src/ch03-00-common-programming-concepts.md",
+      "title": "Common Programming Concepts",
+      "file": "docs/src_ch03-00-common-programming-concepts.md",
+      "size_bytes": 1183
+    },
+    "ch12-00-an-io-project": {
+      "source_path": "src/ch12-00-an-io-project.md",
+      "title": "An I/O Project: Building a Command Line Program",
+      "file": "docs/src_ch12-00-an-io-project.md",
+      "size_bytes": 2497
+    },
+    "ch06-01-defining-an-enum": {
+      "source_path": "src/ch06-01-defining-an-enum.md",
+      "title": "Ch06 01 Defining An Enum",
+      "file": "docs/src_ch06-01-defining-an-enum.md",
+      "size_bytes": 15757
+    },
+    "ch08-02-strings": {
+      "source_path": "src/ch08-02-strings.md",
+      "title": "Ch08 02 Strings",
+      "file": "docs/src_ch08-02-strings.md",
+      "size_bytes": 17635
+    },
+    "ch18-00-oop": {
+      "source_path": "src/ch18-00-oop.md",
+      "title": "Object-Oriented Programming Features",
+      "file": "docs/src_ch18-00-oop.md",
+      "size_bytes": 1004
+    },
+    "ch17-06-futures-tasks-threads": {
+      "source_path": "src/ch17-06-futures-tasks-threads.md",
+      "title": "Ch17 06 Futures Tasks Threads",
+      "file": "docs/src_ch17-06-futures-tasks-threads.md",
+      "size_bytes": 5850
+    },
+    "ch06-00-enums": {
+      "source_path": "src/ch06-00-enums.md",
+      "title": "Enums and Pattern Matching",
+      "file": "docs/src_ch06-00-enums.md",
+      "size_bytes": 670
+    },
+    "ch14-05-extending-cargo": {
+      "source_path": "src/ch14-05-extending-cargo.md",
+      "title": "Ch14 05 Extending Cargo",
+      "file": "docs/src_ch14-05-extending-cargo.md",
+      "size_bytes": 977
+    },
+    "appendix-05-editions": {
+      "source_path": "src/appendix-05-editions.md",
+      "title": "Appendix 05 Editions",
+      "file": "docs/src_appendix-05-editions.md",
+      "size_bytes": 3075
+    },
+    "ch08-01-vectors": {
+      "source_path": "src/ch08-01-vectors.md",
+      "title": "Ch08 01 Vectors",
+      "file": "docs/src_ch08-01-vectors.md",
+      "size_bytes": 11646
+    },
+    "ch11-01-writing-tests": {
+      "source_path": "src/ch11-01-writing-tests.md",
+      "title": "Ch11 01 Writing Tests",
+      "file": "docs/src_ch11-01-writing-tests.md",
+      "size_bytes": 25511
+    },
+    "ch13-02-iterators": {
+      "source_path": "src/ch13-02-iterators.md",
+      "title": "Ch13 02 Iterators",
+      "file": "docs/src_ch13-02-iterators.md",
+      "size_bytes": 10152
+    },
+    "ch01-03-hello-cargo": {
+      "source_path": "src/ch01-03-hello-cargo.md",
+      "title": "Ch01 03 Hello Cargo",
+      "file": "docs/src_ch01-03-hello-cargo.md",
+      "size_bytes": 11025
+    },
+    "ch05-01-defining-structs": {
+      "source_path": "src/ch05-01-defining-structs.md",
+      "title": "Ch05 01 Defining Structs",
+      "file": "docs/src_ch05-01-defining-structs.md",
+      "size_bytes": 13693
+    },
+    "ch03-04-comments": {
+      "source_path": "src/ch03-04-comments.md",
+      "title": "Ch03 04 Comments",
+      "file": "docs/src_ch03-04-comments.md",
+      "size_bytes": 1529
+    },
+    "SUMMARY": {
+      "source_path": "src/SUMMARY.md",
+      "title": "The Rust Programming Language",
+      "file": "docs/src_SUMMARY.md",
+      "size_bytes": 7350
+    },
+    "ch14-00-more-about-cargo": {
+      "source_path": "src/ch14-00-more-about-cargo.md",
+      "title": "More About Cargo and Crates.io",
+      "file": "docs/src_ch14-00-more-about-cargo.md",
+      "size_bytes": 718
+    },
+    "ch01-02-hello-world": {
+      "source_path": "src/ch01-02-hello-world.md",
+      "title": "Ch01 02 Hello World",
+      "file": "docs/src_ch01-02-hello-world.md",
+      "size_bytes": 7690
+    },
+    "ch04-02-references-and-borrowing": {
+      "source_path": "src/ch04-02-references-and-borrowing.md",
+      "title": "Ch04 02 References And Borrowing",
+      "file": "docs/src_ch04-02-references-and-borrowing.md",
+      "size_bytes": 10608
+    },
+    "ch16-03-shared-state": {
+      "source_path": "src/ch16-03-shared-state.md",
+      "title": "Ch16 03 Shared State",
+      "file": "docs/src_ch16-03-shared-state.md",
+      "size_bytes": 12519
+    }
+  }
+}

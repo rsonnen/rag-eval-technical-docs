@@ -1,0 +1,36 @@
+name: "The Rust Programming Language Book"
+
+corpus_context: >
+  112 Markdown chapter files from "The Rust Programming Language" official book.
+  Progressive tutorial covering ownership and borrowing (ch04), structs (ch05),
+  enums and pattern matching (ch06), modules (ch07), collections (ch08), error
+  handling (ch09), generics and traits (ch10), testing (ch11), closures and
+  iterators (ch13), smart pointers (ch15), concurrency (ch16), async/await (ch17),
+  OOP patterns (ch18), advanced features (ch20), and a final web server project
+  (ch21). Source from rust-lang/book repository. MIT/Apache-2.0 license.
+  Tutorial-style with incremental code examples.
+
+scenarios:
+  technical_analysis:
+    name: "Rust Language Analysis"
+    description: >
+      You are creating questions for developers learning Rust concepts.
+      Questions should test understanding of ownership semantics, lifetime
+      annotations, trait bounds, error handling patterns, and memory safety
+      guarantees. Focus on how Rust's type system prevents common bugs.
+
+  concept_lookup:
+    name: "Rust Concept Reference"
+    description: >
+      You are creating questions to test retrieval of specific Rust concepts -
+      ownership rules, borrowing restrictions, lifetime elision rules, trait
+      requirements, or macro syntax. Questions should target specific language
+      rules and their rationale as explained in the book.
+
+  rag_eval:
+    name: "RAG System Evaluation"
+    description: >
+      You are testing whether a retrieval system actually read the Rust book.
+      Questions must have specific, verifiable answers - exact error message
+      text, specific code examples, chapter-specific explanations, or quoted
+      passages that require the actual book rather than general Rust knowledge.

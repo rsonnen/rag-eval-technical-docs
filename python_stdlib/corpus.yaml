@@ -1,0 +1,35 @@
+name: "Python Standard Library Documentation"
+
+corpus_context: >
+  366 HTML documentation files covering the Python standard library and language
+  reference. Includes library modules (asyncio, collections, itertools, functools,
+  pathlib, logging, unittest, json, re, os, sys, typing, dataclasses, contextlib),
+  built-in functions, exceptions, data types, language reference (expressions,
+  statements, data model), and tutorials. Source from python/cpython Doc directory,
+  converted from reStructuredText to HTML. PSF license. Extensive cross-references
+  and code examples.
+
+scenarios:
+  technical_analysis:
+    name: "Python Standard Library Analysis"
+    description: >
+      You are creating questions for developers learning Python's stdlib.
+      Questions should test understanding of module design, class hierarchies,
+      protocol implementations, context managers, iterators, and async patterns.
+      Focus on how standard library components can be composed.
+
+  api_reference:
+    name: "Python API Reference Lookup"
+    description: >
+      You are creating questions to test retrieval of specific Python API
+      details - function signatures, method parameters, class attributes,
+      exception types, or module constants. Questions should target specific
+      return values, raised exceptions, and default behaviors.
+
+  rag_eval:
+    name: "RAG System Evaluation"
+    description: >
+      You are testing whether a retrieval system actually read Python docs.
+      Questions must have specific, verifiable answers - exact function
+      signatures, parameter defaults, version additions, or documented
+      behaviors that require the actual docs rather than general Python knowledge.

@@ -1,0 +1,2172 @@
+{
+  "corpus": "python_stdlib",
+  "project": "python-stdlib",
+  "source_url": "https://github.com/python/cpython.git",
+  "version": "main",
+  "license": "PSF-2.0",
+  "converter": "rst",
+  "extraction_date": "2025-12-24T14:35:48.392243+00:00",
+  "total_documents": 365,
+  "documents": {
+    "glossary": {
+      "source_path": "Doc/glossary.rst",
+      "title": "Glossary",
+      "file": "docs/Doc_glossary.html",
+      "size_bytes": 103304
+    },
+    "license": {
+      "source_path": "Doc/license.rst",
+      "title": "History and License",
+      "file": "docs/Doc_license.html",
+      "size_bytes": 59008
+    },
+    "README": {
+      "source_path": "Doc/README.rst",
+      "title": "Building the docs",
+      "file": "docs/Doc_README.html",
+      "size_bytes": 5526
+    },
+    "about": {
+      "source_path": "Doc/about.rst",
+      "title": "About this documentation",
+      "file": "docs/Doc_about.html",
+      "size_bytes": 1539
+    },
+    "copyright": {
+      "source_path": "Doc/copyright.rst",
+      "title": "Copyright",
+      "file": "docs/Doc_copyright.html",
+      "size_bytes": 525
+    },
+    "contents": {
+      "source_path": "Doc/contents.rst",
+      "title": "Contents",
+      "file": "docs/Doc_contents.html",
+      "size_bytes": 377
+    },
+    "bugs": {
+      "source_path": "Doc/bugs.rst",
+      "title": "Dealing with Bugs",
+      "file": "docs/Doc_bugs.html",
+      "size_bytes": 5310
+    },
+    "unix": {
+      "source_path": "Doc/library/unix.rst",
+      "title": "Unix-specific services",
+      "file": "docs/Doc_library_unix.html",
+      "size_bytes": 367
+    },
+    "xml.dom": {
+      "source_path": "Doc/library/xml.dom.rst",
+      "title": ":mod:`!xml.dom` --- The Document Object Model API",
+      "file": "docs/Doc_library_xml.dom.html",
+      "size_bytes": 46133
+    },
+    "unittest": {
+      "source_path": "Doc/library/unittest.rst",
+      "title": ":mod:`!unittest` --- Unit testing framework",
+      "file": "docs/Doc_library_unittest.html",
+      "size_bytes": 126871
+    },
+    "copy": {
+      "source_path": "Doc/library/copy.rst",
+      "title": ":mod:`!copy` --- Shallow and deep copy operations",
+      "file": "docs/Doc_library_copy.html",
+      "size_bytes": 5678
+    },
+    "contextlib": {
+      "source_path": "Doc/library/contextlib.rst",
+      "title": ":mod:`!contextlib` --- Utilities for :keyword:`!with`\\ -statement contexts",
+      "file": "docs/Doc_library_contextlib.html",
+      "size_bytes": 44358
+    },
+    "__future__": {
+      "source_path": "Doc/library/__future__.rst",
+      "title": ":mod:`!__future__` --- Future statement definitions",
+      "file": "docs/Doc_library___future__.html",
+      "size_bytes": 7245
+    },
+    "hashlib": {
+      "source_path": "Doc/library/hashlib.rst",
+      "title": ":mod:`!hashlib` --- Secure hashes and message digests",
+      "file": "docs/Doc_library_hashlib.html",
+      "size_bytes": 39079
+    },
+    "tkinter.colorchooser": {
+      "source_path": "Doc/library/tkinter.colorchooser.rst",
+      "title": ":mod:`!tkinter.colorchooser` --- Color choosing dialog",
+      "file": "docs/Doc_library_tkinter.colorchooser.html",
+      "size_bytes": 1305
+    },
+    "contextvars": {
+      "source_path": "Doc/library/contextvars.rst",
+      "title": ":mod:`!contextvars` --- Context Variables",
+      "file": "docs/Doc_library_contextvars.html",
+      "size_bytes": 12475
+    },
+    "cmd": {
+      "source_path": "Doc/library/cmd.rst",
+      "title": ":mod:`!cmd` --- Support for line-oriented command interpreters",
+      "file": "docs/Doc_library_cmd.html",
+      "size_bytes": 18242
+    },
+    "curses": {
+      "source_path": "Doc/library/curses.rst",
+      "title": ":mod:`!curses` --- Terminal handling for character-cell displays",
+      "file": "docs/Doc_library_curses.html",
+      "size_bytes": 87488
+    },
+    "webbrowser": {
+      "source_path": "Doc/library/webbrowser.rst",
+      "title": ":mod:`!webbrowser` --- Convenient web-browser controller",
+      "file": "docs/Doc_library_webbrowser.html",
+      "size_bytes": 12987
+    },
+    "json": {
+      "source_path": "Doc/library/json.rst",
+      "title": ":mod:`!json` --- JSON encoder and decoder",
+      "file": "docs/Doc_library_json.html",
+      "size_bytes": 39001
+    },
+    "pkgutil": {
+      "source_path": "Doc/library/pkgutil.rst",
+      "title": ":mod:`!pkgutil` --- Package extension utility",
+      "file": "docs/Doc_library_pkgutil.html",
+      "size_bytes": 11082
+    },
+    "binary": {
+      "source_path": "Doc/library/binary.rst",
+      "title": "Binary Data Services",
+      "file": "docs/Doc_library_binary.html",
+      "size_bytes": 820
+    },
+    "glob": {
+      "source_path": "Doc/library/glob.rst",
+      "title": ":mod:`!glob` --- Unix style pathname pattern expansion",
+      "file": "docs/Doc_library_glob.html",
+      "size_bytes": 9897
+    },
+    "random": {
+      "source_path": "Doc/library/random.rst",
+      "title": ":mod:`!random` --- Generate pseudo-random numbers",
+      "file": "docs/Doc_library_random.html",
+      "size_bytes": 35456
+    },
+    "timeit": {
+      "source_path": "Doc/library/timeit.rst",
+      "title": ":mod:`!timeit` --- Measure execution time of small code snippets",
+      "file": "docs/Doc_library_timeit.html",
+      "size_bytes": 17381
+    },
+    "bdb": {
+      "source_path": "Doc/library/bdb.rst",
+      "title": ":mod:`!bdb` --- Debugger framework",
+      "file": "docs/Doc_library_bdb.html",
+      "size_bytes": 22889
+    },
+    "codecs": {
+      "source_path": "Doc/library/codecs.rst",
+      "title": ":mod:`!codecs` --- Codec registry and base classes",
+      "file": "docs/Doc_library_codecs.html",
+      "size_bytes": 79361
+    },
+    "sunau": {
+      "source_path": "Doc/library/sunau.rst",
+      "title": ":mod:`!sunau` --- Read and write Sun AU files",
+      "file": "docs/Doc_library_sunau.html",
+      "size_bytes": 779
+    },
+    "nis": {
+      "source_path": "Doc/library/nis.rst",
+      "title": ":mod:`!nis` --- Interface to Sun\u2019s NIS (Yellow Pages)",
+      "file": "docs/Doc_library_nis.html",
+      "size_bytes": 788
+    },
+    "struct": {
+      "source_path": "Doc/library/struct.rst",
+      "title": ":mod:`!struct` --- Interpret bytes as packed binary data",
+      "file": "docs/Doc_library_struct.html",
+      "size_bytes": 30125
+    },
+    "tkinter.messagebox": {
+      "source_path": "Doc/library/tkinter.messagebox.rst",
+      "title": ":mod:`!tkinter.messagebox` --- Tkinter message prompts",
+      "file": "docs/Doc_library_tkinter.messagebox.html",
+      "size_bytes": 8317
+    },
+    "asyncio-graph": {
+      "source_path": "Doc/library/asyncio-graph.rst",
+      "title": "Call Graph Introspection",
+      "file": "docs/Doc_library_asyncio-graph.html",
+      "size_bytes": 7147
+    },
+    "linecache": {
+      "source_path": "Doc/library/linecache.rst",
+      "title": ":mod:`!linecache` --- Random access to text lines",
+      "file": "docs/Doc_library_linecache.html",
+      "size_bytes": 3662
+    },
+    "fcntl": {
+      "source_path": "Doc/library/fcntl.rst",
+      "title": ":mod:`!fcntl` --- The ``fcntl`` and ``ioctl`` system calls",
+      "file": "docs/Doc_library_fcntl.html",
+      "size_bytes": 15477
+    },
+    "frameworks": {
+      "source_path": "Doc/library/frameworks.rst",
+      "title": "Program frameworks",
+      "file": "docs/Doc_library_frameworks.html",
+      "size_bytes": 717
+    },
+    "urllib.error": {
+      "source_path": "Doc/library/urllib.error.rst",
+      "title": ":mod:`!urllib.error` --- Exception classes raised by urllib.request",
+      "file": "docs/Doc_library_urllib.error.html",
+      "size_bytes": 3502
+    },
+    "symtable": {
+      "source_path": "Doc/library/symtable.rst",
+      "title": ":mod:`!symtable` --- Access to the compiler's symbol tables",
+      "file": "docs/Doc_library_symtable.html",
+      "size_bytes": 13177
+    },
+    "collections": {
+      "source_path": "Doc/library/collections.rst",
+      "title": ":mod:`!collections` --- Container datatypes",
+      "file": "docs/Doc_library_collections.html",
+      "size_bytes": 65422
+    },
+    "asyncio-subprocess": {
+      "source_path": "Doc/library/asyncio-subprocess.rst",
+      "title": "Subprocesses",
+      "file": "docs/Doc_library_asyncio-subprocess.html",
+      "size_bytes": 15782
+    },
+    "tkinter.scrolledtext": {
+      "source_path": "Doc/library/tkinter.scrolledtext.rst",
+      "title": ":mod:`!tkinter.scrolledtext` --- Scrolled Text Widget",
+      "file": "docs/Doc_library_tkinter.scrolledtext.html",
+      "size_bytes": 1723
+    },
+    "inspect": {
+      "source_path": "Doc/library/inspect.rst",
+      "title": ":mod:`!inspect` --- Inspect live objects",
+      "file": "docs/Doc_library_inspect.html",
+      "size_bytes": 76997
+    },
+    "fileinput": {
+      "source_path": "Doc/library/fileinput.rst",
+      "title": ":mod:`!fileinput` --- Iterate over lines from multiple input streams",
+      "file": "docs/Doc_library_fileinput.html",
+      "size_bytes": 12153
+    },
+    "html": {
+      "source_path": "Doc/library/html.rst",
+      "title": ":mod:`!html` --- HyperText Markup Language support",
+      "file": "docs/Doc_library_html.html",
+      "size_bytes": 1910
+    },
+    "io": {
+      "source_path": "Doc/library/io.rst",
+      "title": ":mod:`!io` --- Core tools for working with streams",
+      "file": "docs/Doc_library_io.html",
+      "size_bytes": 66676
+    },
+    "email.parser": {
+      "source_path": "Doc/library/email.parser.rst",
+      "title": ":mod:`!email.parser`: Parsing email messages",
+      "file": "docs/Doc_library_email.parser.html",
+      "size_bytes": 19471
+    },
+    "textwrap": {
+      "source_path": "Doc/library/textwrap.rst",
+      "title": ":mod:`!textwrap` --- Text wrapping and filling",
+      "file": "docs/Doc_library_textwrap.html",
+      "size_bytes": 14189
+    },
+    "dbm": {
+      "source_path": "Doc/library/dbm.rst",
+      "title": ":mod:`!dbm` --- Interfaces to Unix \"databases\"",
+      "file": "docs/Doc_library_dbm.html",
+      "size_bytes": 25841
+    },
+    "curses.panel": {
+      "source_path": "Doc/library/curses.panel.rst",
+      "title": ":mod:`!curses.panel` --- A panel stack extension for curses",
+      "file": "docs/Doc_library_curses.panel.html",
+      "size_bytes": 3408
+    },
+    "shlex": {
+      "source_path": "Doc/library/shlex.rst",
+      "title": ":mod:`!shlex` --- Simple lexical analysis",
+      "file": "docs/Doc_library_shlex.html",
+      "size_bytes": 22756
+    },
+    "intro": {
+      "source_path": "Doc/library/intro.rst",
+      "title": "Introduction",
+      "file": "docs/Doc_library_intro.html",
+      "size_bytes": 9620
+    },
+    "plistlib": {
+      "source_path": "Doc/library/plistlib.rst",
+      "title": ":mod:`!plistlib` --- Generate and parse Apple ``.plist`` files",
+      "file": "docs/Doc_library_plistlib.html",
+      "size_bytes": 8428
+    },
+    "email.charset": {
+      "source_path": "Doc/library/email.charset.rst",
+      "title": ":mod:`!email.charset`: Representing character sets",
+      "file": "docs/Doc_library_email.charset.html",
+      "size_bytes": 9581
+    },
+    "heapq": {
+      "source_path": "Doc/library/heapq.rst",
+      "title": ":mod:`!heapq` --- Heap queue algorithm",
+      "file": "docs/Doc_library_heapq.html",
+      "size_bytes": 19949
+    },
+    "xmlrpc.server": {
+      "source_path": "Doc/library/xmlrpc.server.rst",
+      "title": ":mod:`!xmlrpc.server` --- Basic XML-RPC servers",
+      "file": "docs/Doc_library_xmlrpc.server.html",
+      "size_bytes": 19401
+    },
+    "csv": {
+      "source_path": "Doc/library/csv.rst",
+      "title": ":mod:`!csv` --- CSV File Reading and Writing",
+      "file": "docs/Doc_library_csv.html",
+      "size_bytes": 32236
+    },
+    "quopri": {
+      "source_path": "Doc/library/quopri.rst",
+      "title": ":mod:`!quopri` --- Encode and decode MIME quoted-printable data",
+      "file": "docs/Doc_library_quopri.html",
+      "size_bytes": 3542
+    },
+    "removed": {
+      "source_path": "Doc/library/removed.rst",
+      "title": "Removed Modules",
+      "file": "docs/Doc_library_removed.html",
+      "size_bytes": 549
+    },
+    "spwd": {
+      "source_path": "Doc/library/spwd.rst",
+      "title": ":mod:`!spwd` --- The shadow password database",
+      "file": "docs/Doc_library_spwd.html",
+      "size_bytes": 964
+    },
+    "msilib": {
+      "source_path": "Doc/library/msilib.rst",
+      "title": ":mod:`!msilib` --- Read and write Microsoft Installer files",
+      "file": "docs/Doc_library_msilib.html",
+      "size_bytes": 810
+    },
+    "importlib.resources": {
+      "source_path": "Doc/library/importlib.resources.rst",
+      "title": ":mod:`!importlib.resources` -- Package resource reading, opening and access",
+      "file": "docs/Doc_library_importlib.resources.html",
+      "size_bytes": 13071
+    },
+    "signal": {
+      "source_path": "Doc/library/signal.rst",
+      "title": ":mod:`!signal` --- Set handlers for asynchronous events",
+      "file": "docs/Doc_library_signal.html",
+      "size_bytes": 38178
+    },
+    "dataclasses": {
+      "source_path": "Doc/library/dataclasses.rst",
+      "title": ":mod:`!dataclasses` --- Data Classes",
+      "file": "docs/Doc_library_dataclasses.html",
+      "size_bytes": 45059
+    },
+    "email.utils": {
+      "source_path": "Doc/library/email.utils.rst",
+      "title": ":mod:`!email.utils`: Miscellaneous utilities",
+      "file": "docs/Doc_library_email.utils.html",
+      "size_bytes": 12601
+    },
+    "os": {
+      "source_path": "Doc/library/os.rst",
+      "title": ":mod:`!os` --- Miscellaneous operating system interfaces",
+      "file": "docs/Doc_library_os.html",
+      "size_bytes": 298546
+    },
+    "email.mime": {
+      "source_path": "Doc/library/email.mime.rst",
+      "title": ":mod:`!email.mime`: Creating email and MIME objects from scratch",
+      "file": "docs/Doc_library_email.mime.html",
+      "size_bytes": 16284
+    },
+    "unittest.mock": {
+      "source_path": "Doc/library/unittest.mock.rst",
+      "title": ":mod:`!unittest.mock` --- mock object library",
+      "file": "docs/Doc_library_unittest.mock.html",
+      "size_bytes": 131992
+    },
+    "tkinter.ttk": {
+      "source_path": "Doc/library/tkinter.ttk.rst",
+      "title": ":mod:`!tkinter.ttk` --- Tk themed widgets",
+      "file": "docs/Doc_library_tkinter.ttk.html",
+      "size_bytes": 62844
+    },
+    "importlib": {
+      "source_path": "Doc/library/importlib.rst",
+      "title": ":mod:`!importlib` --- The implementation of :keyword:`!import`",
+      "file": "docs/Doc_library_importlib.html",
+      "size_bytes": 79203
+    },
+    "traceback": {
+      "source_path": "Doc/library/traceback.rst",
+      "title": ":mod:`!traceback` --- Print or retrieve a stack traceback",
+      "file": "docs/Doc_library_traceback.html",
+      "size_bytes": 36360
+    },
+    "asyncio-stream": {
+      "source_path": "Doc/library/asyncio-stream.rst",
+      "title": "Streams",
+      "file": "docs/Doc_library_asyncio-stream.html",
+      "size_bytes": 20726
+    },
+    "pickletools": {
+      "source_path": "Doc/library/pickletools.rst",
+      "title": ":mod:`!pickletools` --- Tools for pickle developers",
+      "file": "docs/Doc_library_pickletools.html",
+      "size_bytes": 4811
+    },
+    "xml.sax.handler": {
+      "source_path": "Doc/library/xml.sax.handler.rst",
+      "title": ":mod:`!xml.sax.handler` --- Base classes for SAX handlers",
+      "file": "docs/Doc_library_xml.sax.handler.html",
+      "size_bytes": 19561
+    },
+    "operator": {
+      "source_path": "Doc/library/operator.rst",
+      "title": ":mod:`!operator` --- Standard operators as functions",
+      "file": "docs/Doc_library_operator.html",
+      "size_bytes": 19790
+    },
+    "exceptions": {
+      "source_path": "Doc/library/exceptions.rst",
+      "title": "Built-in Exceptions",
+      "file": "docs/Doc_library_exceptions.html",
+      "size_bytes": 53963
+    },
+    "stdtypes": {
+      "source_path": "Doc/library/stdtypes.rst",
+      "title": "Built-in Types",
+      "file": "docs/Doc_library_stdtypes.html",
+      "size_bytes": 294009
+    },
+    "reprlib": {
+      "source_path": "Doc/library/reprlib.rst",
+      "title": ":mod:`!reprlib` --- Alternate :func:`repr` implementation",
+      "file": "docs/Doc_library_reprlib.html",
+      "size_bytes": 9454
+    },
+    "venv": {
+      "source_path": "Doc/tutorial/venv.rst",
+      "title": "Virtual Environments and Packages",
+      "file": "docs/Doc_tutorial_venv.html",
+      "size_bytes": 8297
+    },
+    "secrets": {
+      "source_path": "Doc/library/secrets.rst",
+      "title": ":mod:`!secrets` --- Generate secure random numbers for managing secrets",
+      "file": "docs/Doc_library_secrets.html",
+      "size_bytes": 7298
+    },
+    "concurrent.interpreters": {
+      "source_path": "Doc/library/concurrent.interpreters.rst",
+      "title": ":mod:`!concurrent.interpreters` --- Multiple interpreters in the same process",
+      "file": "docs/Doc_library_concurrent.interpreters.html",
+      "size_bytes": 15200
+    },
+    "doctest": {
+      "source_path": "Doc/library/doctest.rst",
+      "title": ":mod:`!doctest` --- Test interactive Python examples",
+      "file": "docs/Doc_library_doctest.html",
+      "size_bytes": 93846
+    },
+    "email.compat32-message": {
+      "source_path": "Doc/library/email.compat32-message.rst",
+      "title": ":mod:`email.message.Message`: Representing an email message using the :data:`~email.policy.compat32` API",
+      "file": "docs/Doc_library_email.compat32-message.html",
+      "size_bytes": 41478
+    },
+    "difflib": {
+      "source_path": "Doc/library/difflib.rst",
+      "title": ":mod:`!difflib` --- Helpers for computing deltas",
+      "file": "docs/Doc_library_difflib.html",
+      "size_bytes": 35323
+    },
+    "tk": {
+      "source_path": "Doc/library/tk.rst",
+      "title": "Graphical user interfaces with Tk",
+      "file": "docs/Doc_library_tk.html",
+      "size_bytes": 1774
+    },
+    "abc": {
+      "source_path": "Doc/library/abc.rst",
+      "title": ":mod:`!abc` --- Abstract Base Classes",
+      "file": "docs/Doc_library_abc.html",
+      "size_bytes": 15809
+    },
+    "http.server": {
+      "source_path": "Doc/library/http.server.rst",
+      "title": ":mod:`!http.server` --- HTTP servers",
+      "file": "docs/Doc_library_http.server.html",
+      "size_bytes": 26977
+    },
+    "functional": {
+      "source_path": "Doc/library/functional.rst",
+      "title": "Functional Programming Modules",
+      "file": "docs/Doc_library_functional.html",
+      "size_bytes": 371
+    },
+    "email.message": {
+      "source_path": "Doc/library/email.message.rst",
+      "title": ":mod:`!email.message`: Representing an email message",
+      "file": "docs/Doc_library_email.message.html",
+      "size_bytes": 41011
+    },
+    "asyncio-runner": {
+      "source_path": "Doc/library/asyncio-runner.rst",
+      "title": "Runners",
+      "file": "docs/Doc_library_asyncio-runner.html",
+      "size_bytes": 8313
+    },
+    "shutil": {
+      "source_path": "Doc/library/shutil.rst",
+      "title": ":mod:`!shutil` --- High-level file operations",
+      "file": "docs/Doc_library_shutil.html",
+      "size_bytes": 46450
+    },
+    "selectors": {
+      "source_path": "Doc/library/selectors.rst",
+      "title": ":mod:`!selectors` --- High-level I/O multiplexing",
+      "file": "docs/Doc_library_selectors.html",
+      "size_bytes": 11143
+    },
+    "email.encoders": {
+      "source_path": "Doc/library/email.encoders.rst",
+      "title": ":mod:`!email.encoders`: Encoders",
+      "file": "docs/Doc_library_email.encoders.html",
+      "size_bytes": 4252
+    },
+    "chunk": {
+      "source_path": "Doc/library/chunk.rst",
+      "title": ":mod:`!chunk` --- Read IFF chunked data",
+      "file": "docs/Doc_library_chunk.html",
+      "size_bytes": 767
+    },
+    "socketserver": {
+      "source_path": "Doc/library/socketserver.rst",
+      "title": ":mod:`!socketserver` --- A framework for network servers",
+      "file": "docs/Doc_library_socketserver.html",
+      "size_bytes": 31744
+    },
+    "imghdr": {
+      "source_path": "Doc/library/imghdr.rst",
+      "title": ":mod:`!imghdr` --- Determine the type of an image",
+      "file": "docs/Doc_library_imghdr.html",
+      "size_bytes": 1107
+    },
+    "uuid": {
+      "source_path": "Doc/library/uuid.rst",
+      "title": ":mod:`!uuid` --- UUID objects according to :rfc:`9562`",
+      "file": "docs/Doc_library_uuid.html",
+      "size_bytes": 21043
+    },
+    "xml.sax": {
+      "source_path": "Doc/library/xml.sax.rst",
+      "title": ":mod:`!xml.sax` --- Support for SAX2 parsers",
+      "file": "docs/Doc_library_xml.sax.html",
+      "size_bytes": 9287
+    },
+    "urllib.parse": {
+      "source_path": "Doc/library/urllib.parse.rst",
+      "title": ":mod:`!urllib.parse` --- Parse URLs into components",
+      "file": "docs/Doc_library_urllib.parse.html",
+      "size_bytes": 44455
+    },
+    "email": {
+      "source_path": "Doc/library/email.rst",
+      "title": ":mod:`!email` --- An email and MIME handling package",
+      "file": "docs/Doc_library_email.html",
+      "size_bytes": 8863
+    },
+    "string.templatelib": {
+      "source_path": "Doc/library/string.templatelib.rst",
+      "title": ":mod:`!string.templatelib` --- Support for template string literals",
+      "file": "docs/Doc_library_string.templatelib.html",
+      "size_bytes": 15263
+    },
+    "xml.sax.utils": {
+      "source_path": "Doc/library/xml.sax.utils.rst",
+      "title": ":mod:`!xml.sax.saxutils` --- SAX Utilities",
+      "file": "docs/Doc_library_xml.sax.utils.html",
+      "size_bytes": 5139
+    },
+    "datatypes": {
+      "source_path": "Doc/library/datatypes.rst",
+      "title": "Data Types",
+      "file": "docs/Doc_library_datatypes.html",
+      "size_bytes": 1131
+    },
+    "marshal": {
+      "source_path": "Doc/library/marshal.rst",
+      "title": ":mod:`!marshal` --- Internal Python object serialization",
+      "file": "docs/Doc_library_marshal.html",
+      "size_bytes": 10229
+    },
+    "archiving": {
+      "source_path": "Doc/library/archiving.rst",
+      "title": "Data Compression and Archiving",
+      "file": "docs/Doc_library_archiving.html",
+      "size_bytes": 521
+    },
+    "custominterp": {
+      "source_path": "Doc/library/custominterp.rst",
+      "title": "Custom Python Interpreters",
+      "file": "docs/Doc_library_custominterp.html",
+      "size_bytes": 631
+    },
+    "email.headerregistry": {
+      "source_path": "Doc/library/email.headerregistry.rst",
+      "title": ":mod:`!email.headerregistry`: Custom Header Objects",
+      "file": "docs/Doc_library_email.headerregistry.html",
+      "size_bytes": 22961
+    },
+    "email.header": {
+      "source_path": "Doc/library/email.header.rst",
+      "title": ":mod:`!email.header`: Internationalized headers",
+      "file": "docs/Doc_library_email.header.html",
+      "size_bytes": 13339
+    },
+    "sqlite3": {
+      "source_path": "Doc/library/sqlite3.rst",
+      "title": ":mod:`!sqlite3` --- DB-API 2.0 interface for SQLite databases",
+      "file": "docs/Doc_library_sqlite3.html",
+      "size_bytes": 117208
+    },
+    "logging.config": {
+      "source_path": "Doc/library/logging.config.rst",
+      "title": ":mod:`!logging.config` --- Logging configuration",
+      "file": "docs/Doc_library_logging.config.html",
+      "size_bytes": 71280
+    },
+    "smtplib": {
+      "source_path": "Doc/library/smtplib.rst",
+      "title": ":mod:`!smtplib` --- SMTP protocol client",
+      "file": "docs/Doc_library_smtplib.html",
+      "size_bytes": 32379
+    },
+    "ensurepip": {
+      "source_path": "Doc/library/ensurepip.rst",
+      "title": ":mod:`!ensurepip` --- Bootstrapping the ``pip`` installer",
+      "file": "docs/Doc_library_ensurepip.html",
+      "size_bytes": 6404
+    },
+    "fractions": {
+      "source_path": "Doc/library/fractions.rst",
+      "title": ":mod:`!fractions` --- Rational numbers",
+      "file": "docs/Doc_library_fractions.html",
+      "size_bytes": 13408
+    },
+    "pdb": {
+      "source_path": "Doc/library/pdb.rst",
+      "title": ":mod:`pdb` --- The Python Debugger",
+      "file": "docs/Doc_library_pdb.html",
+      "size_bytes": 37716
+    },
+    "numeric": {
+      "source_path": "Doc/library/numeric.rst",
+      "title": "Numeric and Mathematical Modules",
+      "file": "docs/Doc_library_numeric.html",
+      "size_bytes": 833
+    },
+    "profiling": {
+      "source_path": "Doc/library/profiling.rst",
+      "title": ":mod:`profiling` --- Python profilers",
+      "file": "docs/Doc_library_profiling.html",
+      "size_bytes": 12315
+    },
+    "mimetypes": {
+      "source_path": "Doc/library/mimetypes.rst",
+      "title": ":mod:`!mimetypes` --- Map filenames to MIME types",
+      "file": "docs/Doc_library_mimetypes.html",
+      "size_bytes": 18093
+    },
+    "test": {
+      "source_path": "Doc/library/test.rst",
+      "title": ":mod:`!test` --- Regression tests package for Python",
+      "file": "docs/Doc_library_test.html",
+      "size_bytes": 74377
+    },
+    "rlcompleter": {
+      "source_path": "Doc/library/rlcompleter.rst",
+      "title": ":mod:`!rlcompleter` --- Completion function for GNU readline",
+      "file": "docs/Doc_library_rlcompleter.html",
+      "size_bytes": 3783
+    },
+    "tracemalloc": {
+      "source_path": "Doc/library/tracemalloc.rst",
+      "title": ":mod:`!tracemalloc` --- Trace memory allocations",
+      "file": "docs/Doc_library_tracemalloc.html",
+      "size_bytes": 32909
+    },
+    "multiprocessing.shared_memory": {
+      "source_path": "Doc/library/multiprocessing.shared_memory.rst",
+      "title": ":mod:`!multiprocessing.shared_memory` --- Shared memory for direct access across processes",
+      "file": "docs/Doc_library_multiprocessing.shared_memory.html",
+      "size_bytes": 21233
+    },
+    "urllib.robotparser": {
+      "source_path": "Doc/library/urllib.robotparser.rst",
+      "title": ":mod:`!urllib.robotparser` ---  Parser for robots.txt",
+      "file": "docs/Doc_library_urllib.robotparser.html",
+      "size_bytes": 4377
+    },
+    "optparse": {
+      "source_path": "Doc/library/optparse.rst",
+      "title": ":mod:`!optparse` --- Parser for command line options",
+      "file": "docs/Doc_library_optparse.html",
+      "size_bytes": 108018
+    },
+    "wave": {
+      "source_path": "Doc/library/wave.rst",
+      "title": ":mod:`!wave` --- Read and write WAV files",
+      "file": "docs/Doc_library_wave.html",
+      "size_bytes": 9153
+    },
+    "asyncore": {
+      "source_path": "Doc/library/asyncore.rst",
+      "title": ":mod:`!asyncore` --- Asynchronous socket handler",
+      "file": "docs/Doc_library_asyncore.html",
+      "size_bytes": 901
+    },
+    "sndhdr": {
+      "source_path": "Doc/library/sndhdr.rst",
+      "title": ":mod:`!sndhdr` --- Determine type of sound file",
+      "file": "docs/Doc_library_sndhdr.html",
+      "size_bytes": 1101
+    },
+    "mailcap": {
+      "source_path": "Doc/library/mailcap.rst",
+      "title": ":mod:`!mailcap` --- Mailcap file handling",
+      "file": "docs/Doc_library_mailcap.html",
+      "size_bytes": 777
+    },
+    "getpass": {
+      "source_path": "Doc/library/getpass.rst",
+      "title": ":mod:`!getpass` --- Portable password input",
+      "file": "docs/Doc_library_getpass.html",
+      "size_bytes": 3771
+    },
+    "pwd": {
+      "source_path": "Doc/library/pwd.rst",
+      "title": ":mod:`!pwd` --- The password database",
+      "file": "docs/Doc_library_pwd.html",
+      "size_bytes": 2844
+    },
+    "unicodedata": {
+      "source_path": "Doc/library/unicodedata.rst",
+      "title": ":mod:`!unicodedata` --- Unicode Database",
+      "file": "docs/Doc_library_unicodedata.html",
+      "size_bytes": 10425
+    },
+    "python": {
+      "source_path": "Doc/library/python.rst",
+      "title": "Python Runtime Services",
+      "file": "docs/Doc_library_python.html",
+      "size_bytes": 650
+    },
+    "enum": {
+      "source_path": "Doc/library/enum.rst",
+      "title": ":mod:`!enum` --- Support for enumerations",
+      "file": "docs/Doc_library_enum.html",
+      "size_bytes": 46145
+    },
+    "tomllib": {
+      "source_path": "Doc/library/tomllib.rst",
+      "title": ":mod:`!tomllib` --- Parse TOML files",
+      "file": "docs/Doc_library_tomllib.html",
+      "size_bytes": 5650
+    },
+    "annotationlib": {
+      "source_path": "Doc/library/annotationlib.rst",
+      "title": ":mod:`!annotationlib` --- Functionality for introspecting annotations",
+      "file": "docs/Doc_library_annotationlib.html",
+      "size_bytes": 43889
+    },
+    "asyncio-sync": {
+      "source_path": "Doc/library/asyncio-sync.rst",
+      "title": "Synchronization Primitives",
+      "file": "docs/Doc_library_asyncio-sync.html",
+      "size_bytes": 15890
+    },
+    "platform": {
+      "source_path": "Doc/library/platform.rst",
+      "title": ":mod:`!platform` ---  Access to underlying platform's identifying data",
+      "file": "docs/Doc_library_platform.html",
+      "size_bytes": 16410
+    },
+    "sys": {
+      "source_path": "Doc/library/sys.rst",
+      "title": ":mod:`!sys` --- System-specific parameters and functions",
+      "file": "docs/Doc_library_sys.html",
+      "size_bytes": 116070
+    },
+    "faulthandler": {
+      "source_path": "Doc/library/faulthandler.rst",
+      "title": ":mod:`!faulthandler` --- Dump the Python traceback",
+      "file": "docs/Doc_library_faulthandler.html",
+      "size_bytes": 13644
+    },
+    "netrc": {
+      "source_path": "Doc/library/netrc.rst",
+      "title": ":mod:`!netrc` --- netrc file processing",
+      "file": "docs/Doc_library_netrc.html",
+      "size_bytes": 4618
+    },
+    "html.entities": {
+      "source_path": "Doc/library/html.entities.rst",
+      "title": ":mod:`!html.entities` --- Definitions of HTML general entities",
+      "file": "docs/Doc_library_html.entities.html",
+      "size_bytes": 2234
+    },
+    "zipfile": {
+      "source_path": "Doc/library/zipfile.rst",
+      "title": ":mod:`!zipfile` --- Work with ZIP archives",
+      "file": "docs/Doc_library_zipfile.html",
+      "size_bytes": 49534
+    },
+    "filecmp": {
+      "source_path": "Doc/library/filecmp.rst",
+      "title": ":mod:`!filecmp` --- File and Directory Comparisons",
+      "file": "docs/Doc_library_filecmp.html",
+      "size_bytes": 8118
+    },
+    "tkinter.font": {
+      "source_path": "Doc/library/tkinter.font.rst",
+      "title": ":mod:`!tkinter.font` --- Tkinter font wrapper",
+      "file": "docs/Doc_library_tkinter.font.html",
+      "size_bytes": 3742
+    },
+    "gettext": {
+      "source_path": "Doc/library/gettext.rst",
+      "title": ":mod:`!gettext` --- Multilingual internationalization services",
+      "file": "docs/Doc_library_gettext.html",
+      "size_bytes": 33667
+    },
+    "development": {
+      "source_path": "Doc/library/development.rst",
+      "title": "Development Tools",
+      "file": "docs/Doc_library_development.html",
+      "size_bytes": 729
+    },
+    "markup": {
+      "source_path": "Doc/library/markup.rst",
+      "title": "Structured Markup Processing Tools",
+      "file": "docs/Doc_library_markup.html",
+      "size_bytes": 603
+    },
+    "winreg": {
+      "source_path": "Doc/library/winreg.rst",
+      "title": ":mod:`!winreg` --- Windows registry access",
+      "file": "docs/Doc_library_winreg.html",
+      "size_bytes": 33650
+    },
+    "cgi": {
+      "source_path": "Doc/library/cgi.rst",
+      "title": ":mod:`!cgi` --- Common Gateway Interface support",
+      "file": "docs/Doc_library_cgi.html",
+      "size_bytes": 991
+    },
+    "asyncio-eventloop": {
+      "source_path": "Doc/library/asyncio-eventloop.rst",
+      "title": "Event Loop",
+      "file": "docs/Doc_library_asyncio-eventloop.html",
+      "size_bytes": 90364
+    },
+    "graphlib": {
+      "source_path": "Doc/library/graphlib.rst",
+      "title": ":mod:`!graphlib` --- Functionality to operate with graph-like structures",
+      "file": "docs/Doc_library_graphlib.html",
+      "size_bytes": 10877
+    },
+    "distribution": {
+      "source_path": "Doc/library/distribution.rst",
+      "title": "Software Packaging and Distribution",
+      "file": "docs/Doc_library_distribution.html",
+      "size_bytes": 439
+    },
+    "asyncio-queue": {
+      "source_path": "Doc/library/asyncio-queue.rst",
+      "title": "Queues",
+      "file": "docs/Doc_library_asyncio-queue.html",
+      "size_bytes": 9572
+    },
+    "audioop": {
+      "source_path": "Doc/library/audioop.rst",
+      "title": ":mod:`!audioop` --- Manipulate raw audio data",
+      "file": "docs/Doc_library_audioop.html",
+      "size_bytes": 785
+    },
+    "token": {
+      "source_path": "Doc/library/token.rst",
+      "title": ":mod:`!token` --- Constants used with Python parse trees",
+      "file": "docs/Doc_library_token.html",
+      "size_bytes": 11778
+    },
+    "asyncio-llapi-index": {
+      "source_path": "Doc/library/asyncio-llapi-index.rst",
+      "title": "Low-level API Index",
+      "file": "docs/Doc_library_asyncio-llapi-index.html",
+      "size_bytes": 24247
+    },
+    "asyncio-future": {
+      "source_path": "Doc/library/asyncio-future.rst",
+      "title": "Futures",
+      "file": "docs/Doc_library_asyncio-future.html",
+      "size_bytes": 11391
+    },
+    "itertools": {
+      "source_path": "Doc/library/itertools.rst",
+      "title": ":mod:`!itertools` --- Functions creating iterators for efficient looping",
+      "file": "docs/Doc_library_itertools.html",
+      "size_bytes": 69256
+    },
+    "stringprep": {
+      "source_path": "Doc/library/stringprep.rst",
+      "title": ":mod:`!stringprep` --- Internet String Preparation",
+      "file": "docs/Doc_library_stringprep.html",
+      "size_bytes": 5247
+    },
+    "functions": {
+      "source_path": "Doc/library/functions.rst",
+      "title": "Built-in Functions",
+      "file": "docs/Doc_library_functions.html",
+      "size_bytes": 123829
+    },
+    "profiling.tracing": {
+      "source_path": "Doc/library/profiling.tracing.rst",
+      "title": ":mod:`profiling.tracing` --- Deterministic profiler",
+      "file": "docs/Doc_library_profiling.tracing.html",
+      "size_bytes": 13621
+    },
+    "asyncio-platforms": {
+      "source_path": "Doc/library/asyncio-platforms.rst",
+      "title": "Platform Support",
+      "file": "docs/Doc_library_asyncio-platforms.html",
+      "size_bytes": 4344
+    },
+    "compression.zstd": {
+      "source_path": "Doc/library/compression.zstd.rst",
+      "title": ":mod:`!compression.zstd` --- Compression compatible with the Zstandard format",
+      "file": "docs/Doc_library_compression.zstd.html",
+      "size_bytes": 50397
+    },
+    "tty": {
+      "source_path": "Doc/library/tty.rst",
+      "title": ":mod:`!tty` --- Terminal control functions",
+      "file": "docs/Doc_library_tty.html",
+      "size_bytes": 3790
+    },
+    "concurrent": {
+      "source_path": "Doc/library/concurrent.rst",
+      "title": "The :mod:`!concurrent` package",
+      "file": "docs/Doc_library_concurrent.html",
+      "size_bytes": 405
+    },
+    "ipc": {
+      "source_path": "Doc/library/ipc.rst",
+      "title": "Networking and Interprocess Communication",
+      "file": "docs/Doc_library_ipc.html",
+      "size_bytes": 669
+    },
+    "windows": {
+      "source_path": "Doc/library/windows.rst",
+      "title": "MS Windows Specific Services",
+      "file": "docs/Doc_library_windows.html",
+      "size_bytes": 225
+    },
+    "colorsys": {
+      "source_path": "Doc/library/colorsys.rst",
+      "title": ":mod:`!colorsys` --- Conversions between color systems",
+      "file": "docs/Doc_library_colorsys.html",
+      "size_bytes": 2381
+    },
+    "grp": {
+      "source_path": "Doc/library/grp.rst",
+      "title": ":mod:`!grp` --- The group database",
+      "file": "docs/Doc_library_grp.html",
+      "size_bytes": 2702
+    },
+    "site": {
+      "source_path": "Doc/library/site.rst",
+      "title": ":mod:`!site` --- Site-specific configuration hook",
+      "file": "docs/Doc_library_site.html",
+      "size_bytes": 17205
+    },
+    "asyncio-protocol": {
+      "source_path": "Doc/library/asyncio-protocol.rst",
+      "title": "Transports and Protocols",
+      "file": "docs/Doc_library_asyncio-protocol.html",
+      "size_bytes": 40025
+    },
+    "posix": {
+      "source_path": "Doc/library/posix.rst",
+      "title": ":mod:`!posix` --- The most common POSIX system calls",
+      "file": "docs/Doc_library_posix.html",
+      "size_bytes": 5208
+    },
+    "importlib.metadata": {
+      "source_path": "Doc/library/importlib.metadata.rst",
+      "title": ":mod:`!importlib.metadata` -- Accessing package metadata",
+      "file": "docs/Doc_library_importlib.metadata.html",
+      "size_bytes": 29298
+    },
+    "functools": {
+      "source_path": "Doc/library/functools.rst",
+      "title": ":mod:`!functools` --- Higher-order functions and operations on callable objects",
+      "file": "docs/Doc_library_functools.html",
+      "size_bytes": 38713
+    },
+    "argparse": {
+      "source_path": "Doc/library/argparse.rst",
+      "title": ":mod:`!argparse` --- Parser for command-line options, arguments and subcommands",
+      "file": "docs/Doc_library_argparse.html",
+      "size_bytes": 114759
+    },
+    "http": {
+      "source_path": "Doc/library/http.rst",
+      "title": ":mod:`!http` --- HTTP modules",
+      "file": "docs/Doc_library_http.html",
+      "size_bytes": 18031
+    },
+    "_thread": {
+      "source_path": "Doc/library/_thread.rst",
+      "title": ":mod:`!_thread` --- Low-level threading API",
+      "file": "docs/Doc_library__thread.html",
+      "size_bytes": 9659
+    },
+    "tkinter.dnd": {
+      "source_path": "Doc/library/tkinter.dnd.rst",
+      "title": ":mod:`!tkinter.dnd` --- Drag and drop support",
+      "file": "docs/Doc_library_tkinter.dnd.html",
+      "size_bytes": 2840
+    },
+    "i18n": {
+      "source_path": "Doc/library/i18n.rst",
+      "title": "Internationalization",
+      "file": "docs/Doc_library_i18n.html",
+      "size_bytes": 399
+    },
+    "calendar": {
+      "source_path": "Doc/library/calendar.rst",
+      "title": ":mod:`!calendar` --- General calendar-related functions",
+      "file": "docs/Doc_library_calendar.html",
+      "size_bytes": 31380
+    },
+    "debug": {
+      "source_path": "Doc/library/debug.rst",
+      "title": "Debugging and profiling",
+      "file": "docs/Doc_library_debug.html",
+      "size_bytes": 617
+    },
+    "pydoc": {
+      "source_path": "Doc/library/pydoc.rst",
+      "title": ":mod:`!pydoc` --- Documentation generator and online help system",
+      "file": "docs/Doc_library_pydoc.html",
+      "size_bytes": 6945
+    },
+    "resource": {
+      "source_path": "Doc/library/resource.rst",
+      "title": ":mod:`!resource` --- Resource usage information",
+      "file": "docs/Doc_library_resource.html",
+      "size_bytes": 17759
+    },
+    "syslog": {
+      "source_path": "Doc/library/syslog.rst",
+      "title": ":mod:`!syslog` --- Unix syslog library routines",
+      "file": "docs/Doc_library_syslog.html",
+      "size_bytes": 8223
+    },
+    "smtpd": {
+      "source_path": "Doc/library/smtpd.rst",
+      "title": ":mod:`!smtpd` --- SMTP Server",
+      "file": "docs/Doc_library_smtpd.html",
+      "size_bytes": 932
+    },
+    "sys.monitoring": {
+      "source_path": "Doc/library/sys.monitoring.rst",
+      "title": ":mod:`!sys.monitoring` --- Execution event monitoring",
+      "file": "docs/Doc_library_sys.monitoring.html",
+      "size_bytes": 19200
+    },
+    "pty": {
+      "source_path": "Doc/library/pty.rst",
+      "title": ":mod:`!pty` --- Pseudo-terminal utilities",
+      "file": "docs/Doc_library_pty.html",
+      "size_bytes": 5957
+    },
+    "ctypes": {
+      "source_path": "Doc/library/ctypes.rst",
+      "title": ":mod:`!ctypes` --- A foreign function library for Python",
+      "file": "docs/Doc_library_ctypes.html",
+      "size_bytes": 136864
+    },
+    "zoneinfo": {
+      "source_path": "Doc/library/zoneinfo.rst",
+      "title": ":mod:`!zoneinfo` --- IANA time zone support",
+      "file": "docs/Doc_library_zoneinfo.html",
+      "size_bytes": 20251
+    },
+    "tkinter": {
+      "source_path": "Doc/library/tkinter.rst",
+      "title": ":mod:`!tkinter` --- Python interface to Tcl/Tk",
+      "file": "docs/Doc_library_tkinter.html",
+      "size_bytes": 51084
+    },
+    "pyclbr": {
+      "source_path": "Doc/library/pyclbr.rst",
+      "title": ":mod:`!pyclbr` --- Python module browser support",
+      "file": "docs/Doc_library_pyclbr.html",
+      "size_bytes": 5780
+    },
+    "xml.etree.elementtree": {
+      "source_path": "Doc/library/xml.etree.elementtree.rst",
+      "title": ":mod:`!xml.etree.ElementTree` --- The ElementTree XML API",
+      "file": "docs/Doc_library_xml.etree.elementtree.html",
+      "size_bytes": 86940
+    },
+    "numbers": {
+      "source_path": "Doc/library/numbers.rst",
+      "title": ":mod:`!numbers` --- Numeric abstract base classes",
+      "file": "docs/Doc_library_numbers.html",
+      "size_bytes": 11343
+    },
+    "profile": {
+      "source_path": "Doc/library/profile.rst",
+      "title": ":mod:`!profile` --- Pure Python profiler",
+      "file": "docs/Doc_library_profile.html",
+      "size_bytes": 18235
+    },
+    "py_compile": {
+      "source_path": "Doc/library/py_compile.rst",
+      "title": ":mod:`!py_compile` --- Compile Python source files",
+      "file": "docs/Doc_library_py_compile.html",
+      "size_bytes": 8389
+    },
+    "dialog": {
+      "source_path": "Doc/library/dialog.rst",
+      "title": "Tkinter Dialogs",
+      "file": "docs/Doc_library_dialog.html",
+      "size_bytes": 8008
+    },
+    "math": {
+      "source_path": "Doc/library/math.rst",
+      "title": ":mod:`!math` --- Mathematical functions",
+      "file": "docs/Doc_library_math.html",
+      "size_bytes": 41347
+    },
+    "binascii": {
+      "source_path": "Doc/library/binascii.rst",
+      "title": ":mod:`!binascii` --- Convert between binary and ASCII",
+      "file": "docs/Doc_library_binascii.html",
+      "size_bytes": 8210
+    },
+    "bz2": {
+      "source_path": "Doc/library/bz2.rst",
+      "title": ":mod:`!bz2` --- Support for :program:`bzip2` compression",
+      "file": "docs/Doc_library_bz2.html",
+      "size_bytes": 17319
+    },
+    "pyexpat": {
+      "source_path": "Doc/library/pyexpat.rst",
+      "title": ":mod:`!xml.parsers.expat` --- Fast XML parsing using Expat",
+      "file": "docs/Doc_library_pyexpat.html",
+      "size_bytes": 47768
+    },
+    "ast": {
+      "source_path": "Doc/library/ast.rst",
+      "title": ":mod:`!ast` --- Abstract syntax trees",
+      "file": "docs/Doc_library_ast.html",
+      "size_bytes": 90204
+    },
+    "zlib": {
+      "source_path": "Doc/library/zlib.rst",
+      "title": ":mod:`!zlib` --- Compression compatible with :program:`gzip`",
+      "file": "docs/Doc_library_zlib.html",
+      "size_bytes": 22577
+    },
+    "types": {
+      "source_path": "Doc/library/types.rst",
+      "title": ":mod:`!types` --- Dynamic type creation and names for built-in types",
+      "file": "docs/Doc_library_types.html",
+      "size_bytes": 22181
+    },
+    "modules": {
+      "source_path": "Doc/tutorial/modules.rst",
+      "title": "Modules",
+      "file": "docs/Doc_tutorial_modules.html",
+      "size_bytes": 32191
+    },
+    "pathlib": {
+      "source_path": "Doc/library/pathlib.rst",
+      "title": ":mod:`!pathlib` --- Object-oriented filesystem paths",
+      "file": "docs/Doc_library_pathlib.html",
+      "size_bytes": 91571
+    },
+    "urllib": {
+      "source_path": "Doc/library/urllib.rst",
+      "title": ":mod:`!urllib` --- URL handling modules",
+      "file": "docs/Doc_library_urllib.html",
+      "size_bytes": 862
+    },
+    "uu": {
+      "source_path": "Doc/library/uu.rst",
+      "title": ":mod:`!uu` --- Encode and decode uuencode files",
+      "file": "docs/Doc_library_uu.html",
+      "size_bytes": 774
+    },
+    "collections.abc": {
+      "source_path": "Doc/library/collections.abc.rst",
+      "title": ":mod:`!collections.abc` --- Abstract Base Classes for Containers",
+      "file": "docs/Doc_library_collections.abc.html",
+      "size_bytes": 36143
+    },
+    "asyncio": {
+      "source_path": "Doc/library/asyncio.rst",
+      "title": ":mod:`!asyncio` --- Asynchronous I/O",
+      "file": "docs/Doc_library_asyncio.html",
+      "size_bytes": 4559
+    },
+    "socket": {
+      "source_path": "Doc/library/socket.rst",
+      "title": ":mod:`!socket` --- Low-level networking interface",
+      "file": "docs/Doc_library_socket.html",
+      "size_bytes": 115472
+    },
+    "http.client": {
+      "source_path": "Doc/library/http.client.rst",
+      "title": ":mod:`!http.client` --- HTTP protocol client",
+      "file": "docs/Doc_library_http.client.html",
+      "size_bytes": 30195
+    },
+    "typing": {
+      "source_path": "Doc/library/typing.rst",
+      "title": ":mod:`!typing` --- Support for type hints",
+      "file": "docs/Doc_library_typing.html",
+      "size_bytes": 176718
+    },
+    "gc": {
+      "source_path": "Doc/library/gc.rst",
+      "title": ":mod:`!gc` --- Garbage Collector interface",
+      "file": "docs/Doc_library_gc.html",
+      "size_bytes": 15633
+    },
+    "string": {
+      "source_path": "Doc/library/string.rst",
+      "title": ":mod:`!string` --- Common string operations",
+      "file": "docs/Doc_library_string.html",
+      "size_bytes": 50510
+    },
+    "crypt": {
+      "source_path": "Doc/library/crypt.rst",
+      "title": ":mod:`!crypt` --- Function to check Unix passwords",
+      "file": "docs/Doc_library_crypt.html",
+      "size_bytes": 1227
+    },
+    "netdata": {
+      "source_path": "Doc/library/netdata.rst",
+      "title": "Internet Data Handling",
+      "file": "docs/Doc_library_netdata.html",
+      "size_bytes": 266
+    },
+    "crypto": {
+      "source_path": "Doc/library/crypto.rst",
+      "title": "Cryptographic Services",
+      "file": "docs/Doc_library_crypto.html",
+      "size_bytes": 347
+    },
+    "termios": {
+      "source_path": "Doc/library/termios.rst",
+      "title": ":mod:`!termios` --- POSIX style tty control",
+      "file": "docs/Doc_library_termios.html",
+      "size_bytes": 6046
+    },
+    "language": {
+      "source_path": "Doc/library/language.rst",
+      "title": "Python Language Services",
+      "file": "docs/Doc_library_language.html",
+      "size_bytes": 450
+    },
+    "asyncio-dev": {
+      "source_path": "Doc/library/asyncio-dev.rst",
+      "title": "Developing with asyncio",
+      "file": "docs/Doc_library_asyncio-dev.html",
+      "size_bytes": 9347
+    },
+    "concurrency": {
+      "source_path": "Doc/library/concurrency.rst",
+      "title": "Concurrent Execution",
+      "file": "docs/Doc_library_concurrency.html",
+      "size_bytes": 729
+    },
+    "cgitb": {
+      "source_path": "Doc/library/cgitb.rst",
+      "title": ":mod:`!cgitb` --- Traceback manager for CGI scripts",
+      "file": "docs/Doc_library_cgitb.html",
+      "size_bytes": 1007
+    },
+    "tempfile": {
+      "source_path": "Doc/library/tempfile.rst",
+      "title": ":mod:`!tempfile` --- Generate temporary files and directories",
+      "file": "docs/Doc_library_tempfile.html",
+      "size_bytes": 25267
+    },
+    "sys_path_init": {
+      "source_path": "Doc/library/sys_path_init.rst",
+      "title": "The initialization of the :data:`sys.path` module search path",
+      "file": "docs/Doc_library_sys_path_init.html",
+      "size_bytes": 9652
+    },
+    "asyncio-exceptions": {
+      "source_path": "Doc/library/asyncio-exceptions.rst",
+      "title": "Exceptions",
+      "file": "docs/Doc_library_asyncio-exceptions.html",
+      "size_bytes": 2640
+    },
+    "gzip": {
+      "source_path": "Doc/library/gzip.rst",
+      "title": ":mod:`!gzip` --- Support for :program:`gzip` files",
+      "file": "docs/Doc_library_gzip.html",
+      "size_bytes": 16544
+    },
+    "trace": {
+      "source_path": "Doc/library/trace.rst",
+      "title": ":mod:`!trace` --- Trace or track Python statement execution",
+      "file": "docs/Doc_library_trace.html",
+      "size_bytes": 9984
+    },
+    "telnetlib": {
+      "source_path": "Doc/library/telnetlib.rst",
+      "title": ":mod:`!telnetlib` --- Telnet client",
+      "file": "docs/Doc_library_telnetlib.html",
+      "size_bytes": 1024
+    },
+    "cmdline": {
+      "source_path": "Doc/library/cmdline.rst",
+      "title": "Cmdline",
+      "file": "docs/Doc_library_cmdline.html",
+      "size_bytes": 4540
+    },
+    "xdrlib": {
+      "source_path": "Doc/library/xdrlib.rst",
+      "title": ":mod:`!xdrlib` --- Encode and decode XDR data",
+      "file": "docs/Doc_library_xdrlib.html",
+      "size_bytes": 782
+    },
+    "imp": {
+      "source_path": "Doc/library/imp.rst",
+      "title": ":mod:`!imp` --- Access the import internals",
+      "file": "docs/Doc_library_imp.html",
+      "size_bytes": 957
+    },
+    "logging": {
+      "source_path": "Doc/library/logging.rst",
+      "title": ":mod:`!logging` --- Logging facility for Python",
+      "file": "docs/Doc_library_logging.html",
+      "size_bytes": 81731
+    },
+    "cmdlinelibs": {
+      "source_path": "Doc/library/cmdlinelibs.rst",
+      "title": "Command-line interface libraries",
+      "file": "docs/Doc_library_cmdlinelibs.html",
+      "size_bytes": 370
+    },
+    "lzma": {
+      "source_path": "Doc/library/lzma.rst",
+      "title": ":mod:`!lzma` --- Compression using the LZMA algorithm",
+      "file": "docs/Doc_library_lzma.html",
+      "size_bytes": 24390
+    },
+    "datetime": {
+      "source_path": "Doc/library/datetime.rst",
+      "title": ":mod:`!datetime` --- Basic date and time types",
+      "file": "docs/Doc_library_datetime.html",
+      "size_bytes": 141017
+    },
+    "queue": {
+      "source_path": "Doc/library/queue.rst",
+      "title": ":mod:`!queue` --- A synchronized queue class",
+      "file": "docs/Doc_library_queue.html",
+      "size_bytes": 15816
+    },
+    "ossaudiodev": {
+      "source_path": "Doc/library/ossaudiodev.rst",
+      "title": ":mod:`!ossaudiodev` --- Access to OSS-compatible audio devices",
+      "file": "docs/Doc_library_ossaudiodev.html",
+      "size_bytes": 831
+    },
+    "os.path": {
+      "source_path": "Doc/library/os.path.rst",
+      "title": ":mod:`!os.path` --- Common pathname manipulations",
+      "file": "docs/Doc_library_os.path.html",
+      "size_bytes": 31010
+    },
+    "idle": {
+      "source_path": "Doc/library/idle.rst",
+      "title": "IDLE --- Python editor and shell",
+      "file": "docs/Doc_library_idle.html",
+      "size_bytes": 47797
+    },
+    "xml.dom.minidom": {
+      "source_path": "Doc/library/xml.dom.minidom.rst",
+      "title": ":mod:`!xml.dom.minidom` --- Minimal DOM implementation",
+      "file": "docs/Doc_library_xml.dom.minidom.html",
+      "size_bytes": 14616
+    },
+    "curses.ascii": {
+      "source_path": "Doc/library/curses.ascii.rst",
+      "title": ":mod:`!curses.ascii` --- Utilities for ASCII characters",
+      "file": "docs/Doc_library_curses.ascii.html",
+      "size_bytes": 8493
+    },
+    "poplib": {
+      "source_path": "Doc/library/poplib.rst",
+      "title": ":mod:`!poplib` --- POP3 protocol client",
+      "file": "docs/Doc_library_poplib.html",
+      "size_bytes": 11352
+    },
+    "email.policy": {
+      "source_path": "Doc/library/email.policy.rst",
+      "title": ":mod:`!email.policy`: Policy Objects",
+      "file": "docs/Doc_library_email.policy.html",
+      "size_bytes": 33466
+    },
+    "imaplib": {
+      "source_path": "Doc/library/imaplib.rst",
+      "title": ":mod:`!imaplib` --- IMAP4 protocol client",
+      "file": "docs/Doc_library_imaplib.html",
+      "size_bytes": 31159
+    },
+    "__main__": {
+      "source_path": "Doc/library/__main__.rst",
+      "title": ":mod:`!__main__` --- Top-level code environment",
+      "file": "docs/Doc_library___main__.html",
+      "size_bytes": 14712
+    },
+    "fnmatch": {
+      "source_path": "Doc/library/fnmatch.rst",
+      "title": ":mod:`!fnmatch` --- Unix filename pattern matching",
+      "file": "docs/Doc_library_fnmatch.html",
+      "size_bytes": 5748
+    },
+    "index": {
+      "source_path": "Doc/reference/index.rst",
+      "title": "Index",
+      "file": "docs/Doc_reference_index.html",
+      "size_bytes": 1065
+    },
+    "http.cookies": {
+      "source_path": "Doc/library/http.cookies.rst",
+      "title": ":mod:`!http.cookies` --- HTTP state management",
+      "file": "docs/Doc_library_http.cookies.html",
+      "size_bytes": 13697
+    },
+    "xmlrpc": {
+      "source_path": "Doc/library/xmlrpc.rst",
+      "title": ":mod:`!xmlrpc` --- XMLRPC server and client modules",
+      "file": "docs/Doc_library_xmlrpc.html",
+      "size_bytes": 758
+    },
+    "text": {
+      "source_path": "Doc/library/text.rst",
+      "title": "Text Processing Services",
+      "file": "docs/Doc_library_text.html",
+      "size_bytes": 711
+    },
+    "weakref": {
+      "source_path": "Doc/library/weakref.rst",
+      "title": ":mod:`weakref` --- Weak references",
+      "file": "docs/Doc_library_weakref.html",
+      "size_bytes": 26184
+    },
+    "tokenize": {
+      "source_path": "Doc/library/tokenize.rst",
+      "title": ":mod:`!tokenize` --- Tokenizer for Python source",
+      "file": "docs/Doc_library_tokenize.html",
+      "size_bytes": 13561
+    },
+    "importlib.resources.abc": {
+      "source_path": "Doc/library/importlib.resources.abc.rst",
+      "title": ":mod:`!importlib.resources.abc` -- Abstract base classes for resources",
+      "file": "docs/Doc_library_importlib.resources.abc.html",
+      "size_bytes": 7831
+    },
+    "mmap": {
+      "source_path": "Doc/library/mmap.rst",
+      "title": ":mod:`!mmap` --- Memory-mapped file support",
+      "file": "docs/Doc_library_mmap.html",
+      "size_bytes": 21646
+    },
+    "shelve": {
+      "source_path": "Doc/library/shelve.rst",
+      "title": ":mod:`!shelve` --- Python object persistence",
+      "file": "docs/Doc_library_shelve.html",
+      "size_bytes": 14953
+    },
+    "xml.sax.reader": {
+      "source_path": "Doc/library/xml.sax.reader.rst",
+      "title": ":mod:`!xml.sax.xmlreader` --- Interface for XML parsers",
+      "file": "docs/Doc_library_xml.sax.reader.html",
+      "size_bytes": 15966
+    },
+    "compression": {
+      "source_path": "Doc/library/compression.rst",
+      "title": "The :mod:`!compression` package",
+      "file": "docs/Doc_library_compression.html",
+      "size_bytes": 1439
+    },
+    "atexit": {
+      "source_path": "Doc/library/atexit.rst",
+      "title": ":mod:`!atexit` --- Exit handlers",
+      "file": "docs/Doc_library_atexit.html",
+      "size_bytes": 5791
+    },
+    "compileall": {
+      "source_path": "Doc/library/compileall.rst",
+      "title": ":mod:`!compileall` --- Byte-compile Python libraries",
+      "file": "docs/Doc_library_compileall.html",
+      "size_bytes": 17959
+    },
+    "select": {
+      "source_path": "Doc/library/select.rst",
+      "title": ":mod:`!select` --- Waiting for I/O completion",
+      "file": "docs/Doc_library_select.html",
+      "size_bytes": 32175
+    },
+    "decimal": {
+      "source_path": "Doc/library/decimal.rst",
+      "title": ":mod:`!decimal` --- Decimal fixed-point and floating-point arithmetic",
+      "file": "docs/Doc_library_decimal.html",
+      "size_bytes": 102137
+    },
+    "base64": {
+      "source_path": "Doc/library/base64.rst",
+      "title": ":mod:`!base64` --- Base16, Base32, Base64, Base85 Data Encodings",
+      "file": "docs/Doc_library_base64.html",
+      "size_bytes": 17327
+    },
+    "distutils": {
+      "source_path": "Doc/library/distutils.rst",
+      "title": ":mod:`!distutils` --- Building and installing Python modules",
+      "file": "docs/Doc_library_distutils.html",
+      "size_bytes": 925
+    },
+    "logging.handlers": {
+      "source_path": "Doc/library/logging.handlers.rst",
+      "title": ":mod:`!logging.handlers` --- Logging handlers",
+      "file": "docs/Doc_library_logging.handlers.html",
+      "size_bytes": 60547
+    },
+    "zipimport": {
+      "source_path": "Doc/library/zipimport.rst",
+      "title": ":mod:`!zipimport` --- Import modules from Zip archives",
+      "file": "docs/Doc_library_zipimport.html",
+      "size_bytes": 8820
+    },
+    "configparser": {
+      "source_path": "Doc/library/configparser.rst",
+      "title": ":mod:`!configparser` --- Configuration file parser",
+      "file": "docs/Doc_library_configparser.html",
+      "size_bytes": 79511
+    },
+    "fileformats": {
+      "source_path": "Doc/library/fileformats.rst",
+      "title": "File Formats",
+      "file": "docs/Doc_library_fileformats.html",
+      "size_bytes": 281
+    },
+    "code": {
+      "source_path": "Doc/library/code.rst",
+      "title": ":mod:`!code` --- Interpreter base classes",
+      "file": "docs/Doc_library_code.html",
+      "size_bytes": 10641
+    },
+    "sched": {
+      "source_path": "Doc/library/sched.rst",
+      "title": ":mod:`!sched` --- Event scheduler",
+      "file": "docs/Doc_library_sched.html",
+      "size_bytes": 6169
+    },
+    "getopt": {
+      "source_path": "Doc/library/getopt.rst",
+      "title": ":mod:`!getopt` --- C-style parser for command line options",
+      "file": "docs/Doc_library_getopt.html",
+      "size_bytes": 10932
+    },
+    "zipapp": {
+      "source_path": "Doc/library/zipapp.rst",
+      "title": ":mod:`!zipapp` --- Manage executable Python zip archives",
+      "file": "docs/Doc_library_zipapp.html",
+      "size_bytes": 16333
+    },
+    "runpy": {
+      "source_path": "Doc/library/runpy.rst",
+      "title": ":mod:`!runpy` --- Locating and executing Python modules",
+      "file": "docs/Doc_library_runpy.html",
+      "size_bytes": 11365
+    },
+    "tarfile": {
+      "source_path": "Doc/library/tarfile.rst",
+      "title": ":mod:`!tarfile` --- Read and write tar archive files",
+      "file": "docs/Doc_library_tarfile.html",
+      "size_bytes": 70338
+    },
+    "email.examples": {
+      "source_path": "Doc/library/email.examples.rst",
+      "title": ":mod:`email`: Examples",
+      "file": "docs/Doc_library_email.examples.html",
+      "size_bytes": 2582
+    },
+    "xmlrpc.client": {
+      "source_path": "Doc/library/xmlrpc.client.rst",
+      "title": ":mod:`!xmlrpc.client` --- XML-RPC client access",
+      "file": "docs/Doc_library_xmlrpc.client.html",
+      "size_bytes": 26037
+    },
+    "bisect": {
+      "source_path": "Doc/library/bisect.rst",
+      "title": ":mod:`!bisect` --- Array bisection algorithm",
+      "file": "docs/Doc_library_bisect.html",
+      "size_bytes": 11851
+    },
+    "dis": {
+      "source_path": "Doc/library/dis.rst",
+      "title": ":mod:`!dis` --- Disassembler for Python bytecode",
+      "file": "docs/Doc_library_dis.html",
+      "size_bytes": 79040
+    },
+    "copyreg": {
+      "source_path": "Doc/library/copyreg.rst",
+      "title": ":mod:`!copyreg` --- Register :mod:`!pickle` support functions",
+      "file": "docs/Doc_library_copyreg.html",
+      "size_bytes": 2636
+    },
+    "devmode": {
+      "source_path": "Doc/library/devmode.rst",
+      "title": "Python Development Mode",
+      "file": "docs/Doc_library_devmode.html",
+      "size_bytes": 10053
+    },
+    "locale": {
+      "source_path": "Doc/library/locale.rst",
+      "title": ":mod:`!locale` --- Internationalization services",
+      "file": "docs/Doc_library_locale.html",
+      "size_bytes": 33916
+    },
+    "wsgiref": {
+      "source_path": "Doc/library/wsgiref.rst",
+      "title": ":mod:`!wsgiref` --- WSGI Utilities and Reference Implementation",
+      "file": "docs/Doc_library_wsgiref.html",
+      "size_bytes": 45544
+    },
+    "email.iterators": {
+      "source_path": "Doc/library/email.iterators.rst",
+      "title": ":mod:`!email.iterators`: Iterators",
+      "file": "docs/Doc_library_email.iterators.html",
+      "size_bytes": 3305
+    },
+    "pprint": {
+      "source_path": "Doc/library/pprint.rst",
+      "title": ":mod:`!pprint` --- Data pretty printer",
+      "file": "docs/Doc_library_pprint.html",
+      "size_bytes": 19914
+    },
+    "urllib.request": {
+      "source_path": "Doc/library/urllib.request.rst",
+      "title": ":mod:`!urllib.request` --- Extensible library for opening URLs",
+      "file": "docs/Doc_library_urllib.request.html",
+      "size_bytes": 74357
+    },
+    "html.parser": {
+      "source_path": "Doc/library/html.parser.rst",
+      "title": ":mod:`!html.parser` --- Simple HTML and XHTML parser",
+      "file": "docs/Doc_library_html.parser.html",
+      "size_bytes": 14144
+    },
+    "array": {
+      "source_path": "Doc/library/array.rst",
+      "title": ":mod:`!array` --- Efficient arrays of numeric values",
+      "file": "docs/Doc_library_array.html",
+      "size_bytes": 12475
+    },
+    "audit_events": {
+      "source_path": "Doc/library/audit_events.rst",
+      "title": "Audit events table",
+      "file": "docs/Doc_library_audit_events.html",
+      "size_bytes": 2617
+    },
+    "readline": {
+      "source_path": "Doc/library/readline.rst",
+      "title": ":mod:`!readline` --- GNU readline interface",
+      "file": "docs/Doc_library_readline.html",
+      "size_bytes": 16910
+    },
+    "re": {
+      "source_path": "Doc/library/re.rst",
+      "title": ":mod:`!re` --- Regular expression operations",
+      "file": "docs/Doc_library_re.html",
+      "size_bytes": 96423
+    },
+    "nntplib": {
+      "source_path": "Doc/library/nntplib.rst",
+      "title": ":mod:`!nntplib` --- NNTP protocol client",
+      "file": "docs/Doc_library_nntplib.html",
+      "size_bytes": 775
+    },
+    "statistics": {
+      "source_path": "Doc/library/statistics.rst",
+      "title": ":mod:`!statistics` --- Mathematical statistics functions",
+      "file": "docs/Doc_library_statistics.html",
+      "size_bytes": 50312
+    },
+    "mm": {
+      "source_path": "Doc/library/mm.rst",
+      "title": "Multimedia Services",
+      "file": "docs/Doc_library_mm.html",
+      "size_bytes": 317
+    },
+    "pstats": {
+      "source_path": "Doc/library/pstats.rst",
+      "title": ":mod:`pstats` --- Statistics for profilers",
+      "file": "docs/Doc_library_pstats.html",
+      "size_bytes": 13566
+    },
+    "time": {
+      "source_path": "Doc/library/time.rst",
+      "title": ":mod:`!time` --- Time access and conversions",
+      "file": "docs/Doc_library_time.html",
+      "size_bytes": 51567
+    },
+    "ssl": {
+      "source_path": "Doc/library/ssl.rst",
+      "title": ":mod:`!ssl` --- TLS/SSL wrapper for socket objects",
+      "file": "docs/Doc_library_ssl.html",
+      "size_bytes": 148135
+    },
+    "email.errors": {
+      "source_path": "Doc/library/email.errors.rst",
+      "title": ":mod:`!email.errors`: Exception and Defect classes",
+      "file": "docs/Doc_library_email.errors.html",
+      "size_bytes": 6744
+    },
+    "builtins": {
+      "source_path": "Doc/library/builtins.rst",
+      "title": ":mod:`!builtins` --- Built-in objects",
+      "file": "docs/Doc_library_builtins.html",
+      "size_bytes": 2019
+    },
+    "msvcrt": {
+      "source_path": "Doc/library/msvcrt.rst",
+      "title": ":mod:`!msvcrt` --- Useful routines from the MS VC++ runtime",
+      "file": "docs/Doc_library_msvcrt.html",
+      "size_bytes": 10598
+    },
+    "subprocess": {
+      "source_path": "Doc/library/subprocess.rst",
+      "title": ":mod:`!subprocess` --- Subprocess management",
+      "file": "docs/Doc_library_subprocess.html",
+      "size_bytes": 80450
+    },
+    "profiling.sampling": {
+      "source_path": "Doc/library/profiling.sampling.rst",
+      "title": ":mod:`profiling.sampling` --- Statistical profiler",
+      "file": "docs/Doc_library_profiling.sampling.html",
+      "size_bytes": 79312
+    },
+    "http.cookiejar": {
+      "source_path": "Doc/library/http.cookiejar.rst",
+      "title": ":mod:`!http.cookiejar` --- Cookie handling for HTTP clients",
+      "file": "docs/Doc_library_http.cookiejar.html",
+      "size_bytes": 39513
+    },
+    "superseded": {
+      "source_path": "Doc/library/superseded.rst",
+      "title": "Superseded modules",
+      "file": "docs/Doc_library_superseded.html",
+      "size_bytes": 1323
+    },
+    "ftplib": {
+      "source_path": "Doc/library/ftplib.rst",
+      "title": ":mod:`!ftplib` --- FTP protocol client",
+      "file": "docs/Doc_library_ftplib.html",
+      "size_bytes": 27102
+    },
+    "pickle": {
+      "source_path": "Doc/library/pickle.rst",
+      "title": ":mod:`!pickle` --- Python object serialization",
+      "file": "docs/Doc_library_pickle.html",
+      "size_bytes": 64960
+    },
+    "modulefinder": {
+      "source_path": "Doc/library/modulefinder.rst",
+      "title": ":mod:`!modulefinder` --- Find modules used by a script",
+      "file": "docs/Doc_library_modulefinder.html",
+      "size_bytes": 3758
+    },
+    "persistence": {
+      "source_path": "Doc/library/persistence.rst",
+      "title": "Data Persistence",
+      "file": "docs/Doc_library_persistence.html",
+      "size_bytes": 661
+    },
+    "allos": {
+      "source_path": "Doc/library/allos.rst",
+      "title": "Generic Operating System Services",
+      "file": "docs/Doc_library_allos.html",
+      "size_bytes": 516
+    },
+    "keyword": {
+      "source_path": "Doc/library/keyword.rst",
+      "title": ":mod:`!keyword` --- Testing for Python keywords",
+      "file": "docs/Doc_library_keyword.html",
+      "size_bytes": 1802
+    },
+    "winsound": {
+      "source_path": "Doc/library/winsound.rst",
+      "title": ":mod:`!winsound` --- Sound-playing interface for Windows",
+      "file": "docs/Doc_library_winsound.html",
+      "size_bytes": 7743
+    },
+    "hmac": {
+      "source_path": "Doc/library/hmac.rst",
+      "title": ":mod:`!hmac` --- Keyed-Hashing for Message Authentication",
+      "file": "docs/Doc_library_hmac.html",
+      "size_bytes": 6674
+    },
+    "security_warnings": {
+      "source_path": "Doc/library/security_warnings.rst",
+      "title": "Security Considerations",
+      "file": "docs/Doc_library_security_warnings.html",
+      "size_bytes": 3360
+    },
+    "email.contentmanager": {
+      "source_path": "Doc/library/email.contentmanager.rst",
+      "title": ":mod:`!email.contentmanager`: Managing MIME Content",
+      "file": "docs/Doc_library_email.contentmanager.html",
+      "size_bytes": 11970
+    },
+    "xml.dom.pulldom": {
+      "source_path": "Doc/library/xml.dom.pulldom.rst",
+      "title": ":mod:`!xml.dom.pulldom` --- Support for building partial DOM trees",
+      "file": "docs/Doc_library_xml.dom.pulldom.html",
+      "size_bytes": 7042
+    },
+    "constants": {
+      "source_path": "Doc/library/constants.rst",
+      "title": "Built-in Constants",
+      "file": "docs/Doc_library_constants.html",
+      "size_bytes": 6532
+    },
+    "stat": {
+      "source_path": "Doc/library/stat.rst",
+      "title": ":mod:`!stat` --- Interpreting :func:`~os.stat` results",
+      "file": "docs/Doc_library_stat.html",
+      "size_bytes": 15845
+    },
+    "asyncio-task": {
+      "source_path": "Doc/library/asyncio-task.rst",
+      "title": "Coroutines and Tasks",
+      "file": "docs/Doc_library_asyncio-task.html",
+      "size_bytes": 63934
+    },
+    "xml": {
+      "source_path": "Doc/library/xml.rst",
+      "title": "XML Processing Modules",
+      "file": "docs/Doc_library_xml.html",
+      "size_bytes": 4891
+    },
+    "tabnanny": {
+      "source_path": "Doc/library/tabnanny.rst",
+      "title": ":mod:`!tabnanny` --- Detection of ambiguous indentation",
+      "file": "docs/Doc_library_tabnanny.html",
+      "size_bytes": 2592
+    },
+    "unittest.mock-examples": {
+      "source_path": "Doc/library/unittest.mock-examples.rst",
+      "title": ":mod:`!unittest.mock` --- getting started",
+      "file": "docs/Doc_library_unittest.mock-examples.html",
+      "size_bytes": 58552
+    },
+    "asyncio-extending": {
+      "source_path": "Doc/library/asyncio-extending.rst",
+      "title": "Extending",
+      "file": "docs/Doc_library_asyncio-extending.html",
+      "size_bytes": 4237
+    },
+    "pipes": {
+      "source_path": "Doc/library/pipes.rst",
+      "title": ":mod:`!pipes` --- Interface to shell pipelines",
+      "file": "docs/Doc_library_pipes.html",
+      "size_bytes": 892
+    },
+    "asyncio-api-index": {
+      "source_path": "Doc/library/asyncio-api-index.rst",
+      "title": "High-level API Index",
+      "file": "docs/Doc_library_asyncio-api-index.html",
+      "size_bytes": 8601
+    },
+    "internet": {
+      "source_path": "Doc/library/internet.rst",
+      "title": "Internet Protocols and Support",
+      "file": "docs/Doc_library_internet.html",
+      "size_bytes": 909
+    },
+    "concurrent.futures": {
+      "source_path": "Doc/library/concurrent.futures.rst",
+      "title": ":mod:`!concurrent.futures` --- Launching parallel tasks",
+      "file": "docs/Doc_library_concurrent.futures.html",
+      "size_bytes": 36913
+    },
+    "asynchat": {
+      "source_path": "Doc/library/asynchat.rst",
+      "title": ":mod:`!asynchat` --- Asynchronous socket command/response handler",
+      "file": "docs/Doc_library_asynchat.html",
+      "size_bytes": 934
+    },
+    "threading": {
+      "source_path": "Doc/library/threading.rst",
+      "title": ":mod:`!threading` --- Thread-based parallelism",
+      "file": "docs/Doc_library_threading.html",
+      "size_bytes": 65937
+    },
+    "asyncio-policy": {
+      "source_path": "Doc/library/asyncio-policy.rst",
+      "title": "Policies",
+      "file": "docs/Doc_library_asyncio-policy.html",
+      "size_bytes": 6248
+    },
+    "math.integer": {
+      "source_path": "Doc/library/math.integer.rst",
+      "title": ":mod:`math.integer` --- integer-specific mathematics functions",
+      "file": "docs/Doc_library_math.integer.html",
+      "size_bytes": 3335
+    },
+    "aifc": {
+      "source_path": "Doc/library/aifc.rst",
+      "title": ":mod:`!aifc` --- Read and write AIFF and AIFC files",
+      "file": "docs/Doc_library_aifc.html",
+      "size_bytes": 788
+    },
+    "multiprocessing": {
+      "source_path": "Doc/library/multiprocessing.rst",
+      "title": ":mod:`!multiprocessing` --- Process-based parallelism",
+      "file": "docs/Doc_library_multiprocessing.html",
+      "size_bytes": 154069
+    },
+    "cmath": {
+      "source_path": "Doc/library/cmath.rst",
+      "title": ":mod:`!cmath` --- Mathematical functions for complex numbers",
+      "file": "docs/Doc_library_cmath.html",
+      "size_bytes": 17012
+    },
+    "warnings": {
+      "source_path": "Doc/library/warnings.rst",
+      "title": ":mod:`!warnings` --- Warning control",
+      "file": "docs/Doc_library_warnings.html",
+      "size_bytes": 37168
+    },
+    "mailbox": {
+      "source_path": "Doc/library/mailbox.rst",
+      "title": ":mod:`!mailbox` --- Manipulate mailboxes in various formats",
+      "file": "docs/Doc_library_mailbox.html",
+      "size_bytes": 80963
+    },
+    "codeop": {
+      "source_path": "Doc/library/codeop.rst",
+      "title": ":mod:`!codeop` --- Compile Python code",
+      "file": "docs/Doc_library_codeop.html",
+      "size_bytes": 4152
+    },
+    "ipaddress": {
+      "source_path": "Doc/library/ipaddress.rst",
+      "title": ":mod:`!ipaddress` --- IPv4/IPv6 manipulation library",
+      "file": "docs/Doc_library_ipaddress.html",
+      "size_bytes": 48158
+    },
+    "turtle": {
+      "source_path": "Doc/library/turtle.rst",
+      "title": ":mod:`!turtle` --- Turtle graphics",
+      "file": "docs/Doc_library_turtle.html",
+      "size_bytes": 107251
+    },
+    "filesys": {
+      "source_path": "Doc/library/filesys.rst",
+      "title": "File and Directory Access",
+      "file": "docs/Doc_library_filesys.html",
+      "size_bytes": 1120
+    },
+    "sysconfig": {
+      "source_path": "Doc/library/sysconfig.rst",
+      "title": ":mod:`!sysconfig` --- Provide access to Python's configuration information",
+      "file": "docs/Doc_library_sysconfig.html",
+      "size_bytes": 23028
+    },
+    "errno": {
+      "source_path": "Doc/library/errno.rst",
+      "title": ":mod:`!errno` --- Standard errno system symbols",
+      "file": "docs/Doc_library_errno.html",
+      "size_bytes": 15548
+    },
+    "email.generator": {
+      "source_path": "Doc/library/email.generator.rst",
+      "title": ":mod:`!email.generator`: Generating MIME documents",
+      "file": "docs/Doc_library_email.generator.html",
+      "size_bytes": 18227
+    },
+    "interactive": {
+      "source_path": "Doc/tutorial/interactive.rst",
+      "title": "Interactive Input Editing and History Substitution",
+      "file": "docs/Doc_tutorial_interactive.html",
+      "size_bytes": 2511
+    },
+    "stdlib2": {
+      "source_path": "Doc/tutorial/stdlib2.rst",
+      "title": "Brief Tour of the Standard Library --- Part II",
+      "file": "docs/Doc_tutorial_stdlib2.html",
+      "size_bytes": 18148
+    },
+    "classes": {
+      "source_path": "Doc/tutorial/classes.rst",
+      "title": "Classes",
+      "file": "docs/Doc_tutorial_classes.html",
+      "size_bytes": 42486
+    },
+    "introduction": {
+      "source_path": "Doc/reference/introduction.rst",
+      "title": "Introduction",
+      "file": "docs/Doc_reference_introduction.html",
+      "size_bytes": 10826
+    },
+    "appetite": {
+      "source_path": "Doc/tutorial/appetite.rst",
+      "title": "Whetting Your Appetite",
+      "file": "docs/Doc_tutorial_appetite.html",
+      "size_bytes": 4570
+    },
+    "datastructures": {
+      "source_path": "Doc/tutorial/datastructures.rst",
+      "title": "Data Structures",
+      "file": "docs/Doc_tutorial_datastructures.html",
+      "size_bytes": 31447
+    },
+    "inputoutput": {
+      "source_path": "Doc/tutorial/inputoutput.rst",
+      "title": "Input and Output",
+      "file": "docs/Doc_tutorial_inputoutput.html",
+      "size_bytes": 26383
+    },
+    "interpreter": {
+      "source_path": "Doc/tutorial/interpreter.rst",
+      "title": "Using the Python Interpreter",
+      "file": "docs/Doc_tutorial_interpreter.html",
+      "size_bytes": 8157
+    },
+    "appendix": {
+      "source_path": "Doc/tutorial/appendix.rst",
+      "title": "Appendix",
+      "file": "docs/Doc_tutorial_appendix.html",
+      "size_bytes": 7460
+    },
+    "errors": {
+      "source_path": "Doc/tutorial/errors.rst",
+      "title": "Errors and Exceptions",
+      "file": "docs/Doc_tutorial_errors.html",
+      "size_bytes": 29590
+    },
+    "whatnow": {
+      "source_path": "Doc/tutorial/whatnow.rst",
+      "title": "What Now?",
+      "file": "docs/Doc_tutorial_whatnow.html",
+      "size_bytes": 4109
+    },
+    "controlflow": {
+      "source_path": "Doc/tutorial/controlflow.rst",
+      "title": "More Control Flow Tools",
+      "file": "docs/Doc_tutorial_controlflow.html",
+      "size_bytes": 48410
+    },
+    "stdlib": {
+      "source_path": "Doc/tutorial/stdlib.rst",
+      "title": "Brief Tour of the Standard Library",
+      "file": "docs/Doc_tutorial_stdlib.html",
+      "size_bytes": 14487
+    },
+    "floatingpoint": {
+      "source_path": "Doc/tutorial/floatingpoint.rst",
+      "title": "Floating-Point Arithmetic:  Issues and Limitations",
+      "file": "docs/Doc_tutorial_floatingpoint.html",
+      "size_bytes": 14805
+    },
+    "expressions": {
+      "source_path": "Doc/reference/expressions.rst",
+      "title": "Expressions",
+      "file": "docs/Doc_reference_expressions.html",
+      "size_bytes": 110159
+    },
+    "lexical_analysis": {
+      "source_path": "Doc/reference/lexical_analysis.rst",
+      "title": "Lexical analysis",
+      "file": "docs/Doc_reference_lexical_analysis.html",
+      "size_bytes": 67991
+    },
+    "compound_stmts": {
+      "source_path": "Doc/reference/compound_stmts.rst",
+      "title": "Compound statements",
+      "file": "docs/Doc_reference_compound_stmts.html",
+      "size_bytes": 99807
+    },
+    "datamodel": {
+      "source_path": "Doc/reference/datamodel.rst",
+      "title": "Data model",
+      "file": "docs/Doc_reference_datamodel.html",
+      "size_bytes": 202512
+    },
+    "simple_stmts": {
+      "source_path": "Doc/reference/simple_stmts.rst",
+      "title": "Simple statements",
+      "file": "docs/Doc_reference_simple_stmts.html",
+      "size_bytes": 52429
+    },
+    "toplevel_components": {
+      "source_path": "Doc/reference/toplevel_components.rst",
+      "title": "Top-level components",
+      "file": "docs/Doc_reference_toplevel_components.html",
+      "size_bytes": 3857
+    },
+    "grammar": {
+      "source_path": "Doc/reference/grammar.rst",
+      "title": "Full Grammar specification",
+      "file": "docs/Doc_reference_grammar.html",
+      "size_bytes": 758
+    },
+    "executionmodel": {
+      "source_path": "Doc/reference/executionmodel.rst",
+      "title": "Execution model",
+      "file": "docs/Doc_reference_executionmodel.html",
+      "size_bytes": 29754
+    },
+    "import": {
+      "source_path": "Doc/reference/import.rst",
+      "title": "The import system",
+      "file": "docs/Doc_reference_import.html",
+      "size_bytes": 55477
+    }
+  }
+}

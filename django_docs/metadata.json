@@ -1,0 +1,3510 @@
+{
+  "corpus": "django_docs",
+  "project": "django",
+  "source_url": "https://github.com/django/django.git",
+  "version": "main",
+  "license": "BSD-3-Clause",
+  "converter": "rst",
+  "extraction_date": "2025-12-24T14:32:55.997389+00:00",
+  "total_documents": 654,
+  "documents": {
+    "index": {
+      "source_path": "docs/topics/db/examples/index.txt",
+      "title": "Examples of model relationship API usage",
+      "file": "docs/docs_topics_db_examples_index.html",
+      "size_bytes": 186
+    },
+    "requirements": {
+      "source_path": "docs/requirements.txt",
+      "title": "Requirements",
+      "file": "docs/docs_requirements.html",
+      "size_bytes": 82
+    },
+    "glossary": {
+      "source_path": "docs/glossary.txt",
+      "title": "Glossary",
+      "file": "docs/docs_glossary.html",
+      "size_bytes": 2957
+    },
+    "contents": {
+      "source_path": "docs/contents.txt",
+      "title": "Django documentation contents",
+      "file": "docs/docs_contents.html",
+      "size_bytes": 572
+    },
+    "deprecation": {
+      "source_path": "docs/internals/deprecation.txt",
+      "title": "Django Deprecation Timeline",
+      "file": "docs/docs_internals_deprecation.html",
+      "size_bytes": 68156
+    },
+    "git": {
+      "source_path": "docs/internals/git.txt",
+      "title": "The Django source code repository",
+      "file": "docs/docs_internals_git.html",
+      "size_bytes": 10170
+    },
+    "release-process": {
+      "source_path": "docs/internals/release-process.txt",
+      "title": "Django's release process",
+      "file": "docs/docs_internals_release-process.html",
+      "size_bytes": 11006
+    },
+    "howto-release-django": {
+      "source_path": "docs/internals/howto-release-django.txt",
+      "title": "How to release Django",
+      "file": "docs/docs_internals_howto-release-django.html",
+      "size_bytes": 36618
+    },
+    "organization": {
+      "source_path": "docs/internals/organization.txt",
+      "title": "Organization of the Django Project",
+      "file": "docs/docs_internals_organization.html",
+      "size_bytes": 14532
+    },
+    "security": {
+      "source_path": "docs/topics/security.txt",
+      "title": "Security in Django",
+      "file": "docs/docs_topics_security.html",
+      "size_bytes": 19689
+    },
+    "mailing-lists": {
+      "source_path": "docs/internals/mailing-lists.txt",
+      "title": "Mailing lists and Forum",
+      "file": "docs/docs_internals_mailing-lists.html",
+      "size_bytes": 3773
+    },
+    "1.1.3": {
+      "source_path": "docs/releases/1.1.3.txt",
+      "title": "Django 1.1.3 release notes",
+      "file": "docs/docs_releases_1.1.3.html",
+      "size_bytes": 2403
+    },
+    "1.4.22": {
+      "source_path": "docs/releases/1.4.22.txt",
+      "title": "Django 1.4.22 release notes",
+      "file": "docs/docs_releases_1.4.22.html",
+      "size_bytes": 1596
+    },
+    "2.2.24": {
+      "source_path": "docs/releases/2.2.24.txt",
+      "title": "Django 2.2.24 release notes",
+      "file": "docs/docs_releases_2.2.24.html",
+      "size_bytes": 1772
+    },
+    "1.4.18": {
+      "source_path": "docs/releases/1.4.18.txt",
+      "title": "Django 1.4.18 release notes",
+      "file": "docs/docs_releases_1.4.18.html",
+      "size_bytes": 3701
+    },
+    "2.2.25": {
+      "source_path": "docs/releases/2.2.25.txt",
+      "title": "Django 2.2.25 release notes",
+      "file": "docs/docs_releases_2.2.25.html",
+      "size_bytes": 468
+    },
+    "2.2.3": {
+      "source_path": "docs/releases/2.2.3.txt",
+      "title": "Django 2.2.3 release notes",
+      "file": "docs/docs_releases_2.2.3.html",
+      "size_bytes": 2189
+    },
+    "3.2.20": {
+      "source_path": "docs/releases/3.2.20.txt",
+      "title": "Django 3.2.20 release notes",
+      "file": "docs/docs_releases_3.2.20.html",
+      "size_bytes": 634
+    },
+    "1.7.4": {
+      "source_path": "docs/releases/1.7.4.txt",
+      "title": "Django 1.7.4 release notes",
+      "file": "docs/docs_releases_1.7.4.html",
+      "size_bytes": 1185
+    },
+    "1.9.5": {
+      "source_path": "docs/releases/1.9.5.txt",
+      "title": "Django 1.9.5 release notes",
+      "file": "docs/docs_releases_1.9.5.html",
+      "size_bytes": 2744
+    },
+    "1.7.5": {
+      "source_path": "docs/releases/1.7.5.txt",
+      "title": "Django 1.7.5 release notes",
+      "file": "docs/docs_releases_1.7.5.html",
+      "size_bytes": 1288
+    },
+    "4.1.9": {
+      "source_path": "docs/releases/4.1.9.txt",
+      "title": "Django 4.1.9 release notes",
+      "file": "docs/docs_releases_4.1.9.html",
+      "size_bytes": 1377
+    },
+    "1.3.7": {
+      "source_path": "docs/releases/1.3.7.txt",
+      "title": "Django 1.3.7 release notes",
+      "file": "docs/docs_releases_1.3.7.html",
+      "size_bytes": 569
+    },
+    "3.1.14": {
+      "source_path": "docs/releases/3.1.14.txt",
+      "title": "Django 3.1.14 release notes",
+      "file": "docs/docs_releases_3.1.14.html",
+      "size_bytes": 468
+    },
+    "4.2.5": {
+      "source_path": "docs/releases/4.2.5.txt",
+      "title": "Django 4.2.5 release notes",
+      "file": "docs/docs_releases_4.2.5.html",
+      "size_bytes": 1546
+    },
+    "5.0": {
+      "source_path": "docs/releases/5.0.txt",
+      "title": "Django 5.0 release notes",
+      "file": "docs/docs_releases_5.0.html",
+      "size_bytes": 35660
+    },
+    "2.1.4": {
+      "source_path": "docs/releases/2.1.4.txt",
+      "title": "Django 2.1.4 release notes",
+      "file": "docs/docs_releases_2.1.4.html",
+      "size_bytes": 1220
+    },
+    "3.2.6": {
+      "source_path": "docs/releases/3.2.6.txt",
+      "title": "Django 3.2.6 release notes",
+      "file": "docs/docs_releases_3.2.6.html",
+      "size_bytes": 669
+    },
+    "3.2": {
+      "source_path": "docs/releases/3.2.txt",
+      "title": "Django 3.2 release notes",
+      "file": "docs/docs_releases_3.2.html",
+      "size_bytes": 43438
+    },
+    "1.11.12": {
+      "source_path": "docs/releases/1.11.12.txt",
+      "title": "Django 1.11.12 release notes",
+      "file": "docs/docs_releases_1.11.12.html",
+      "size_bytes": 725
+    },
+    "4.0": {
+      "source_path": "docs/releases/4.0.txt",
+      "title": "Django 4.0 release notes",
+      "file": "docs/docs_releases_4.0.html",
+      "size_bytes": 39879
+    },
+    "1.11.15": {
+      "source_path": "docs/releases/1.11.15.txt",
+      "title": "Django 1.11.15 release notes",
+      "file": "docs/docs_releases_1.11.15.html",
+      "size_bytes": 890
+    },
+    "3.2.8": {
+      "source_path": "docs/releases/3.2.8.txt",
+      "title": "Django 3.2.8 release notes",
+      "file": "docs/docs_releases_3.2.8.html",
+      "size_bytes": 588
+    },
+    "6.1": {
+      "source_path": "docs/releases/6.1.txt",
+      "title": "Django 6.1 release notes - UNDER DEVELOPMENT",
+      "file": "docs/docs_releases_6.1.html",
+      "size_bytes": 17356
+    },
+    "3.1": {
+      "source_path": "docs/releases/3.1.txt",
+      "title": "Django 3.1 release notes",
+      "file": "docs/docs_releases_3.1.html",
+      "size_bytes": 46381
+    },
+    "2.1.7": {
+      "source_path": "docs/releases/2.1.7.txt",
+      "title": "Django 2.1.7 release notes",
+      "file": "docs/docs_releases_2.1.7.html",
+      "size_bytes": 306
+    },
+    "5.0.10": {
+      "source_path": "docs/releases/5.0.10.txt",
+      "title": "Django 5.0.10 release notes",
+      "file": "docs/docs_releases_5.0.10.html",
+      "size_bytes": 1792
+    },
+    "3.2.10": {
+      "source_path": "docs/releases/3.2.10.txt",
+      "title": "Django 3.2.10 release notes",
+      "file": "docs/docs_releases_3.2.10.html",
+      "size_bytes": 760
+    },
+    "5.0.11": {
+      "source_path": "docs/releases/5.0.11.txt",
+      "title": "Django 5.0.11 release notes",
+      "file": "docs/docs_releases_5.0.11.html",
+      "size_bytes": 945
+    },
+    "2.0.9": {
+      "source_path": "docs/releases/2.0.9.txt",
+      "title": "Django 2.0.9 release notes",
+      "file": "docs/docs_releases_2.0.9.html",
+      "size_bytes": 363
+    },
+    "1.7.6": {
+      "source_path": "docs/releases/1.7.6.txt",
+      "title": "Django 1.7.6 release notes",
+      "file": "docs/docs_releases_1.7.6.html",
+      "size_bytes": 1444
+    },
+    "3.2.19": {
+      "source_path": "docs/releases/3.2.19.txt",
+      "title": "Django 3.2.19 release notes",
+      "file": "docs/docs_releases_3.2.19.html",
+      "size_bytes": 1381
+    },
+    "2.0.13": {
+      "source_path": "docs/releases/2.0.13.txt",
+      "title": "Django 2.0.13 release notes",
+      "file": "docs/docs_releases_2.0.13.html",
+      "size_bytes": 381
+    },
+    "4.2.16": {
+      "source_path": "docs/releases/4.2.16.txt",
+      "title": "Django 4.2.16 release notes",
+      "file": "docs/docs_releases_4.2.16.html",
+      "size_bytes": 1342
+    },
+    "1.7.10": {
+      "source_path": "docs/releases/1.7.10.txt",
+      "title": "Django 1.7.10 release notes",
+      "file": "docs/docs_releases_1.7.10.html",
+      "size_bytes": 1425
+    },
+    "1.5.11": {
+      "source_path": "docs/releases/1.5.11.txt",
+      "title": "Django 1.5.11 release notes",
+      "file": "docs/docs_releases_1.5.11.html",
+      "size_bytes": 484
+    },
+    "2.1.6": {
+      "source_path": "docs/releases/2.1.6.txt",
+      "title": "Django 2.1.6 release notes",
+      "file": "docs/docs_releases_2.1.6.html",
+      "size_bytes": 1110
+    },
+    "4.2.2": {
+      "source_path": "docs/releases/4.2.2.txt",
+      "title": "Django 4.2.2 release notes",
+      "file": "docs/docs_releases_4.2.2.html",
+      "size_bytes": 2684
+    },
+    "2.0.10": {
+      "source_path": "docs/releases/2.0.10.txt",
+      "title": "Django 2.0.10 release notes",
+      "file": "docs/docs_releases_2.0.10.html",
+      "size_bytes": 1456
+    },
+    "3.2.24": {
+      "source_path": "docs/releases/3.2.24.txt",
+      "title": "Django 3.2.24 release notes",
+      "file": "docs/docs_releases_3.2.24.html",
+      "size_bytes": 488
+    },
+    "6.0": {
+      "source_path": "docs/releases/6.0.txt",
+      "title": "Django 6.0 release notes",
+      "file": "docs/docs_releases_6.0.html",
+      "size_bytes": 33390
+    },
+    "2.2.10": {
+      "source_path": "docs/releases/2.2.10.txt",
+      "title": "Django 2.2.10 release notes",
+      "file": "docs/docs_releases_2.2.10.html",
+      "size_bytes": 513
+    },
+    "1.8.10": {
+      "source_path": "docs/releases/1.8.10.txt",
+      "title": "Django 1.8.10 release notes",
+      "file": "docs/docs_releases_1.8.10.html",
+      "size_bytes": 4708
+    },
+    "1.5.7": {
+      "source_path": "docs/releases/1.5.7.txt",
+      "title": "Django 1.5.7 release notes",
+      "file": "docs/docs_releases_1.5.7.html",
+      "size_bytes": 417
+    },
+    "1.0.2": {
+      "source_path": "docs/releases/1.0.2.txt",
+      "title": "Django 1.0.2 release notes",
+      "file": "docs/docs_releases_1.0.2.html",
+      "size_bytes": 2365
+    },
+    "1.7.3": {
+      "source_path": "docs/releases/1.7.3.txt",
+      "title": "Django 1.7.3 release notes",
+      "file": "docs/docs_releases_1.7.3.html",
+      "size_bytes": 4965
+    },
+    "1.4.12": {
+      "source_path": "docs/releases/1.4.12.txt",
+      "title": "Django 1.4.12 release notes",
+      "file": "docs/docs_releases_1.4.12.html",
+      "size_bytes": 421
+    },
+    "1.11.1": {
+      "source_path": "docs/releases/1.11.1.txt",
+      "title": "Django 1.11.1 release notes",
+      "file": "docs/docs_releases_1.11.1.html",
+      "size_bytes": 6510
+    },
+    "1.11.20": {
+      "source_path": "docs/releases/1.11.20.txt",
+      "title": "Django 1.11.20 release notes",
+      "file": "docs/docs_releases_1.11.20.html",
+      "size_bytes": 316
+    },
+    "2.1.9": {
+      "source_path": "docs/releases/2.1.9.txt",
+      "title": "Django 2.1.9 release notes",
+      "file": "docs/docs_releases_2.1.9.html",
+      "size_bytes": 1581
+    },
+    "1.11.17": {
+      "source_path": "docs/releases/1.11.17.txt",
+      "title": "Django 1.11.17 release notes",
+      "file": "docs/docs_releases_1.11.17.html",
+      "size_bytes": 503
+    },
+    "3.1.7": {
+      "source_path": "docs/releases/3.1.7.txt",
+      "title": "Django 3.1.7 release notes",
+      "file": "docs/docs_releases_3.1.7.html",
+      "size_bytes": 1040
+    },
+    "1.4.10": {
+      "source_path": "docs/releases/1.4.10.txt",
+      "title": "Django 1.4.10 release notes",
+      "file": "docs/docs_releases_1.4.10.html",
+      "size_bytes": 404
+    },
+    "1.4.17": {
+      "source_path": "docs/releases/1.4.17.txt",
+      "title": "Django 1.4.17 release notes",
+      "file": "docs/docs_releases_1.4.17.html",
+      "size_bytes": 518
+    },
+    "2.0.8": {
+      "source_path": "docs/releases/2.0.8.txt",
+      "title": "Django 2.0.8 release notes",
+      "file": "docs/docs_releases_2.0.8.html",
+      "size_bytes": 1342
+    },
+    "3.2.14": {
+      "source_path": "docs/releases/3.2.14.txt",
+      "title": "Django 3.2.14 release notes",
+      "file": "docs/docs_releases_3.2.14.html",
+      "size_bytes": 842
+    },
+    "1.7.8": {
+      "source_path": "docs/releases/1.7.8.txt",
+      "title": "Django 1.7.8 release notes",
+      "file": "docs/docs_releases_1.7.8.html",
+      "size_bytes": 573
+    },
+    "1.1": {
+      "source_path": "docs/releases/1.1.txt",
+      "title": "Django 1.1 release notes",
+      "file": "docs/docs_releases_1.1.html",
+      "size_bytes": 22862
+    },
+    "2.1.12": {
+      "source_path": "docs/releases/2.1.12.txt",
+      "title": "Django 2.1.12 release notes",
+      "file": "docs/docs_releases_2.1.12.html",
+      "size_bytes": 506
+    },
+    "1.8.12": {
+      "source_path": "docs/releases/1.8.12.txt",
+      "title": "Django 1.8.12 release notes",
+      "file": "docs/docs_releases_1.8.12.html",
+      "size_bytes": 799
+    },
+    "4.2.25": {
+      "source_path": "docs/releases/4.2.25.txt",
+      "title": "Django 4.2.25 release notes",
+      "file": "docs/docs_releases_4.2.25.html",
+      "size_bytes": 1647
+    },
+    "4.2.7": {
+      "source_path": "docs/releases/4.2.7.txt",
+      "title": "Django 4.2.7 release notes",
+      "file": "docs/docs_releases_4.2.7.html",
+      "size_bytes": 1433
+    },
+    "5.1.11": {
+      "source_path": "docs/releases/5.1.11.txt",
+      "title": "Django 5.1.11 release notes",
+      "file": "docs/docs_releases_5.1.11.html",
+      "size_bytes": 493
+    },
+    "1.7.7": {
+      "source_path": "docs/releases/1.7.7.txt",
+      "title": "Django 1.7.7 release notes",
+      "file": "docs/docs_releases_1.7.7.html",
+      "size_bytes": 3101
+    },
+    "1.5.12": {
+      "source_path": "docs/releases/1.5.12.txt",
+      "title": "Django 1.5.12 release notes",
+      "file": "docs/docs_releases_1.5.12.html",
+      "size_bytes": 382
+    },
+    "3.0.6": {
+      "source_path": "docs/releases/3.0.6.txt",
+      "title": "Django 3.0.6 release notes",
+      "file": "docs/docs_releases_3.0.6.html",
+      "size_bytes": 444
+    },
+    "3.2.1": {
+      "source_path": "docs/releases/3.2.1.txt",
+      "title": "Django 3.2.1 release notes",
+      "file": "docs/docs_releases_3.2.1.html",
+      "size_bytes": 4720
+    },
+    "1.0-porting-guide": {
+      "source_path": "docs/releases/1.0-porting-guide.txt",
+      "title": "Porting your apps from Django 0.96 to 1.0",
+      "file": "docs/docs_releases_1.0-porting-guide.html",
+      "size_bytes": 32516
+    },
+    "5.0.4": {
+      "source_path": "docs/releases/5.0.4.txt",
+      "title": "Django 5.0.4 release notes",
+      "file": "docs/docs_releases_5.0.4.html",
+      "size_bytes": 1486
+    },
+    "5.1.4": {
+      "source_path": "docs/releases/5.1.4.txt",
+      "title": "Django 5.1.4 release notes",
+      "file": "docs/docs_releases_5.1.4.html",
+      "size_bytes": 2293
+    },
+    "1.11.21": {
+      "source_path": "docs/releases/1.11.21.txt",
+      "title": "Django 1.11.21 release notes",
+      "file": "docs/docs_releases_1.11.21.html",
+      "size_bytes": 1007
+    },
+    "1.6.9": {
+      "source_path": "docs/releases/1.6.9.txt",
+      "title": "Django 1.6.9 release notes",
+      "file": "docs/docs_releases_1.6.9.html",
+      "size_bytes": 514
+    },
+    "4.2.12": {
+      "source_path": "docs/releases/4.2.12.txt",
+      "title": "Django 4.2.12 release notes",
+      "file": "docs/docs_releases_4.2.12.html",
+      "size_bytes": 442
+    },
+    "1.11.19": {
+      "source_path": "docs/releases/1.11.19.txt",
+      "title": "Django 1.11.19 release notes",
+      "file": "docs/docs_releases_1.11.19.html",
+      "size_bytes": 816
+    },
+    "1.11.7": {
+      "source_path": "docs/releases/1.11.7.txt",
+      "title": "Django 1.11.7 release notes",
+      "file": "docs/docs_releases_1.11.7.html",
+      "size_bytes": 867
+    },
+    "4.1.10": {
+      "source_path": "docs/releases/4.1.10.txt",
+      "title": "Django 4.1.10 release notes",
+      "file": "docs/docs_releases_4.1.10.html",
+      "size_bytes": 633
+    },
+    "2.1.1": {
+      "source_path": "docs/releases/2.1.1.txt",
+      "title": "Django 2.1.1 release notes",
+      "file": "docs/docs_releases_2.1.1.html",
+      "size_bytes": 2631
+    },
+    "2.2.7": {
+      "source_path": "docs/releases/2.2.7.txt",
+      "title": "Django 2.2.7 release notes",
+      "file": "docs/docs_releases_2.2.7.html",
+      "size_bytes": 1349
+    },
+    "2.2.11": {
+      "source_path": "docs/releases/2.2.11.txt",
+      "title": "Django 2.2.11 release notes",
+      "file": "docs/docs_releases_2.2.11.html",
+      "size_bytes": 989
+    },
+    "2.1.8": {
+      "source_path": "docs/releases/2.1.8.txt",
+      "title": "Django 2.1.8 release notes",
+      "file": "docs/docs_releases_2.1.8.html",
+      "size_bytes": 398
+    },
+    "1.3.2": {
+      "source_path": "docs/releases/1.3.2.txt",
+      "title": "Django 1.3.2 release notes",
+      "file": "docs/docs_releases_1.3.2.html",
+      "size_bytes": 456
+    },
+    "5.2.7": {
+      "source_path": "docs/releases/5.2.7.txt",
+      "title": "Django 5.2.7 release notes",
+      "file": "docs/docs_releases_5.2.7.html",
+      "size_bytes": 2032
+    },
+    "1.11.26": {
+      "source_path": "docs/releases/1.11.26.txt",
+      "title": "Django 1.11.26 release notes",
+      "file": "docs/docs_releases_1.11.26.html",
+      "size_bytes": 554
+    },
+    "1.8.7": {
+      "source_path": "docs/releases/1.8.7.txt",
+      "title": "Django 1.8.7 release notes",
+      "file": "docs/docs_releases_1.8.7.html",
+      "size_bytes": 3716
+    },
+    "1.8.2": {
+      "source_path": "docs/releases/1.8.2.txt",
+      "title": "Django 1.8.2 release notes",
+      "file": "docs/docs_releases_1.8.2.html",
+      "size_bytes": 3532
+    },
+    "5.1": {
+      "source_path": "docs/releases/5.1.txt",
+      "title": "Django 5.1 release notes",
+      "file": "docs/docs_releases_5.1.html",
+      "size_bytes": 25830
+    },
+    "1.11.3": {
+      "source_path": "docs/releases/1.11.3.txt",
+      "title": "Django 1.11.3 release notes",
+      "file": "docs/docs_releases_1.11.3.html",
+      "size_bytes": 3603
+    },
+    "5.1.5": {
+      "source_path": "docs/releases/5.1.5.txt",
+      "title": "Django 5.1.5 release notes",
+      "file": "docs/docs_releases_5.1.5.html",
+      "size_bytes": 1176
+    },
+    "1.9.13": {
+      "source_path": "docs/releases/1.9.13.txt",
+      "title": "Django 1.9.13 release notes",
+      "file": "docs/docs_releases_1.9.13.html",
+      "size_bytes": 1854
+    },
+    "2.0.2": {
+      "source_path": "docs/releases/2.0.2.txt",
+      "title": "Django 2.0.2 release notes",
+      "file": "docs/docs_releases_2.0.2.html",
+      "size_bytes": 2671
+    },
+    "4.0.4": {
+      "source_path": "docs/releases/4.0.4.txt",
+      "title": "Django 4.0.4 release notes",
+      "file": "docs/docs_releases_4.0.4.html",
+      "size_bytes": 1733
+    },
+    "2.1.3": {
+      "source_path": "docs/releases/2.1.3.txt",
+      "title": "Django 2.1.3 release notes",
+      "file": "docs/docs_releases_2.1.3.html",
+      "size_bytes": 1170
+    },
+    "2.2.19": {
+      "source_path": "docs/releases/2.2.19.txt",
+      "title": "Django 2.2.19 release notes",
+      "file": "docs/docs_releases_2.2.19.html",
+      "size_bytes": 768
+    },
+    "2.1.14": {
+      "source_path": "docs/releases/2.1.14.txt",
+      "title": "Django 2.1.14 release notes",
+      "file": "docs/docs_releases_2.1.14.html",
+      "size_bytes": 550
+    },
+    "4.0.5": {
+      "source_path": "docs/releases/4.0.5.txt",
+      "title": "Django 4.0.5 release notes",
+      "file": "docs/docs_releases_4.0.5.html",
+      "size_bytes": 780
+    },
+    "1.8.13": {
+      "source_path": "docs/releases/1.8.13.txt",
+      "title": "Django 1.8.13 release notes",
+      "file": "docs/docs_releases_1.8.13.html",
+      "size_bytes": 533
+    },
+    "5.1.12": {
+      "source_path": "docs/releases/5.1.12.txt",
+      "title": "Django 5.1.12 release notes",
+      "file": "docs/docs_releases_5.1.12.html",
+      "size_bytes": 722
+    },
+    "1.10": {
+      "source_path": "docs/releases/1.10.txt",
+      "title": "Django 1.10 release notes",
+      "file": "docs/docs_releases_1.10.html",
+      "size_bytes": 71474
+    },
+    "1.11.8": {
+      "source_path": "docs/releases/1.11.8.txt",
+      "title": "Django 1.11.8 release notes",
+      "file": "docs/docs_releases_1.11.8.html",
+      "size_bytes": 1881
+    },
+    "5.2": {
+      "source_path": "docs/releases/5.2.txt",
+      "title": "Django 5.2 release notes",
+      "file": "docs/docs_releases_5.2.html",
+      "size_bytes": 27780
+    },
+    "1.11.24": {
+      "source_path": "docs/releases/1.11.24.txt",
+      "title": "Django 1.11.24 release notes",
+      "file": "docs/docs_releases_1.11.24.html",
+      "size_bytes": 510
+    },
+    "2.2.22": {
+      "source_path": "docs/releases/2.2.22.txt",
+      "title": "Django 2.2.22 release notes",
+      "file": "docs/docs_releases_2.2.22.html",
+      "size_bytes": 1161
+    },
+    "2.2.21": {
+      "source_path": "docs/releases/2.2.21.txt",
+      "title": "Django 2.2.21 release notes",
+      "file": "docs/docs_releases_2.2.21.html",
+      "size_bytes": 561
+    },
+    "1.11.28": {
+      "source_path": "docs/releases/1.11.28.txt",
+      "title": "Django 1.11.28 release notes",
+      "file": "docs/docs_releases_1.11.28.html",
+      "size_bytes": 518
+    },
+    "5.0.12": {
+      "source_path": "docs/releases/5.0.12.txt",
+      "title": "Django 5.0.12 release notes",
+      "file": "docs/docs_releases_5.0.12.html",
+      "size_bytes": 435
+    },
+    "1.11.11": {
+      "source_path": "docs/releases/1.11.11.txt",
+      "title": "Django 1.11.11 release notes",
+      "file": "docs/docs_releases_1.11.11.html",
+      "size_bytes": 1615
+    },
+    "4.2.1": {
+      "source_path": "docs/releases/4.2.1.txt",
+      "title": "Django 4.2.1 release notes",
+      "file": "docs/docs_releases_4.2.1.html",
+      "size_bytes": 4620
+    },
+    "5.0.7": {
+      "source_path": "docs/releases/5.0.7.txt",
+      "title": "Django 5.0.7 release notes",
+      "file": "docs/docs_releases_5.0.7.html",
+      "size_bytes": 3232
+    },
+    "3.2.16": {
+      "source_path": "docs/releases/3.2.16.txt",
+      "title": "Django 3.2.16 release notes",
+      "file": "docs/docs_releases_3.2.16.html",
+      "size_bytes": 468
+    },
+    "2.0.12": {
+      "source_path": "docs/releases/2.0.12.txt",
+      "title": "Django 2.0.12 release notes",
+      "file": "docs/docs_releases_2.0.12.html",
+      "size_bytes": 311
+    },
+    "4.1": {
+      "source_path": "docs/releases/4.1.txt",
+      "title": "Django 4.1 release notes",
+      "file": "docs/docs_releases_4.1.html",
+      "size_bytes": 41645
+    },
+    "5.0.13": {
+      "source_path": "docs/releases/5.0.13.txt",
+      "title": "Django 5.0.13 release notes",
+      "file": "docs/docs_releases_5.0.13.html",
+      "size_bytes": 576
+    },
+    "1.8.1": {
+      "source_path": "docs/releases/1.8.1.txt",
+      "title": "Django 1.8.1 release notes",
+      "file": "docs/docs_releases_1.8.1.html",
+      "size_bytes": 5386
+    },
+    "1.2.5": {
+      "source_path": "docs/releases/1.2.5.txt",
+      "title": "Django 1.2.5 release notes",
+      "file": "docs/docs_releases_1.2.5.html",
+      "size_bytes": 6191
+    },
+    "2.1.10": {
+      "source_path": "docs/releases/2.1.10.txt",
+      "title": "Django 2.1.10 release notes",
+      "file": "docs/docs_releases_2.1.10.html",
+      "size_bytes": 1479
+    },
+    "1.6.1": {
+      "source_path": "docs/releases/1.6.1.txt",
+      "title": "Django 1.6.1 release notes",
+      "file": "docs/docs_releases_1.6.1.html",
+      "size_bytes": 3718
+    },
+    "1.11.16": {
+      "source_path": "docs/releases/1.11.16.txt",
+      "title": "Django 1.11.16 release notes",
+      "file": "docs/docs_releases_1.11.16.html",
+      "size_bytes": 371
+    },
+    "2.2.28": {
+      "source_path": "docs/releases/2.2.28.txt",
+      "title": "Django 2.2.28 release notes",
+      "file": "docs/docs_releases_2.2.28.html",
+      "size_bytes": 1223
+    },
+    "1.4.4": {
+      "source_path": "docs/releases/1.4.4.txt",
+      "title": "Django 1.4.4 release notes",
+      "file": "docs/docs_releases_1.4.4.html",
+      "size_bytes": 4078
+    },
+    "0.95": {
+      "source_path": "docs/releases/0.95.txt",
+      "title": "Django version 0.95 release notes",
+      "file": "docs/docs_releases_0.95.html",
+      "size_bytes": 6005
+    },
+    "3.1.6": {
+      "source_path": "docs/releases/3.1.6.txt",
+      "title": "Django 3.1.6 release notes",
+      "file": "docs/docs_releases_3.1.6.html",
+      "size_bytes": 878
+    },
+    "2.1.11": {
+      "source_path": "docs/releases/2.1.11.txt",
+      "title": "Django 2.1.11 release notes",
+      "file": "docs/docs_releases_2.1.11.html",
+      "size_bytes": 3480
+    },
+    "1.7.1": {
+      "source_path": "docs/releases/1.7.1.txt",
+      "title": "Django 1.7.1 release notes",
+      "file": "docs/docs_releases_1.7.1.html",
+      "size_bytes": 8398
+    },
+    "1.9.6": {
+      "source_path": "docs/releases/1.9.6.txt",
+      "title": "Django 1.9.6 release notes",
+      "file": "docs/docs_releases_1.9.6.html",
+      "size_bytes": 1581
+    },
+    "1.7.9": {
+      "source_path": "docs/releases/1.7.9.txt",
+      "title": "Django 1.7.9 release notes",
+      "file": "docs/docs_releases_1.7.9.html",
+      "size_bytes": 3678
+    },
+    "5.2.9": {
+      "source_path": "docs/releases/5.2.9.txt",
+      "title": "Django 5.2.9 release notes",
+      "file": "docs/docs_releases_5.2.9.html",
+      "size_bytes": 2889
+    },
+    "0.96": {
+      "source_path": "docs/releases/0.96.txt",
+      "title": "Django version 0.96 release notes",
+      "file": "docs/docs_releases_0.96.html",
+      "size_bytes": 10855
+    },
+    "4.1.13": {
+      "source_path": "docs/releases/4.1.13.txt",
+      "title": "Django 4.1.13 release notes",
+      "file": "docs/docs_releases_4.1.13.html",
+      "size_bytes": 885
+    },
+    "1.9.9": {
+      "source_path": "docs/releases/1.9.9.txt",
+      "title": "Django 1.9.9 release notes",
+      "file": "docs/docs_releases_1.9.9.html",
+      "size_bytes": 445
+    },
+    "1.10.7": {
+      "source_path": "docs/releases/1.10.7.txt",
+      "title": "Django 1.10.7 release notes",
+      "file": "docs/docs_releases_1.10.7.html",
+      "size_bytes": 1940
+    },
+    "1.1.2": {
+      "source_path": "docs/releases/1.1.2.txt",
+      "title": "Django 1.1.2 release notes",
+      "file": "docs/docs_releases_1.1.2.html",
+      "size_bytes": 2744
+    },
+    "3.0.4": {
+      "source_path": "docs/releases/3.0.4.txt",
+      "title": "Django 3.0.4 release notes",
+      "file": "docs/docs_releases_3.0.4.html",
+      "size_bytes": 1911
+    },
+    "1.4.16": {
+      "source_path": "docs/releases/1.4.16.txt",
+      "title": "Django 1.4.16 release notes",
+      "file": "docs/docs_releases_1.4.16.html",
+      "size_bytes": 662
+    },
+    "1.4.3": {
+      "source_path": "docs/releases/1.4.3.txt",
+      "title": "Django 1.4.3 release notes",
+      "file": "docs/docs_releases_1.4.3.html",
+      "size_bytes": 2881
+    },
+    "1.7.2": {
+      "source_path": "docs/releases/1.7.2.txt",
+      "title": "Django 1.7.2 release notes",
+      "file": "docs/docs_releases_1.7.2.html",
+      "size_bytes": 11412
+    },
+    "5.1.9": {
+      "source_path": "docs/releases/5.1.9.txt",
+      "title": "Django 5.1.9 release notes",
+      "file": "docs/docs_releases_5.1.9.html",
+      "size_bytes": 2061
+    },
+    "3.2.3": {
+      "source_path": "docs/releases/3.2.3.txt",
+      "title": "Django 3.2.3 release notes",
+      "file": "docs/docs_releases_3.2.3.html",
+      "size_bytes": 835
+    },
+    "1.8.5": {
+      "source_path": "docs/releases/1.8.5.txt",
+      "title": "Django 1.8.5 release notes",
+      "file": "docs/docs_releases_1.8.5.html",
+      "size_bytes": 3287
+    },
+    "1.9.10": {
+      "source_path": "docs/releases/1.9.10.txt",
+      "title": "Django 1.9.10 release notes",
+      "file": "docs/docs_releases_1.9.10.html",
+      "size_bytes": 777
+    },
+    "1.5.9": {
+      "source_path": "docs/releases/1.5.9.txt",
+      "title": "Django 1.5.9 release notes",
+      "file": "docs/docs_releases_1.5.9.html",
+      "size_bytes": 3474
+    },
+    "2.2.1": {
+      "source_path": "docs/releases/2.2.1.txt",
+      "title": "Django 2.2.1 release notes",
+      "file": "docs/docs_releases_2.2.1.html",
+      "size_bytes": 4979
+    },
+    "3.1.3": {
+      "source_path": "docs/releases/3.1.3.txt",
+      "title": "Django 3.1.3 release notes",
+      "file": "docs/docs_releases_3.1.3.html",
+      "size_bytes": 3724
+    },
+    "4.2.8": {
+      "source_path": "docs/releases/4.2.8.txt",
+      "title": "Django 4.2.8 release notes",
+      "file": "docs/docs_releases_4.2.8.html",
+      "size_bytes": 2050
+    },
+    "2.2.12": {
+      "source_path": "docs/releases/2.2.12.txt",
+      "title": "Django 2.2.12 release notes",
+      "file": "docs/docs_releases_2.2.12.html",
+      "size_bytes": 368
+    },
+    "3.0.14": {
+      "source_path": "docs/releases/3.0.14.txt",
+      "title": "Django 3.0.14 release notes",
+      "file": "docs/docs_releases_3.0.14.html",
+      "size_bytes": 508
+    },
+    "1.1.4": {
+      "source_path": "docs/releases/1.1.4.txt",
+      "title": "Django 1.1.4 release notes",
+      "file": "docs/docs_releases_1.1.4.html",
+      "size_bytes": 3045
+    },
+    "4.1.1": {
+      "source_path": "docs/releases/4.1.1.txt",
+      "title": "Django 4.1.1 release notes",
+      "file": "docs/docs_releases_4.1.1.html",
+      "size_bytes": 3551
+    },
+    "1.4.2": {
+      "source_path": "docs/releases/1.4.2.txt",
+      "title": "Django 1.4.2 release notes",
+      "file": "docs/docs_releases_1.4.2.html",
+      "size_bytes": 2878
+    },
+    "3.2.7": {
+      "source_path": "docs/releases/3.2.7.txt",
+      "title": "Django 3.2.7 release notes",
+      "file": "docs/docs_releases_3.2.7.html",
+      "size_bytes": 362
+    },
+    "1.11.13": {
+      "source_path": "docs/releases/1.11.13.txt",
+      "title": "Django 1.11.13 release notes",
+      "file": "docs/docs_releases_1.11.13.html",
+      "size_bytes": 970
+    },
+    "5.1.15": {
+      "source_path": "docs/releases/5.1.15.txt",
+      "title": "Django 5.1.15 release notes",
+      "file": "docs/docs_releases_5.1.15.html",
+      "size_bytes": 1954
+    },
+    "1.5.1": {
+      "source_path": "docs/releases/1.5.1.txt",
+      "title": "Django 1.5.1 release notes",
+      "file": "docs/docs_releases_1.5.1.html",
+      "size_bytes": 1114
+    },
+    "2.2.26": {
+      "source_path": "docs/releases/2.2.26.txt",
+      "title": "Django 2.2.26 release notes",
+      "file": "docs/docs_releases_2.2.26.html",
+      "size_bytes": 2344
+    },
+    "1.3.6": {
+      "source_path": "docs/releases/1.3.6.txt",
+      "title": "Django 1.3.6 release notes",
+      "file": "docs/docs_releases_1.3.6.html",
+      "size_bytes": 3644
+    },
+    "3.0.2": {
+      "source_path": "docs/releases/3.0.2.txt",
+      "title": "Django 3.0.2 release notes",
+      "file": "docs/docs_releases_3.0.2.html",
+      "size_bytes": 1092
+    },
+    "1.6.10": {
+      "source_path": "docs/releases/1.6.10.txt",
+      "title": "Django 1.6.10 release notes",
+      "file": "docs/docs_releases_1.6.10.html",
+      "size_bytes": 3923
+    },
+    "3.2.22": {
+      "source_path": "docs/releases/3.2.22.txt",
+      "title": "Django 3.2.22 release notes",
+      "file": "docs/docs_releases_3.2.22.html",
+      "size_bytes": 1382
+    },
+    "3.1.8": {
+      "source_path": "docs/releases/3.1.8.txt",
+      "title": "Django 3.1.8 release notes",
+      "file": "docs/docs_releases_3.1.8.html",
+      "size_bytes": 881
+    },
+    "4.0.6": {
+      "source_path": "docs/releases/4.0.6.txt",
+      "title": "Django 4.0.6 release notes",
+      "file": "docs/docs_releases_4.0.6.html",
+      "size_bytes": 838
+    },
+    "4.1.4": {
+      "source_path": "docs/releases/4.1.4.txt",
+      "title": "Django 4.1.4 release notes",
+      "file": "docs/docs_releases_4.1.4.html",
+      "size_bytes": 1420
+    },
+    "1.2.2": {
+      "source_path": "docs/releases/1.2.2.txt",
+      "title": "Django 1.2.2 release notes",
+      "file": "docs/docs_releases_1.2.2.html",
+      "size_bytes": 1306
+    },
+    "3.1.1": {
+      "source_path": "docs/releases/3.1.1.txt",
+      "title": "Django 3.1.1 release notes",
+      "file": "docs/docs_releases_3.1.1.html",
+      "size_bytes": 5036
+    },
+    "1.5": {
+      "source_path": "docs/releases/1.5.txt",
+      "title": "Django 1.5 release notes",
+      "file": "docs/docs_releases_1.5.html",
+      "size_bytes": 45794
+    },
+    "5.2.5": {
+      "source_path": "docs/releases/5.2.5.txt",
+      "title": "Django 5.2.5 release notes",
+      "file": "docs/docs_releases_5.2.5.html",
+      "size_bytes": 1192
+    },
+    "2.2.16": {
+      "source_path": "docs/releases/2.2.16.txt",
+      "title": "Django 2.2.16 release notes",
+      "file": "docs/docs_releases_2.2.16.html",
+      "size_bytes": 1820
+    },
+    "2.2.18": {
+      "source_path": "docs/releases/2.2.18.txt",
+      "title": "Django 2.2.18 release notes",
+      "file": "docs/docs_releases_2.2.18.html",
+      "size_bytes": 662
+    },
+    "4.2.23": {
+      "source_path": "docs/releases/4.2.23.txt",
+      "title": "Django 4.2.23 release notes",
+      "file": "docs/docs_releases_4.2.23.html",
+      "size_bytes": 493
+    },
+    "4.1.6": {
+      "source_path": "docs/releases/4.1.6.txt",
+      "title": "Django 4.1.6 release notes",
+      "file": "docs/docs_releases_4.1.6.html",
+      "size_bytes": 944
+    },
+    "4.2.9": {
+      "source_path": "docs/releases/4.2.9.txt",
+      "title": "Django 4.2.9 release notes",
+      "file": "docs/docs_releases_4.2.9.html",
+      "size_bytes": 377
+    },
+    "5.1.8": {
+      "source_path": "docs/releases/5.1.8.txt",
+      "title": "Django 5.1.8 release notes",
+      "file": "docs/docs_releases_5.1.8.html",
+      "size_bytes": 1324
+    },
+    "4.1.5": {
+      "source_path": "docs/releases/4.1.5.txt",
+      "title": "Django 4.1.5 release notes",
+      "file": "docs/docs_releases_4.1.5.html",
+      "size_bytes": 567
+    },
+    "5.2.3": {
+      "source_path": "docs/releases/5.2.3.txt",
+      "title": "Django 5.2.3 release notes",
+      "file": "docs/docs_releases_5.2.3.html",
+      "size_bytes": 1075
+    },
+    "1.10.3": {
+      "source_path": "docs/releases/1.10.3.txt",
+      "title": "Django 1.10.3 release notes",
+      "file": "docs/docs_releases_1.10.3.html",
+      "size_bytes": 3784
+    },
+    "1.8.6": {
+      "source_path": "docs/releases/1.8.6.txt",
+      "title": "Django 1.8.6 release notes",
+      "file": "docs/docs_releases_1.8.6.html",
+      "size_bytes": 2801
+    },
+    "2.0.1": {
+      "source_path": "docs/releases/2.0.1.txt",
+      "title": "Django 2.0.1 release notes",
+      "file": "docs/docs_releases_2.0.1.html",
+      "size_bytes": 2230
+    },
+    "1.8.14": {
+      "source_path": "docs/releases/1.8.14.txt",
+      "title": "Django 1.8.14 release notes",
+      "file": "docs/docs_releases_1.8.14.html",
+      "size_bytes": 937
+    },
+    "3.0.9": {
+      "source_path": "docs/releases/3.0.9.txt",
+      "title": "Django 3.0.9 release notes",
+      "file": "docs/docs_releases_3.0.9.html",
+      "size_bytes": 589
+    },
+    "6.0.1": {
+      "source_path": "docs/releases/6.0.1.txt",
+      "title": "Django 6.0.1 release notes",
+      "file": "docs/docs_releases_6.0.1.html",
+      "size_bytes": 1600
+    },
+    "4.1.7": {
+      "source_path": "docs/releases/4.1.7.txt",
+      "title": "Django 4.1.7 release notes",
+      "file": "docs/docs_releases_4.1.7.html",
+      "size_bytes": 917
+    },
+    "1.4.14": {
+      "source_path": "docs/releases/1.4.14.txt",
+      "title": "Django 1.4.14 release notes",
+      "file": "docs/docs_releases_1.4.14.html",
+      "size_bytes": 3478
+    },
+    "3.0.3": {
+      "source_path": "docs/releases/3.0.3.txt",
+      "title": "Django 3.0.3 release notes",
+      "file": "docs/docs_releases_3.0.3.html",
+      "size_bytes": 2714
+    },
+    "1.9.4": {
+      "source_path": "docs/releases/1.9.4.txt",
+      "title": "Django 1.9.4 release notes",
+      "file": "docs/docs_releases_1.9.4.html",
+      "size_bytes": 311
+    },
+    "5.1.7": {
+      "source_path": "docs/releases/5.1.7.txt",
+      "title": "Django 5.1.7 release notes",
+      "file": "docs/docs_releases_5.1.7.html",
+      "size_bytes": 1730
+    },
+    "1.6.5": {
+      "source_path": "docs/releases/1.6.5.txt",
+      "title": "Django 1.6.5 release notes",
+      "file": "docs/docs_releases_1.6.5.html",
+      "size_bytes": 3272
+    },
+    "2.2.20": {
+      "source_path": "docs/releases/2.2.20.txt",
+      "title": "Django 2.2.20 release notes",
+      "file": "docs/docs_releases_2.2.20.html",
+      "size_bytes": 508
+    },
+    "3.2.11": {
+      "source_path": "docs/releases/3.2.11.txt",
+      "title": "Django 3.2.11 release notes",
+      "file": "docs/docs_releases_3.2.11.html",
+      "size_bytes": 2344
+    },
+    "1.4.19": {
+      "source_path": "docs/releases/1.4.19.txt",
+      "title": "Django 1.4.19 release notes",
+      "file": "docs/docs_releases_1.4.19.html",
+      "size_bytes": 613
+    },
+    "1.6": {
+      "source_path": "docs/releases/1.6.txt",
+      "title": "Django 1.6 release notes",
+      "file": "docs/docs_releases_1.6.html",
+      "size_bytes": 69807
+    },
+    "4.0.9": {
+      "source_path": "docs/releases/4.0.9.txt",
+      "title": "Django 4.0.9 release notes",
+      "file": "docs/docs_releases_4.0.9.html",
+      "size_bytes": 697
+    },
+    "3.0.12": {
+      "source_path": "docs/releases/3.0.12.txt",
+      "title": "Django 3.0.12 release notes",
+      "file": "docs/docs_releases_3.0.12.html",
+      "size_bytes": 662
+    },
+    "1.6.4": {
+      "source_path": "docs/releases/1.6.4.txt",
+      "title": "Django 1.6.4 release notes",
+      "file": "docs/docs_releases_1.6.4.html",
+      "size_bytes": 854
+    },
+    "1.6.3": {
+      "source_path": "docs/releases/1.6.3.txt",
+      "title": "Django 1.6.3 release notes",
+      "file": "docs/docs_releases_1.6.3.html",
+      "size_bytes": 9488
+    },
+    "4.1.2": {
+      "source_path": "docs/releases/4.1.2.txt",
+      "title": "Django 4.1.2 release notes",
+      "file": "docs/docs_releases_4.1.2.html",
+      "size_bytes": 3068
+    },
+    "4.1.12": {
+      "source_path": "docs/releases/4.1.12.txt",
+      "title": "Django 4.1.12 release notes",
+      "file": "docs/docs_releases_4.1.12.html",
+      "size_bytes": 1382
+    },
+    "1.6.11": {
+      "source_path": "docs/releases/1.6.11.txt",
+      "title": "Django 1.6.11 release notes",
+      "file": "docs/docs_releases_1.6.11.html",
+      "size_bytes": 2541
+    },
+    "2.2.8": {
+      "source_path": "docs/releases/2.2.8.txt",
+      "title": "Django 2.2.8 release notes",
+      "file": "docs/docs_releases_2.2.8.html",
+      "size_bytes": 3348
+    },
+    "5.1.1": {
+      "source_path": "docs/releases/5.1.1.txt",
+      "title": "Django 5.1.1 release notes",
+      "file": "docs/docs_releases_5.1.1.html",
+      "size_bytes": 3437
+    },
+    "2.1.5": {
+      "source_path": "docs/releases/2.1.5.txt",
+      "title": "Django 2.1.5 release notes",
+      "file": "docs/docs_releases_2.1.5.html",
+      "size_bytes": 1782
+    },
+    "3.0.10": {
+      "source_path": "docs/releases/3.0.10.txt",
+      "title": "Django 3.0.10 release notes",
+      "file": "docs/docs_releases_3.0.10.html",
+      "size_bytes": 1819
+    },
+    "5.2.4": {
+      "source_path": "docs/releases/5.2.4.txt",
+      "title": "Django 5.2.4 release notes",
+      "file": "docs/docs_releases_5.2.4.html",
+      "size_bytes": 1090
+    },
+    "4.2.10": {
+      "source_path": "docs/releases/4.2.10.txt",
+      "title": "Django 4.2.10 release notes",
+      "file": "docs/docs_releases_4.2.10.html",
+      "size_bytes": 487
+    },
+    "1.8.15": {
+      "source_path": "docs/releases/1.8.15.txt",
+      "title": "Django 1.8.15 release notes",
+      "file": "docs/docs_releases_1.8.15.html",
+      "size_bytes": 778
+    },
+    "1.5.4": {
+      "source_path": "docs/releases/1.5.4.txt",
+      "title": "Django 1.5.4 release notes",
+      "file": "docs/docs_releases_1.5.4.html",
+      "size_bytes": 2093
+    },
+    "2.2.6": {
+      "source_path": "docs/releases/2.2.6.txt",
+      "title": "Django 2.2.6 release notes",
+      "file": "docs/docs_releases_2.2.6.html",
+      "size_bytes": 703
+    },
+    "1.3.1": {
+      "source_path": "docs/releases/1.3.1.txt",
+      "title": "Django 1.3.1 release notes",
+      "file": "docs/docs_releases_1.3.1.html",
+      "size_bytes": 491
+    },
+    "5.0.5": {
+      "source_path": "docs/releases/5.0.5.txt",
+      "title": "Django 5.0.5 release notes",
+      "file": "docs/docs_releases_5.0.5.html",
+      "size_bytes": 1739
+    },
+    "3.2.21": {
+      "source_path": "docs/releases/3.2.21.txt",
+      "title": "Django 3.2.21 release notes",
+      "file": "docs/docs_releases_3.2.21.html",
+      "size_bytes": 572
+    },
+    "1.2.4": {
+      "source_path": "docs/releases/1.2.4.txt",
+      "title": "Django 1.2.4 release notes",
+      "file": "docs/docs_releases_1.2.4.html",
+      "size_bytes": 4307
+    },
+    "3.0.5": {
+      "source_path": "docs/releases/3.0.5.txt",
+      "title": "Django 3.0.5 release notes",
+      "file": "docs/docs_releases_3.0.5.html",
+      "size_bytes": 660
+    },
+    "4.0.1": {
+      "source_path": "docs/releases/4.0.1.txt",
+      "title": "Django 4.0.1 release notes",
+      "file": "docs/docs_releases_4.0.1.html",
+      "size_bytes": 3610
+    },
+    "4.2.6": {
+      "source_path": "docs/releases/4.2.6.txt",
+      "title": "Django 4.2.6 release notes",
+      "file": "docs/docs_releases_4.2.6.html",
+      "size_bytes": 3028
+    },
+    "5.1.13": {
+      "source_path": "docs/releases/5.1.13.txt",
+      "title": "Django 5.1.13 release notes",
+      "file": "docs/docs_releases_5.1.13.html",
+      "size_bytes": 1647
+    },
+    "1.11": {
+      "source_path": "docs/releases/1.11.txt",
+      "title": "Django 1.11 release notes",
+      "file": "docs/docs_releases_1.11.html",
+      "size_bytes": 50108
+    },
+    "2.1.15": {
+      "source_path": "docs/releases/2.1.15.txt",
+      "title": "Django 2.1.15 release notes",
+      "file": "docs/docs_releases_2.1.15.html",
+      "size_bytes": 2772
+    },
+    "1.4.1": {
+      "source_path": "docs/releases/1.4.1.txt",
+      "title": "Django 1.4.1 release notes",
+      "file": "docs/docs_releases_1.4.1.html",
+      "size_bytes": 455
+    },
+    "1.11.22": {
+      "source_path": "docs/releases/1.11.22.txt",
+      "title": "Django 1.11.22 release notes",
+      "file": "docs/docs_releases_1.11.22.html",
+      "size_bytes": 1484
+    },
+    "1.11.9": {
+      "source_path": "docs/releases/1.11.9.txt",
+      "title": "Django 1.11.9 release notes",
+      "file": "docs/docs_releases_1.11.9.html",
+      "size_bytes": 919
+    },
+    "3.2.23": {
+      "source_path": "docs/releases/3.2.23.txt",
+      "title": "Django 3.2.23 release notes",
+      "file": "docs/docs_releases_3.2.23.html",
+      "size_bytes": 885
+    },
+    "1.2.6": {
+      "source_path": "docs/releases/1.2.6.txt",
+      "title": "Django 1.2.6 release notes",
+      "file": "docs/docs_releases_1.2.6.html",
+      "size_bytes": 536
+    },
+    "1.8.16": {
+      "source_path": "docs/releases/1.8.16.txt",
+      "title": "Django 1.8.16 release notes",
+      "file": "docs/docs_releases_1.8.16.html",
+      "size_bytes": 2265
+    },
+    "4.1.8": {
+      "source_path": "docs/releases/4.1.8.txt",
+      "title": "Django 4.1.8 release notes",
+      "file": "docs/docs_releases_4.1.8.html",
+      "size_bytes": 381
+    },
+    "2.2.4": {
+      "source_path": "docs/releases/2.2.4.txt",
+      "title": "Django 2.2.4 release notes",
+      "file": "docs/docs_releases_2.2.4.html",
+      "size_bytes": 4633
+    },
+    "5.2.2": {
+      "source_path": "docs/releases/5.2.2.txt",
+      "title": "Django 5.2.2 release notes",
+      "file": "docs/docs_releases_5.2.2.html",
+      "size_bytes": 3616
+    },
+    "5.1.6": {
+      "source_path": "docs/releases/5.1.6.txt",
+      "title": "Django 5.1.6 release notes",
+      "file": "docs/docs_releases_5.1.6.html",
+      "size_bytes": 758
+    },
+    "5.0.9": {
+      "source_path": "docs/releases/5.0.9.txt",
+      "title": "Django 5.0.9 release notes",
+      "file": "docs/docs_releases_5.0.9.html",
+      "size_bytes": 1338
+    },
+    "4.2.18": {
+      "source_path": "docs/releases/4.2.18.txt",
+      "title": "Django 4.2.18 release notes",
+      "file": "docs/docs_releases_4.2.18.html",
+      "size_bytes": 945
+    },
+    "1.8.17": {
+      "source_path": "docs/releases/1.8.17.txt",
+      "title": "Django 1.8.17 release notes",
+      "file": "docs/docs_releases_1.8.17.html",
+      "size_bytes": 433
+    },
+    "1.6.8": {
+      "source_path": "docs/releases/1.6.8.txt",
+      "title": "Django 1.6.8 release notes",
+      "file": "docs/docs_releases_1.6.8.html",
+      "size_bytes": 481
+    },
+    "1.4.7": {
+      "source_path": "docs/releases/1.4.7.txt",
+      "title": "Django 1.4.7 release notes",
+      "file": "docs/docs_releases_1.4.7.html",
+      "size_bytes": 961
+    },
+    "3.0": {
+      "source_path": "docs/releases/3.0.txt",
+      "title": "Django 3.0 release notes",
+      "file": "docs/docs_releases_3.0.html",
+      "size_bytes": 35235
+    },
+    "1.5.8": {
+      "source_path": "docs/releases/1.5.8.txt",
+      "title": "Django 1.5.8 release notes",
+      "file": "docs/docs_releases_1.5.8.html",
+      "size_bytes": 2475
+    },
+    "1.8": {
+      "source_path": "docs/releases/1.8.txt",
+      "title": "Django 1.8 release notes",
+      "file": "docs/docs_releases_1.8.html",
+      "size_bytes": 98100
+    },
+    "1.10.5": {
+      "source_path": "docs/releases/1.10.5.txt",
+      "title": "Django 1.10.5 release notes",
+      "file": "docs/docs_releases_1.10.5.html",
+      "size_bytes": 900
+    },
+    "1.4.13": {
+      "source_path": "docs/releases/1.4.13.txt",
+      "title": "Django 1.4.13 release notes",
+      "file": "docs/docs_releases_1.4.13.html",
+      "size_bytes": 2479
+    },
+    "4.2.3": {
+      "source_path": "docs/releases/4.2.3.txt",
+      "title": "Django 4.2.3 release notes",
+      "file": "docs/docs_releases_4.2.3.html",
+      "size_bytes": 1169
+    },
+    "1.9.8": {
+      "source_path": "docs/releases/1.9.8.txt",
+      "title": "Django 1.9.8 release notes",
+      "file": "docs/docs_releases_1.9.8.html",
+      "size_bytes": 1086
+    },
+    "2.2.27": {
+      "source_path": "docs/releases/2.2.27.txt",
+      "title": "Django 2.2.27 release notes",
+      "file": "docs/docs_releases_2.2.27.html",
+      "size_bytes": 957
+    },
+    "1.6.6": {
+      "source_path": "docs/releases/1.6.6.txt",
+      "title": "Django 1.6.6 release notes",
+      "file": "docs/docs_releases_1.6.6.html",
+      "size_bytes": 5258
+    },
+    "1.0": {
+      "source_path": "docs/releases/1.0.txt",
+      "title": "Django 1.0 release notes",
+      "file": "docs/docs_releases_1.0.html",
+      "size_bytes": 11696
+    },
+    "4.2.14": {
+      "source_path": "docs/releases/4.2.14.txt",
+      "title": "Django 4.2.14 release notes",
+      "file": "docs/docs_releases_4.2.14.html",
+      "size_bytes": 2838
+    },
+    "1.6.7": {
+      "source_path": "docs/releases/1.6.7.txt",
+      "title": "Django 1.6.7 release notes",
+      "file": "docs/docs_releases_1.6.7.html",
+      "size_bytes": 553
+    },
+    "2.0.3": {
+      "source_path": "docs/releases/2.0.3.txt",
+      "title": "Django 2.0.3 release notes",
+      "file": "docs/docs_releases_2.0.3.html",
+      "size_bytes": 3020
+    },
+    "1.4": {
+      "source_path": "docs/releases/1.4.txt",
+      "title": "Django 1.4 release notes",
+      "file": "docs/docs_releases_1.4.html",
+      "size_bytes": 70515
+    },
+    "3.1.13": {
+      "source_path": "docs/releases/3.1.13.txt",
+      "title": "Django 3.1.13 release notes",
+      "file": "docs/docs_releases_3.1.13.html",
+      "size_bytes": 927
+    },
+    "1.8.4": {
+      "source_path": "docs/releases/1.8.4.txt",
+      "title": "Django 1.8.4 release notes",
+      "file": "docs/docs_releases_1.8.4.html",
+      "size_bytes": 2781
+    },
+    "1.9.3": {
+      "source_path": "docs/releases/1.9.3.txt",
+      "title": "Django 1.9.3 release notes",
+      "file": "docs/docs_releases_1.9.3.html",
+      "size_bytes": 6304
+    },
+    "4.2.20": {
+      "source_path": "docs/releases/4.2.20.txt",
+      "title": "Django 4.2.20 release notes",
+      "file": "docs/docs_releases_4.2.20.html",
+      "size_bytes": 576
+    },
+    "1.4.9": {
+      "source_path": "docs/releases/1.4.9.txt",
+      "title": "Django 1.4.9 release notes",
+      "file": "docs/docs_releases_1.4.9.html",
+      "size_bytes": 768
+    },
+    "3.0.8": {
+      "source_path": "docs/releases/3.0.8.txt",
+      "title": "Django 3.0.8 release notes",
+      "file": "docs/docs_releases_3.0.8.html",
+      "size_bytes": 1145
+    },
+    "1.11.6": {
+      "source_path": "docs/releases/1.11.6.txt",
+      "title": "Django 1.11.6 release notes",
+      "file": "docs/docs_releases_1.11.6.html",
+      "size_bytes": 874
+    },
+    "5.2.6": {
+      "source_path": "docs/releases/5.2.6.txt",
+      "title": "Django 5.2.6 release notes",
+      "file": "docs/docs_releases_5.2.6.html",
+      "size_bytes": 1060
+    },
+    "3.1.10": {
+      "source_path": "docs/releases/3.1.10.txt",
+      "title": "Django 3.1.10 release notes",
+      "file": "docs/docs_releases_3.1.10.html",
+      "size_bytes": 1160
+    },
+    "5.1.2": {
+      "source_path": "docs/releases/5.1.2.txt",
+      "title": "Django 5.1.2 release notes",
+      "file": "docs/docs_releases_5.1.2.html",
+      "size_bytes": 949
+    },
+    "1.10.2": {
+      "source_path": "docs/releases/1.10.2.txt",
+      "title": "Django 1.10.2 release notes",
+      "file": "docs/docs_releases_1.10.2.html",
+      "size_bytes": 1538
+    },
+    "4.2.15": {
+      "source_path": "docs/releases/4.2.15.txt",
+      "title": "Django 4.2.15 release notes",
+      "file": "docs/docs_releases_4.2.15.html",
+      "size_bytes": 2478
+    },
+    "4.0.8": {
+      "source_path": "docs/releases/4.0.8.txt",
+      "title": "Django 4.0.8 release notes",
+      "file": "docs/docs_releases_4.0.8.html",
+      "size_bytes": 464
+    },
+    "5.0.2": {
+      "source_path": "docs/releases/5.0.2.txt",
+      "title": "Django 5.0.2 release notes",
+      "file": "docs/docs_releases_5.0.2.html",
+      "size_bytes": 2672
+    },
+    "1.9.7": {
+      "source_path": "docs/releases/1.9.7.txt",
+      "title": "Django 1.9.7 release notes",
+      "file": "docs/docs_releases_1.9.7.html",
+      "size_bytes": 1372
+    },
+    "5.0.6": {
+      "source_path": "docs/releases/5.0.6.txt",
+      "title": "Django 5.0.6 release notes",
+      "file": "docs/docs_releases_5.0.6.html",
+      "size_bytes": 150
+    },
+    "1.11.10": {
+      "source_path": "docs/releases/1.11.10.txt",
+      "title": "Django 1.11.10 release notes",
+      "file": "docs/docs_releases_1.11.10.html",
+      "size_bytes": 1966
+    },
+    "1.2.7": {
+      "source_path": "docs/releases/1.2.7.txt",
+      "title": "Django 1.2.7 release notes",
+      "file": "docs/docs_releases_1.2.7.html",
+      "size_bytes": 503
+    },
+    "1.5.6": {
+      "source_path": "docs/releases/1.5.6.txt",
+      "title": "Django 1.5.6 release notes",
+      "file": "docs/docs_releases_1.5.6.html",
+      "size_bytes": 5778
+    },
+    "1.4.5": {
+      "source_path": "docs/releases/1.4.5.txt",
+      "title": "Django 1.4.5 release notes",
+      "file": "docs/docs_releases_1.4.5.html",
+      "size_bytes": 569
+    },
+    "2.0.7": {
+      "source_path": "docs/releases/2.0.7.txt",
+      "title": "Django 2.0.7 release notes",
+      "file": "docs/docs_releases_2.0.7.html",
+      "size_bytes": 826
+    },
+    "2.1.2": {
+      "source_path": "docs/releases/2.1.2.txt",
+      "title": "Django 2.1.2 release notes",
+      "file": "docs/docs_releases_2.1.2.html",
+      "size_bytes": 1949
+    },
+    "1.5.5": {
+      "source_path": "docs/releases/1.5.5.txt",
+      "title": "Django 1.5.5 release notes",
+      "file": "docs/docs_releases_1.5.5.html",
+      "size_bytes": 1608
+    },
+    "1.11.29": {
+      "source_path": "docs/releases/1.11.29.txt",
+      "title": "Django 1.11.29 release notes",
+      "file": "docs/docs_releases_1.11.29.html",
+      "size_bytes": 521
+    },
+    "3.1.9": {
+      "source_path": "docs/releases/3.1.9.txt",
+      "title": "Django 3.1.9 release notes",
+      "file": "docs/docs_releases_3.1.9.html",
+      "size_bytes": 557
+    },
+    "4.0.10": {
+      "source_path": "docs/releases/4.0.10.txt",
+      "title": "Django 4.0.10 release notes",
+      "file": "docs/docs_releases_4.0.10.html",
+      "size_bytes": 673
+    },
+    "1.3.3": {
+      "source_path": "docs/releases/1.3.3.txt",
+      "title": "Django 1.3.3 release notes",
+      "file": "docs/docs_releases_1.3.3.html",
+      "size_bytes": 465
+    },
+    "3.2.17": {
+      "source_path": "docs/releases/3.2.17.txt",
+      "title": "Django 3.2.17 release notes",
+      "file": "docs/docs_releases_3.2.17.html",
+      "size_bytes": 701
+    },
+    "1.11.18": {
+      "source_path": "docs/releases/1.11.18.txt",
+      "title": "Django 1.11.18 release notes",
+      "file": "docs/docs_releases_1.11.18.html",
+      "size_bytes": 684
+    },
+    "5.1.10": {
+      "source_path": "docs/releases/5.1.10.txt",
+      "title": "Django 5.1.10 release notes",
+      "file": "docs/docs_releases_5.1.10.html",
+      "size_bytes": 969
+    },
+    "2.2.15": {
+      "source_path": "docs/releases/2.2.15.txt",
+      "title": "Django 2.2.15 release notes",
+      "file": "docs/docs_releases_2.2.15.html",
+      "size_bytes": 589
+    },
+    "2.1.13": {
+      "source_path": "docs/releases/2.1.13.txt",
+      "title": "Django 2.1.13 release notes",
+      "file": "docs/docs_releases_2.1.13.html",
+      "size_bytes": 514
+    },
+    "4.0.2": {
+      "source_path": "docs/releases/4.0.2.txt",
+      "title": "Django 4.0.2 release notes",
+      "file": "docs/docs_releases_4.0.2.html",
+      "size_bytes": 3118
+    },
+    "3.1.11": {
+      "source_path": "docs/releases/3.1.11.txt",
+      "title": "Django 3.1.11 release notes",
+      "file": "docs/docs_releases_3.1.11.html",
+      "size_bytes": 517
+    },
+    "4.2.26": {
+      "source_path": "docs/releases/4.2.26.txt",
+      "title": "Django 4.2.26 release notes",
+      "file": "docs/docs_releases_4.2.26.html",
+      "size_bytes": 1745
+    },
+    "1.9.12": {
+      "source_path": "docs/releases/1.9.12.txt",
+      "title": "Django 1.9.12 release notes",
+      "file": "docs/docs_releases_1.9.12.html",
+      "size_bytes": 433
+    },
+    "1.9.1": {
+      "source_path": "docs/releases/1.9.1.txt",
+      "title": "Django 1.9.1 release notes",
+      "file": "docs/docs_releases_1.9.1.html",
+      "size_bytes": 4690
+    },
+    "4.0.7": {
+      "source_path": "docs/releases/4.0.7.txt",
+      "title": "Django 4.0.7 release notes",
+      "file": "docs/docs_releases_4.0.7.html",
+      "size_bytes": 708
+    },
+    "5.1.3": {
+      "source_path": "docs/releases/5.1.3.txt",
+      "title": "Django 5.1.3 release notes",
+      "file": "docs/docs_releases_5.1.3.html",
+      "size_bytes": 970
+    },
+    "4.2.4": {
+      "source_path": "docs/releases/4.2.4.txt",
+      "title": "Django 4.2.4 release notes",
+      "file": "docs/docs_releases_4.2.4.html",
+      "size_bytes": 791
+    },
+    "3.2.25": {
+      "source_path": "docs/releases/3.2.25.txt",
+      "title": "Django 3.2.25 release notes",
+      "file": "docs/docs_releases_3.2.25.html",
+      "size_bytes": 1112
+    },
+    "4.2.27": {
+      "source_path": "docs/releases/4.2.27.txt",
+      "title": "Django 4.2.27 release notes",
+      "file": "docs/docs_releases_4.2.27.html",
+      "size_bytes": 1954
+    },
+    "4.0.3": {
+      "source_path": "docs/releases/4.0.3.txt",
+      "title": "Django 4.0.3 release notes",
+      "file": "docs/docs_releases_4.0.3.html",
+      "size_bytes": 906
+    },
+    "1.11.27": {
+      "source_path": "docs/releases/1.11.27.txt",
+      "title": "Django 1.11.27 release notes",
+      "file": "docs/docs_releases_1.11.27.html",
+      "size_bytes": 1435
+    },
+    "4.2.19": {
+      "source_path": "docs/releases/4.2.19.txt",
+      "title": "Django 4.2.19 release notes",
+      "file": "docs/docs_releases_4.2.19.html",
+      "size_bytes": 435
+    },
+    "1.3.5": {
+      "source_path": "docs/releases/1.3.5.txt",
+      "title": "Django 1.3.5 release notes",
+      "file": "docs/docs_releases_1.3.5.html",
+      "size_bytes": 2881
+    },
+    "3.2.2": {
+      "source_path": "docs/releases/3.2.2.txt",
+      "title": "Django 3.2.2 release notes",
+      "file": "docs/docs_releases_3.2.2.html",
+      "size_bytes": 1522
+    },
+    "1.2": {
+      "source_path": "docs/releases/1.2.txt",
+      "title": "Django 1.2 release notes",
+      "file": "docs/docs_releases_1.2.html",
+      "size_bytes": 56388
+    },
+    "3.1.2": {
+      "source_path": "docs/releases/3.1.2.txt",
+      "title": "Django 3.1.2 release notes",
+      "file": "docs/docs_releases_3.1.2.html",
+      "size_bytes": 1652
+    },
+    "1.10.6": {
+      "source_path": "docs/releases/1.10.6.txt",
+      "title": "Django 1.10.6 release notes",
+      "file": "docs/docs_releases_1.10.6.html",
+      "size_bytes": 1134
+    },
+    "5.0.1": {
+      "source_path": "docs/releases/5.0.1.txt",
+      "title": "Django 5.0.1 release notes",
+      "file": "docs/docs_releases_5.0.1.html",
+      "size_bytes": 2024
+    },
+    "5.2.1": {
+      "source_path": "docs/releases/5.2.1.txt",
+      "title": "Django 5.2.1 release notes",
+      "file": "docs/docs_releases_5.2.1.html",
+      "size_bytes": 4880
+    },
+    "1.2.1": {
+      "source_path": "docs/releases/1.2.1.txt",
+      "title": "Django 1.2.1 release notes",
+      "file": "docs/docs_releases_1.2.1.html",
+      "size_bytes": 365
+    },
+    "1.4.6": {
+      "source_path": "docs/releases/1.4.6.txt",
+      "title": "Django 1.4.6 release notes",
+      "file": "docs/docs_releases_1.4.6.html",
+      "size_bytes": 1559
+    },
+    "2.0.6": {
+      "source_path": "docs/releases/2.0.6.txt",
+      "title": "Django 2.0.6 release notes",
+      "file": "docs/docs_releases_2.0.6.html",
+      "size_bytes": 1054
+    },
+    "2.2.23": {
+      "source_path": "docs/releases/2.2.23.txt",
+      "title": "Django 2.2.23 release notes",
+      "file": "docs/docs_releases_2.2.23.html",
+      "size_bytes": 519
+    },
+    "1.4.11": {
+      "source_path": "docs/releases/1.4.11.txt",
+      "title": "Django 1.4.11 release notes",
+      "file": "docs/docs_releases_1.4.11.html",
+      "size_bytes": 5445
+    },
+    "1.4.15": {
+      "source_path": "docs/releases/1.4.15.txt",
+      "title": "Django 1.4.15 release notes",
+      "file": "docs/docs_releases_1.4.15.html",
+      "size_bytes": 351
+    },
+    "4.2": {
+      "source_path": "docs/releases/4.2.txt",
+      "title": "Django 4.2 release notes",
+      "file": "docs/docs_releases_4.2.html",
+      "size_bytes": 30627
+    },
+    "1.11.25": {
+      "source_path": "docs/releases/1.11.25.txt",
+      "title": "Django 1.11.25 release notes",
+      "file": "docs/docs_releases_1.11.25.html",
+      "size_bytes": 518
+    },
+    "2.2.14": {
+      "source_path": "docs/releases/2.2.14.txt",
+      "title": "Django 2.2.14 release notes",
+      "file": "docs/docs_releases_2.2.14.html",
+      "size_bytes": 387
+    },
+    "2.2.5": {
+      "source_path": "docs/releases/2.2.5.txt",
+      "title": "Django 2.2.5 release notes",
+      "file": "docs/docs_releases_2.2.5.html",
+      "size_bytes": 1044
+    },
+    "1.4.20": {
+      "source_path": "docs/releases/1.4.20.txt",
+      "title": "Django 1.4.20 release notes",
+      "file": "docs/docs_releases_1.4.20.html",
+      "size_bytes": 1372
+    },
+    "2.0.11": {
+      "source_path": "docs/releases/2.0.11.txt",
+      "title": "Django 2.0.11 release notes",
+      "file": "docs/docs_releases_2.0.11.html",
+      "size_bytes": 812
+    },
+    "3.0.1": {
+      "source_path": "docs/releases/3.0.1.txt",
+      "title": "Django 3.0.1 release notes",
+      "file": "docs/docs_releases_3.0.1.html",
+      "size_bytes": 2531
+    },
+    "1.11.14": {
+      "source_path": "docs/releases/1.11.14.txt",
+      "title": "Django 1.11.14 release notes",
+      "file": "docs/docs_releases_1.11.14.html",
+      "size_bytes": 573
+    },
+    "2.2": {
+      "source_path": "docs/releases/2.2.txt",
+      "title": "Django 2.2 release notes",
+      "file": "docs/docs_releases_2.2.html",
+      "size_bytes": 27248
+    },
+    "4.2.13": {
+      "source_path": "docs/releases/4.2.13.txt",
+      "title": "Django 4.2.13 release notes",
+      "file": "docs/docs_releases_4.2.13.html",
+      "size_bytes": 154
+    },
+    "3.0.13": {
+      "source_path": "docs/releases/3.0.13.txt",
+      "title": "Django 3.0.13 release notes",
+      "file": "docs/docs_releases_3.0.13.html",
+      "size_bytes": 768
+    },
+    "3.0.11": {
+      "source_path": "docs/releases/3.0.11.txt",
+      "title": "Django 3.0.11 release notes",
+      "file": "docs/docs_releases_3.0.11.html",
+      "size_bytes": 424
+    },
+    "1.4.21": {
+      "source_path": "docs/releases/1.4.21.txt",
+      "title": "Django 1.4.21 release notes",
+      "file": "docs/docs_releases_1.4.21.html",
+      "size_bytes": 3131
+    },
+    "1.8.3": {
+      "source_path": "docs/releases/1.8.3.txt",
+      "title": "Django 1.8.3 release notes",
+      "file": "docs/docs_releases_1.8.3.html",
+      "size_bytes": 8966
+    },
+    "5.0.3": {
+      "source_path": "docs/releases/5.0.3.txt",
+      "title": "Django 5.0.3 release notes",
+      "file": "docs/docs_releases_5.0.3.html",
+      "size_bytes": 2424
+    },
+    "1.10.4": {
+      "source_path": "docs/releases/1.10.4.txt",
+      "title": "Django 1.10.4 release notes",
+      "file": "docs/docs_releases_1.10.4.html",
+      "size_bytes": 1511
+    },
+    "3.2.13": {
+      "source_path": "docs/releases/3.2.13.txt",
+      "title": "Django 3.2.13 release notes",
+      "file": "docs/docs_releases_3.2.13.html",
+      "size_bytes": 1553
+    },
+    "1.10.1": {
+      "source_path": "docs/releases/1.10.1.txt",
+      "title": "Django 1.10.1 release notes",
+      "file": "docs/docs_releases_1.10.1.html",
+      "size_bytes": 5164
+    },
+    "1.8.18": {
+      "source_path": "docs/releases/1.8.18.txt",
+      "title": "Django 1.8.18 release notes",
+      "file": "docs/docs_releases_1.8.18.html",
+      "size_bytes": 1545
+    },
+    "3.2.4": {
+      "source_path": "docs/releases/3.2.4.txt",
+      "title": "Django 3.2.4 release notes",
+      "file": "docs/docs_releases_3.2.4.html",
+      "size_bytes": 3257
+    },
+    "5.2.8": {
+      "source_path": "docs/releases/5.2.8.txt",
+      "title": "Django 5.2.8 release notes",
+      "file": "docs/docs_releases_5.2.8.html",
+      "size_bytes": 2457
+    },
+    "2.0.4": {
+      "source_path": "docs/releases/2.0.4.txt",
+      "title": "Django 2.0.4 release notes",
+      "file": "docs/docs_releases_2.0.4.html",
+      "size_bytes": 1706
+    },
+    "3.1.4": {
+      "source_path": "docs/releases/3.1.4.txt",
+      "title": "Django 3.1.4 release notes",
+      "file": "docs/docs_releases_3.1.4.html",
+      "size_bytes": 1701
+    },
+    "1.4.8": {
+      "source_path": "docs/releases/1.4.8.txt",
+      "title": "Django 1.4.8 release notes",
+      "file": "docs/docs_releases_1.4.8.html",
+      "size_bytes": 1752
+    },
+    "3.1.12": {
+      "source_path": "docs/releases/3.1.12.txt",
+      "title": "Django 3.1.12 release notes",
+      "file": "docs/docs_releases_3.1.12.html",
+      "size_bytes": 1772
+    },
+    "1.9": {
+      "source_path": "docs/releases/1.9.txt",
+      "title": "Django 1.9 release notes",
+      "file": "docs/docs_releases_1.9.html",
+      "size_bytes": 80799
+    },
+    "2.0": {
+      "source_path": "docs/releases/2.0.txt",
+      "title": "Django 2.0 release notes",
+      "file": "docs/docs_releases_2.0.html",
+      "size_bytes": 42818
+    },
+    "1.11.4": {
+      "source_path": "docs/releases/1.11.4.txt",
+      "title": "Django 1.11.4 release notes",
+      "file": "docs/docs_releases_1.11.4.html",
+      "size_bytes": 2225
+    },
+    "4.2.21": {
+      "source_path": "docs/releases/4.2.21.txt",
+      "title": "Django 4.2.21 release notes",
+      "file": "docs/docs_releases_4.2.21.html",
+      "size_bytes": 2066
+    },
+    "3.0.7": {
+      "source_path": "docs/releases/3.0.7.txt",
+      "title": "Django 3.0.7 release notes",
+      "file": "docs/docs_releases_3.0.7.html",
+      "size_bytes": 2477
+    },
+    "1.11.23": {
+      "source_path": "docs/releases/1.11.23.txt",
+      "title": "Django 1.11.23 release notes",
+      "file": "docs/docs_releases_1.11.23.html",
+      "size_bytes": 3484
+    },
+    "1.11.5": {
+      "source_path": "docs/releases/1.11.5.txt",
+      "title": "Django 1.11.5 release notes",
+      "file": "docs/docs_releases_1.11.5.html",
+      "size_bytes": 3211
+    },
+    "1.3": {
+      "source_path": "docs/releases/1.3.txt",
+      "title": "Django 1.3 release notes",
+      "file": "docs/docs_releases_1.3.html",
+      "size_bytes": 44351
+    },
+    "1.5.2": {
+      "source_path": "docs/releases/1.5.2.txt",
+      "title": "Django 1.5.2 release notes",
+      "file": "docs/docs_releases_1.5.2.html",
+      "size_bytes": 3923
+    },
+    "5.0.8": {
+      "source_path": "docs/releases/5.0.8.txt",
+      "title": "Django 5.0.8 release notes",
+      "file": "docs/docs_releases_5.0.8.html",
+      "size_bytes": 3954
+    },
+    "4.2.24": {
+      "source_path": "docs/releases/4.2.24.txt",
+      "title": "Django 4.2.24 release notes",
+      "file": "docs/docs_releases_4.2.24.html",
+      "size_bytes": 722
+    },
+    "1.8.9": {
+      "source_path": "docs/releases/1.8.9.txt",
+      "title": "Django 1.8.9 release notes",
+      "file": "docs/docs_releases_1.8.9.html",
+      "size_bytes": 1889
+    },
+    "1.5.3": {
+      "source_path": "docs/releases/1.5.3.txt",
+      "title": "Django 1.5.3 release notes",
+      "file": "docs/docs_releases_1.5.3.html",
+      "size_bytes": 3114
+    },
+    "1.5.10": {
+      "source_path": "docs/releases/1.5.10.txt",
+      "title": "Django 1.5.10 release notes",
+      "file": "docs/docs_releases_1.5.10.html",
+      "size_bytes": 350
+    },
+    "2.2.9": {
+      "source_path": "docs/releases/2.2.9.txt",
+      "title": "Django 2.2.9 release notes",
+      "file": "docs/docs_releases_2.2.9.html",
+      "size_bytes": 1427
+    },
+    "5.0.14": {
+      "source_path": "docs/releases/5.0.14.txt",
+      "title": "Django 5.0.14 release notes",
+      "file": "docs/docs_releases_5.0.14.html",
+      "size_bytes": 1001
+    },
+    "1.7.11": {
+      "source_path": "docs/releases/1.7.11.txt",
+      "title": "Django 1.7.11 release notes",
+      "file": "docs/docs_releases_1.7.11.html",
+      "size_bytes": 1244
+    },
+    "4.1.3": {
+      "source_path": "docs/releases/4.1.3.txt",
+      "title": "Django 4.1.3 release notes",
+      "file": "docs/docs_releases_4.1.3.html",
+      "size_bytes": 521
+    },
+    "3.2.9": {
+      "source_path": "docs/releases/3.2.9.txt",
+      "title": "Django 3.2.9 release notes",
+      "file": "docs/docs_releases_3.2.9.html",
+      "size_bytes": 408
+    },
+    "4.2.17": {
+      "source_path": "docs/releases/4.2.17.txt",
+      "title": "Django 4.2.17 release notes",
+      "file": "docs/docs_releases_4.2.17.html",
+      "size_bytes": 1793
+    },
+    "4.1.11": {
+      "source_path": "docs/releases/4.1.11.txt",
+      "title": "Django 4.1.11 release notes",
+      "file": "docs/docs_releases_4.1.11.html",
+      "size_bytes": 572
+    },
+    "4.2.22": {
+      "source_path": "docs/releases/4.2.22.txt",
+      "title": "Django 4.2.22 release notes",
+      "file": "docs/docs_releases_4.2.22.html",
+      "size_bytes": 970
+    },
+    "5.2.10": {
+      "source_path": "docs/releases/5.2.10.txt",
+      "title": "Django 5.2.10 release notes",
+      "file": "docs/docs_releases_5.2.10.html",
+      "size_bytes": 518
+    },
+    "3.1.5": {
+      "source_path": "docs/releases/3.1.5.txt",
+      "title": "Django 3.1.5 release notes",
+      "file": "docs/docs_releases_3.1.5.html",
+      "size_bytes": 1062
+    },
+    "4.2.11": {
+      "source_path": "docs/releases/4.2.11.txt",
+      "title": "Django 4.2.11 release notes",
+      "file": "docs/docs_releases_4.2.11.html",
+      "size_bytes": 1112
+    },
+    "1.11.2": {
+      "source_path": "docs/releases/1.11.2.txt",
+      "title": "Django 1.11.2 release notes",
+      "file": "docs/docs_releases_1.11.2.html",
+      "size_bytes": 3404
+    },
+    "1.8.8": {
+      "source_path": "docs/releases/1.8.8.txt",
+      "title": "Django 1.8.8 release notes",
+      "file": "docs/docs_releases_1.8.8.html",
+      "size_bytes": 3410
+    },
+    "1.6.2": {
+      "source_path": "docs/releases/1.6.2.txt",
+      "title": "Django 1.6.2 release notes",
+      "file": "docs/docs_releases_1.6.2.html",
+      "size_bytes": 2489
+    },
+    "1.3.4": {
+      "source_path": "docs/releases/1.3.4.txt",
+      "title": "Django 1.3.4 release notes",
+      "file": "docs/docs_releases_1.3.4.html",
+      "size_bytes": 1724
+    },
+    "2.2.17": {
+      "source_path": "docs/releases/2.2.17.txt",
+      "title": "Django 2.2.17 release notes",
+      "file": "docs/docs_releases_2.2.17.html",
+      "size_bytes": 160
+    },
+    "1.0.1": {
+      "source_path": "docs/releases/1.0.1.txt",
+      "title": "Django 1.0.1 release notes",
+      "file": "docs/docs_releases_1.0.1.html",
+      "size_bytes": 2943
+    },
+    "2.2.2": {
+      "source_path": "docs/releases/2.2.2.txt",
+      "title": "Django 2.2.2 release notes",
+      "file": "docs/docs_releases_2.2.2.html",
+      "size_bytes": 3249
+    },
+    "5.1.14": {
+      "source_path": "docs/releases/5.1.14.txt",
+      "title": "Django 5.1.14 release notes",
+      "file": "docs/docs_releases_5.1.14.html",
+      "size_bytes": 1745
+    },
+    "1.8.19": {
+      "source_path": "docs/releases/1.8.19.txt",
+      "title": "Django 1.8.19 release notes",
+      "file": "docs/docs_releases_1.8.19.html",
+      "size_bytes": 1607
+    },
+    "2.0.5": {
+      "source_path": "docs/releases/2.0.5.txt",
+      "title": "Django 2.0.5 release notes",
+      "file": "docs/docs_releases_2.0.5.html",
+      "size_bytes": 1143
+    },
+    "1.9.11": {
+      "source_path": "docs/releases/1.9.11.txt",
+      "title": "Django 1.9.11 release notes",
+      "file": "docs/docs_releases_1.9.11.html",
+      "size_bytes": 2265
+    },
+    "2.1": {
+      "source_path": "docs/releases/2.1.txt",
+      "title": "Django 2.1 release notes",
+      "file": "docs/docs_releases_2.1.html",
+      "size_bytes": 24235
+    },
+    "1.7": {
+      "source_path": "docs/releases/1.7.txt",
+      "title": "Django 1.7 release notes",
+      "file": "docs/docs_releases_1.7.html",
+      "size_bytes": 104103
+    },
+    "3.2.12": {
+      "source_path": "docs/releases/3.2.12.txt",
+      "title": "Django 3.2.12 release notes",
+      "file": "docs/docs_releases_3.2.12.html",
+      "size_bytes": 957
+    },
+    "1.9.2": {
+      "source_path": "docs/releases/1.9.2.txt",
+      "title": "Django 1.9.2 release notes",
+      "file": "docs/docs_releases_1.9.2.html",
+      "size_bytes": 6105
+    },
+    "3.2.18": {
+      "source_path": "docs/releases/3.2.18.txt",
+      "title": "Django 3.2.18 release notes",
+      "file": "docs/docs_releases_3.2.18.html",
+      "size_bytes": 674
+    },
+    "3.2.15": {
+      "source_path": "docs/releases/3.2.15.txt",
+      "title": "Django 3.2.15 release notes",
+      "file": "docs/docs_releases_3.2.15.html",
+      "size_bytes": 712
+    },
+    "1.8.11": {
+      "source_path": "docs/releases/1.8.11.txt",
+      "title": "Django 1.8.11 release notes",
+      "file": "docs/docs_releases_1.8.11.html",
+      "size_bytes": 315
+    },
+    "3.2.5": {
+      "source_path": "docs/releases/3.2.5.txt",
+      "title": "Django 3.2.5 release notes",
+      "file": "docs/docs_releases_3.2.5.html",
+      "size_bytes": 1964
+    },
+    "1.10.8": {
+      "source_path": "docs/releases/1.10.8.txt",
+      "title": "Django 1.10.8 release notes",
+      "file": "docs/docs_releases_1.10.8.html",
+      "size_bytes": 700
+    },
+    "1.2.3": {
+      "source_path": "docs/releases/1.2.3.txt",
+      "title": "Django 1.2.3 release notes",
+      "file": "docs/docs_releases_1.2.3.html",
+      "size_bytes": 692
+    },
+    "2.2.13": {
+      "source_path": "docs/releases/2.2.13.txt",
+      "title": "Django 2.2.13 release notes",
+      "file": "docs/docs_releases_2.2.13.html",
+      "size_bytes": 1416
+    },
+    "contributing": {
+      "source_path": "docs/faq/contributing.txt",
+      "title": "FAQ: Contributing code",
+      "file": "docs/docs_faq_contributing.html",
+      "size_bytes": 5795
+    },
+    "tutorial04": {
+      "source_path": "docs/intro/tutorial04.txt",
+      "title": "Writing your first Django app, part 4",
+      "file": "docs/docs_intro_tutorial04.html",
+      "size_bytes": 26126
+    },
+    "tutorial07": {
+      "source_path": "docs/intro/tutorial07.txt",
+      "title": "Writing your first Django app, part 7",
+      "file": "docs/docs_intro_tutorial07.html",
+      "size_bytes": 28292
+    },
+    "tutorial01": {
+      "source_path": "docs/intro/tutorial01.txt",
+      "title": "Writing your first Django app, part 1",
+      "file": "docs/docs_intro_tutorial01.html",
+      "size_bytes": 15599
+    },
+    "whatsnext": {
+      "source_path": "docs/intro/whatsnext.txt",
+      "title": "What to read next",
+      "file": "docs/docs_intro_whatsnext.html",
+      "size_bytes": 10813
+    },
+    "install": {
+      "source_path": "docs/topics/install.txt",
+      "title": "How to install Django",
+      "file": "docs/docs_topics_install.html",
+      "size_bytes": 11889
+    },
+    "overview": {
+      "source_path": "docs/topics/testing/overview.txt",
+      "title": "Writing and running tests",
+      "file": "docs/docs_topics_testing_overview.html",
+      "size_bytes": 19204
+    },
+    "tutorial05": {
+      "source_path": "docs/intro/tutorial05.txt",
+      "title": "Writing your first Django app, part 5",
+      "file": "docs/docs_intro_tutorial05.html",
+      "size_bytes": 50326
+    },
+    "tutorial08": {
+      "source_path": "docs/intro/tutorial08.txt",
+      "title": "Writing your first Django app, part 8",
+      "file": "docs/docs_intro_tutorial08.html",
+      "size_bytes": 5289
+    },
+    "tutorial06": {
+      "source_path": "docs/intro/tutorial06.txt",
+      "title": "Writing your first Django app, part 6",
+      "file": "docs/docs_intro_tutorial06.html",
+      "size_bytes": 7382
+    },
+    "tutorial02": {
+      "source_path": "docs/intro/tutorial02.txt",
+      "title": "Writing your first Django app, part 2",
+      "file": "docs/docs_intro_tutorial02.html",
+      "size_bytes": 40690
+    },
+    "reusable-apps": {
+      "source_path": "docs/intro/reusable-apps.txt",
+      "title": "Advanced tutorial: How to write reusable apps",
+      "file": "docs/docs_intro_reusable-apps.html",
+      "size_bytes": 23573
+    },
+    "tutorial03": {
+      "source_path": "docs/intro/tutorial03.txt",
+      "title": "Writing your first Django app, part 3",
+      "file": "docs/docs_intro_tutorial03.html",
+      "size_bytes": 32385
+    },
+    "tasks": {
+      "source_path": "docs/topics/tasks.txt",
+      "title": "Django's Tasks framework",
+      "file": "docs/docs_topics_tasks.html",
+      "size_bytes": 16917
+    },
+    "exceptions": {
+      "source_path": "docs/ref/exceptions.txt",
+      "title": "Django Exceptions",
+      "file": "docs/docs_ref_exceptions.html",
+      "size_bytes": 15001
+    },
+    "validators": {
+      "source_path": "docs/ref/contrib/postgres/validators.txt",
+      "title": "Validators",
+      "file": "docs/docs_ref_contrib_postgres_validators.html",
+      "size_bytes": 1343
+    },
+    "signals": {
+      "source_path": "docs/topics/signals.txt",
+      "title": "Signals",
+      "file": "docs/docs_topics_signals.html",
+      "size_bytes": 15478
+    },
+    "paginator": {
+      "source_path": "docs/ref/paginator.txt",
+      "title": "Paginator",
+      "file": "docs/docs_ref_paginator.html",
+      "size_bytes": 13425
+    },
+    "logging": {
+      "source_path": "docs/topics/logging.txt",
+      "title": "Logging",
+      "file": "docs/docs_topics_logging.html",
+      "size_bytes": 32341
+    },
+    "csrf": {
+      "source_path": "docs/howto/csrf.txt",
+      "title": "How to use Django's CSRF protection",
+      "file": "docs/docs_howto_csrf.html",
+      "size_bytes": 18999
+    },
+    "urls": {
+      "source_path": "docs/topics/http/urls.txt",
+      "title": "URL dispatcher",
+      "file": "docs/docs_topics_http_urls.html",
+      "size_bytes": 42652
+    },
+    "applications": {
+      "source_path": "docs/ref/applications.txt",
+      "title": "Applications",
+      "file": "docs/docs_ref_applications.html",
+      "size_bytes": 26161
+    },
+    "template-response": {
+      "source_path": "docs/ref/template-response.txt",
+      "title": "``TemplateResponse`` and ``SimpleTemplateResponse``",
+      "file": "docs/docs_ref_template-response.html",
+      "size_bytes": 13552
+    },
+    "request-response": {
+      "source_path": "docs/ref/request-response.txt",
+      "title": "Request and response objects",
+      "file": "docs/docs_ref_request-response.html",
+      "size_bytes": 68063
+    },
+    "csp": {
+      "source_path": "docs/howto/csp.txt",
+      "title": "How to use Django's Content Security Policy",
+      "file": "docs/docs_howto_csp.html",
+      "size_bytes": 3896
+    },
+    "views": {
+      "source_path": "docs/topics/http/views.txt",
+      "title": "Writing views",
+      "file": "docs/docs_topics_http_views.html",
+      "size_bytes": 10002
+    },
+    "utils": {
+      "source_path": "docs/ref/contrib/gis/utils.txt",
+      "title": "GeoDjango Utilities",
+      "file": "docs/docs_ref_contrib_gis_utils.html",
+      "size_bytes": 437
+    },
+    "databases": {
+      "source_path": "docs/ref/databases.txt",
+      "title": "Databases",
+      "file": "docs/docs_ref_databases.html",
+      "size_bytes": 61014
+    },
+    "checks": {
+      "source_path": "docs/topics/checks.txt",
+      "title": "System check framework",
+      "file": "docs/docs_topics_checks.html",
+      "size_bytes": 11868
+    },
+    "schema-editor": {
+      "source_path": "docs/ref/schema-editor.txt",
+      "title": "``SchemaEditor``",
+      "file": "docs/docs_ref_schema-editor.html",
+      "size_bytes": 8554
+    },
+    "django-admin": {
+      "source_path": "docs/ref/django-admin.txt",
+      "title": "``django-admin`` and ``manage.py``",
+      "file": "docs/docs_ref_django-admin.html",
+      "size_bytes": 99703
+    },
+    "settings": {
+      "source_path": "docs/topics/settings.txt",
+      "title": "Django settings",
+      "file": "docs/docs_topics_settings.html",
+      "size_bytes": 12722
+    },
+    "urlresolvers": {
+      "source_path": "docs/ref/urlresolvers.txt",
+      "title": "``django.urls`` utility functions",
+      "file": "docs/docs_ref_urlresolvers.html",
+      "size_bytes": 12861
+    },
+    "clickjacking": {
+      "source_path": "docs/ref/clickjacking.txt",
+      "title": "Clickjacking Protection",
+      "file": "docs/docs_ref_clickjacking.html",
+      "size_bytes": 5102
+    },
+    "unicode": {
+      "source_path": "docs/ref/unicode.txt",
+      "title": "Unicode data",
+      "file": "docs/docs_ref_unicode.html",
+      "size_bytes": 17670
+    },
+    "middleware": {
+      "source_path": "docs/topics/http/middleware.txt",
+      "title": "Middleware",
+      "file": "docs/docs_topics_http_middleware.html",
+      "size_bytes": 23278
+    },
+    "migration-operations": {
+      "source_path": "docs/ref/migration-operations.txt",
+      "title": "Migration Operations",
+      "file": "docs/docs_ref_migration-operations.html",
+      "size_bytes": 29900
+    },
+    "admin": {
+      "source_path": "docs/ref/contrib/gis/admin.txt",
+      "title": "GeoDjango's admin site",
+      "file": "docs/docs_ref_contrib_gis_admin.html",
+      "size_bytes": 771
+    },
+    "usage": {
+      "source_path": "docs/faq/usage.txt",
+      "title": "FAQ: Using Django",
+      "file": "docs/docs_faq_usage.html",
+      "size_bytes": 3712
+    },
+    "general": {
+      "source_path": "docs/faq/general.txt",
+      "title": "FAQ: General",
+      "file": "docs/docs_faq_general.html",
+      "size_bytes": 10462
+    },
+    "models": {
+      "source_path": "docs/topics/db/models.txt",
+      "title": "Models",
+      "file": "docs/docs_topics_db_models.html",
+      "size_bytes": 76030
+    },
+    "help": {
+      "source_path": "docs/faq/help.txt",
+      "title": "FAQ: Getting Help",
+      "file": "docs/docs_faq_help.html",
+      "size_bytes": 3039
+    },
+    "troubleshooting": {
+      "source_path": "docs/faq/troubleshooting.txt",
+      "title": "Troubleshooting",
+      "file": "docs/docs_faq_troubleshooting.html",
+      "size_bytes": 2410
+    },
+    "auth-remote-user": {
+      "source_path": "docs/howto/auth-remote-user.txt",
+      "title": "How to authenticate using ``REMOTE_USER``",
+      "file": "docs/docs_howto_auth-remote-user.html",
+      "size_bytes": 8068
+    },
+    "legacy-databases": {
+      "source_path": "docs/howto/legacy-databases.txt",
+      "title": "How to integrate Django with a legacy database",
+      "file": "docs/docs_howto_legacy-databases.html",
+      "size_bytes": 3779
+    },
+    "delete-app": {
+      "source_path": "docs/howto/delete-app.txt",
+      "title": "How to delete a Django application",
+      "file": "docs/docs_howto_delete-app.html",
+      "size_bytes": 1268
+    },
+    "custom-model-fields": {
+      "source_path": "docs/howto/custom-model-fields.txt",
+      "title": "How to create custom model fields",
+      "file": "docs/docs_howto_custom-model-fields.html",
+      "size_bytes": 38719
+    },
+    "upgrade-version": {
+      "source_path": "docs/howto/upgrade-version.txt",
+      "title": "How to upgrade Django to a newer version",
+      "file": "docs/docs_howto_upgrade-version.html",
+      "size_bytes": 6215
+    },
+    "outputting-pdf": {
+      "source_path": "docs/howto/outputting-pdf.txt",
+      "title": "How to create PDF files",
+      "file": "docs/docs_howto_outputting-pdf.html",
+      "size_bytes": 4839
+    },
+    "custom-management-commands": {
+      "source_path": "docs/howto/custom-management-commands.txt",
+      "title": "How to create custom ``django-admin`` commands",
+      "file": "docs/docs_howto_custom-management-commands.html",
+      "size_bytes": 18342
+    },
+    "custom-template-tags": {
+      "source_path": "docs/howto/custom-template-tags.txt",
+      "title": "How to create custom template tags and filters",
+      "file": "docs/docs_howto_custom-template-tags.html",
+      "size_bytes": 67876
+    },
+    "windows": {
+      "source_path": "docs/howto/windows.txt",
+      "title": "How to install Django on Windows",
+      "file": "docs/docs_howto_windows.html",
+      "size_bytes": 6399
+    },
+    "outputting-csv": {
+      "source_path": "docs/howto/outputting-csv.txt",
+      "title": "How to create CSV output",
+      "file": "docs/docs_howto_outputting-csv.html",
+      "size_bytes": 7124
+    },
+    "custom-template-backend": {
+      "source_path": "docs/howto/custom-template-backend.txt",
+      "title": "How to implement a custom template backend",
+      "file": "docs/docs_howto_custom-template-backend.html",
+      "size_bytes": 6752
+    },
+    "writing-migrations": {
+      "source_path": "docs/howto/writing-migrations.txt",
+      "title": "How to create database migrations",
+      "file": "docs/docs_howto_writing-migrations.html",
+      "size_bytes": 26452
+    },
+    "custom-shell": {
+      "source_path": "docs/howto/custom-shell.txt",
+      "title": "How to customize the ``shell`` command",
+      "file": "docs/docs_howto_custom-shell.html",
+      "size_bytes": 4432
+    },
+    "error-reporting": {
+      "source_path": "docs/howto/error-reporting.txt",
+      "title": "How to manage error reporting",
+      "file": "docs/docs_howto_error-reporting.html",
+      "size_bytes": 17968
+    },
+    "custom-lookups": {
+      "source_path": "docs/howto/custom-lookups.txt",
+      "title": "How to write custom lookups",
+      "file": "docs/docs_howto_custom-lookups.html",
+      "size_bytes": 19494
+    },
+    "overriding-templates": {
+      "source_path": "docs/howto/overriding-templates.txt",
+      "title": "How to override templates",
+      "file": "docs/docs_howto_overriding-templates.html",
+      "size_bytes": 5602
+    },
+    "custom-file-storage": {
+      "source_path": "docs/howto/custom-file-storage.txt",
+      "title": "How to write a custom storage class",
+      "file": "docs/docs_howto_custom-file-storage.html",
+      "size_bytes": 6804
+    },
+    "initial-data": {
+      "source_path": "docs/howto/initial-data.txt",
+      "title": "How to provide initial data for models",
+      "file": "docs/docs_howto_initial-data.html",
+      "size_bytes": 8944
+    },
+    "design-philosophies": {
+      "source_path": "docs/misc/design-philosophies.txt",
+      "title": "Design philosophies",
+      "file": "docs/docs_misc_design-philosophies.html",
+      "size_bytes": 11041
+    },
+    "distributions": {
+      "source_path": "docs/misc/distributions.txt",
+      "title": "Third-party distributions of Django",
+      "file": "docs/docs_misc_distributions.html",
+      "size_bytes": 1606
+    },
+    "api-stability": {
+      "source_path": "docs/misc/api-stability.txt",
+      "title": "API stability",
+      "file": "docs/docs_misc_api-stability.html",
+      "size_bytes": 3437
+    },
+    "migrations": {
+      "source_path": "docs/topics/migrations.txt",
+      "title": "Migrations",
+      "file": "docs/docs_topics_migrations.html",
+      "size_bytes": 44209
+    },
+    "async": {
+      "source_path": "docs/topics/async.txt",
+      "title": "Asynchronous support",
+      "file": "docs/docs_topics_async.html",
+      "size_bytes": 19637
+    },
+    "signing": {
+      "source_path": "docs/topics/signing.txt",
+      "title": "Cryptographic signing",
+      "file": "docs/docs_topics_signing.html",
+      "size_bytes": 11512
+    },
+    "performance": {
+      "source_path": "docs/topics/performance.txt",
+      "title": "Performance and optimization",
+      "file": "docs/docs_topics_performance.html",
+      "size_bytes": 20183
+    },
+    "composite-primary-key": {
+      "source_path": "docs/topics/composite-primary-key.txt",
+      "title": "Composite primary keys",
+      "file": "docs/docs_topics_composite-primary-key.html",
+      "size_bytes": 10506
+    },
+    "external-packages": {
+      "source_path": "docs/topics/external-packages.txt",
+      "title": "External packages",
+      "file": "docs/docs_topics_external-packages.html",
+      "size_bytes": 1651
+    },
+    "templates": {
+      "source_path": "docs/topics/templates.txt",
+      "title": "Templates",
+      "file": "docs/docs_topics_templates.html",
+      "size_bytes": 32359
+    },
+    "conditional-view-processing": {
+      "source_path": "docs/topics/conditional-view-processing.txt",
+      "title": "Conditional View Processing",
+      "file": "docs/docs_topics_conditional-view-processing.html",
+      "size_bytes": 11240
+    },
+    "serialization": {
+      "source_path": "docs/topics/serialization.txt",
+      "title": "Serializing Django objects",
+      "file": "docs/docs_topics_serialization.html",
+      "size_bytes": 41740
+    },
+    "pagination": {
+      "source_path": "docs/topics/pagination.txt",
+      "title": "Pagination",
+      "file": "docs/docs_topics_pagination.html",
+      "size_bytes": 5427
+    },
+    "files": {
+      "source_path": "docs/topics/files.txt",
+      "title": "Managing files",
+      "file": "docs/docs_topics_files.html",
+      "size_bytes": 11854
+    },
+    "cache": {
+      "source_path": "docs/topics/cache.txt",
+      "title": "Django's cache framework",
+      "file": "docs/docs_topics_cache.html",
+      "size_bytes": 68108
+    },
+    "email": {
+      "source_path": "docs/topics/email.txt",
+      "title": "Sending email",
+      "file": "docs/docs_topics_email.html",
+      "size_bytes": 43536
+    },
+    "triaging-tickets": {
+      "source_path": "docs/internals/contributing/triaging-tickets.txt",
+      "title": "Triaging tickets",
+      "file": "docs/docs_internals_contributing_triaging-tickets.html",
+      "size_bytes": 20730
+    },
+    "new-contributors": {
+      "source_path": "docs/internals/contributing/new-contributors.txt",
+      "title": "Advice for new contributors",
+      "file": "docs/docs_internals_contributing_new-contributors.html",
+      "size_bytes": 7579
+    },
+    "committing-code": {
+      "source_path": "docs/internals/contributing/committing-code.txt",
+      "title": "Committing code",
+      "file": "docs/docs_internals_contributing_committing-code.html",
+      "size_bytes": 11231
+    },
+    "localizing": {
+      "source_path": "docs/internals/contributing/localizing.txt",
+      "title": "Localizing Django",
+      "file": "docs/docs_internals_contributing_localizing.html",
+      "size_bytes": 4648
+    },
+    "accessibility": {
+      "source_path": "docs/internals/contributing/accessibility.txt",
+      "title": "Accessibility",
+      "file": "docs/docs_internals_contributing_accessibility.html",
+      "size_bytes": 7277
+    },
+    "writing-documentation": {
+      "source_path": "docs/internals/contributing/writing-documentation.txt",
+      "title": "Writing documentation",
+      "file": "docs/docs_internals_contributing_writing-documentation.html",
+      "size_bytes": 37349
+    },
+    "bugs-and-features": {
+      "source_path": "docs/internals/contributing/bugs-and-features.txt",
+      "title": "Reporting bugs and requesting features",
+      "file": "docs/docs_internals_contributing_bugs-and-features.html",
+      "size_bytes": 8310
+    },
+    "javascript": {
+      "source_path": "docs/ref/contrib/admin/javascript.txt",
+      "title": "JavaScript customizations in the admin",
+      "file": "docs/docs_ref_contrib_admin_javascript.html",
+      "size_bytes": 6087
+    },
+    "unit-tests": {
+      "source_path": "docs/internals/contributing/writing-code/unit-tests.txt",
+      "title": "Unit tests",
+      "file": "docs/docs_internals_contributing_writing-code_unit-tests.html",
+      "size_bytes": 28717
+    },
+    "submitting-patches": {
+      "source_path": "docs/internals/contributing/writing-code/submitting-patches.txt",
+      "title": "Submitting contributions",
+      "file": "docs/docs_internals_contributing_writing-code_submitting-patches.html",
+      "size_bytes": 21714
+    },
+    "working-with-git": {
+      "source_path": "docs/internals/contributing/writing-code/working-with-git.txt",
+      "title": "Working with Git and GitHub",
+      "file": "docs/docs_internals_contributing_writing-code_working-with-git.html",
+      "size_bytes": 11971
+    },
+    "coding-style": {
+      "source_path": "docs/internals/contributing/writing-code/coding-style.txt",
+      "title": "Coding style",
+      "file": "docs/docs_internals_contributing_writing-code_coding-style.html",
+      "size_bytes": 20344
+    },
+    "LICENSE": {
+      "source_path": "docs/_theme/djangodocs/static/fontawesome/LICENSE.txt",
+      "title": "Font Awesome Free License",
+      "file": "docs/docs__theme_djangodocs_static_fontawesome_LICENSE.html",
+      "size_bytes": 1809
+    },
+    "validation": {
+      "source_path": "docs/ref/forms/validation.txt",
+      "title": "Form and field validation",
+      "file": "docs/docs_ref_forms_validation.html",
+      "size_bytes": 19325
+    },
+    "formsets": {
+      "source_path": "docs/topics/forms/formsets.txt",
+      "title": "Formsets",
+      "file": "docs/docs_topics_forms_formsets.html",
+      "size_bytes": 51325
+    },
+    "fields": {
+      "source_path": "docs/ref/contrib/postgres/fields.txt",
+      "title": "PostgreSQL specific model fields",
+      "file": "docs/docs_ref_contrib_postgres_fields.html",
+      "size_bytes": 40648
+    },
+    "api": {
+      "source_path": "docs/ref/templates/api.txt",
+      "title": "The Django template language: for Python programmers",
+      "file": "docs/docs_ref_templates_api.html",
+      "size_bytes": 51849
+    },
+    "widgets": {
+      "source_path": "docs/ref/forms/widgets.txt",
+      "title": "Widgets",
+      "file": "docs/docs_ref_forms_widgets.html",
+      "size_bytes": 59784
+    },
+    "renderers": {
+      "source_path": "docs/ref/forms/renderers.txt",
+      "title": "The form rendering API",
+      "file": "docs/docs_ref_forms_renderers.html",
+      "size_bytes": 11248
+    },
+    "base": {
+      "source_path": "docs/ref/class-based-views/base.txt",
+      "title": "Base views",
+      "file": "docs/docs_ref_class-based-views_base.html",
+      "size_bytes": 12634
+    },
+    "generic-date-based": {
+      "source_path": "docs/ref/class-based-views/generic-date-based.txt",
+      "title": "Generic date views",
+      "file": "docs/docs_ref_class-based-views_generic-date-based.html",
+      "size_bytes": 28015
+    },
+    "mixins-single-object": {
+      "source_path": "docs/ref/class-based-views/mixins-single-object.txt",
+      "title": "Single object mixins",
+      "file": "docs/docs_ref_class-based-views_mixins-single-object.html",
+      "size_bytes": 8730
+    },
+    "mixins-multiple-object": {
+      "source_path": "docs/ref/class-based-views/mixins-multiple-object.txt",
+      "title": "Multiple object mixins",
+      "file": "docs/docs_ref_class-based-views_mixins-multiple-object.html",
+      "size_bytes": 10032
+    },
+    "mixins-editing": {
+      "source_path": "docs/ref/class-based-views/mixins-editing.txt",
+      "title": "Editing mixins",
+      "file": "docs/docs_ref_class-based-views_mixins-editing.html",
+      "size_bytes": 10262
+    },
+    "generic-display": {
+      "source_path": "docs/topics/class-based-views/generic-display.txt",
+      "title": "Built-in class-based generic views",
+      "file": "docs/docs_topics_class-based-views_generic-display.html",
+      "size_bytes": 17665
+    },
+    "mixins-simple": {
+      "source_path": "docs/ref/class-based-views/mixins-simple.txt",
+      "title": "Simple mixins",
+      "file": "docs/docs_ref_class-based-views_mixins-simple.html",
+      "size_bytes": 4502
+    },
+    "generic-editing": {
+      "source_path": "docs/topics/class-based-views/generic-editing.txt",
+      "title": "Form handling with class-based views",
+      "file": "docs/docs_topics_class-based-views_generic-editing.html",
+      "size_bytes": 22891
+    },
+    "mixins": {
+      "source_path": "docs/topics/class-based-views/mixins.txt",
+      "title": "Using mixins with class-based views",
+      "file": "docs/docs_topics_class-based-views_mixins.html",
+      "size_bytes": 40935
+    },
+    "mixins-date-based": {
+      "source_path": "docs/ref/class-based-views/mixins-date-based.txt",
+      "title": "Date-based mixins",
+      "file": "docs/docs_ref_class-based-views_mixins-date-based.html",
+      "size_bytes": 15308
+    },
+    "flattened-index": {
+      "source_path": "docs/ref/class-based-views/flattened-index.txt",
+      "title": "Class-based generic views - flattened index",
+      "file": "docs/docs_ref_class-based-views_flattened-index.html",
+      "size_bytes": 69341
+    },
+    "file": {
+      "source_path": "docs/ref/files/file.txt",
+      "title": "The ``File`` object",
+      "file": "docs/docs_ref_files_file.html",
+      "size_bytes": 6965
+    },
+    "storage": {
+      "source_path": "docs/ref/files/storage.txt",
+      "title": "File storage API",
+      "file": "docs/docs_ref_files_storage.html",
+      "size_bytes": 13060
+    },
+    "uploads": {
+      "source_path": "docs/ref/files/uploads.txt",
+      "title": "Uploaded Files and Upload Handlers",
+      "file": "docs/docs_ref_files_uploads.html",
+      "size_bytes": 10420
+    },
+    "language": {
+      "source_path": "docs/ref/templates/language.txt",
+      "title": "The Django template language",
+      "file": "docs/docs_ref_templates_language.html",
+      "size_bytes": 37034
+    },
+    "builtins": {
+      "source_path": "docs/ref/templates/builtins.txt",
+      "title": "Built-in template tags and filters",
+      "file": "docs/docs_ref_templates_builtins.html",
+      "size_bytes": 128495
+    },
+    "instances": {
+      "source_path": "docs/ref/models/instances.txt",
+      "title": "Model instance reference",
+      "file": "docs/docs_ref_models_instances.html",
+      "size_bytes": 47464
+    },
+    "constraints": {
+      "source_path": "docs/ref/contrib/postgres/constraints.txt",
+      "title": "PostgreSQL specific database constraints",
+      "file": "docs/docs_ref_contrib_postgres_constraints.html",
+      "size_bytes": 9077
+    },
+    "meta": {
+      "source_path": "docs/ref/models/meta.txt",
+      "title": "Model ``_meta`` API",
+      "file": "docs/docs_ref_models_meta.html",
+      "size_bytes": 7653
+    },
+    "class": {
+      "source_path": "docs/ref/models/class.txt",
+      "title": "Model class reference",
+      "file": "docs/docs_ref_models_class.html",
+      "size_bytes": 3815
+    },
+    "querysets": {
+      "source_path": "docs/ref/models/querysets.txt",
+      "title": "``QuerySet`` API reference",
+      "file": "docs/docs_ref_models_querysets.html",
+      "size_bytes": 213069
+    },
+    "database-functions": {
+      "source_path": "docs/ref/models/database-functions.txt",
+      "title": "Database Functions",
+      "file": "docs/docs_ref_models_database-functions.html",
+      "size_bytes": 75484
+    },
+    "conditional-expressions": {
+      "source_path": "docs/ref/models/conditional-expressions.txt",
+      "title": "Conditional Expressions",
+      "file": "docs/docs_ref_models_conditional-expressions.html",
+      "size_bytes": 15936
+    },
+    "lookups": {
+      "source_path": "docs/ref/contrib/postgres/lookups.txt",
+      "title": "PostgreSQL specific lookups",
+      "file": "docs/docs_ref_contrib_postgres_lookups.html",
+      "size_bytes": 5533
+    },
+    "relations": {
+      "source_path": "docs/ref/models/relations.txt",
+      "title": "Related objects reference",
+      "file": "docs/docs_ref_models_relations.html",
+      "size_bytes": 10918
+    },
+    "expressions": {
+      "source_path": "docs/ref/contrib/postgres/expressions.txt",
+      "title": "PostgreSQL specific query expressions",
+      "file": "docs/docs_ref_contrib_postgres_expressions.html",
+      "size_bytes": 1763
+    },
+    "options": {
+      "source_path": "docs/ref/models/options.txt",
+      "title": "Model ``Meta`` options",
+      "file": "docs/docs_ref_models_options.html",
+      "size_bytes": 22128
+    },
+    "indexes": {
+      "source_path": "docs/ref/contrib/postgres/indexes.txt",
+      "title": "PostgreSQL specific model indexes",
+      "file": "docs/docs_ref_contrib_postgres_indexes.html",
+      "size_bytes": 7648
+    },
+    "flatpages": {
+      "source_path": "docs/ref/contrib/flatpages.txt",
+      "title": "The flatpages app",
+      "file": "docs/docs_ref_contrib_flatpages.html",
+      "size_bytes": 18455
+    },
+    "humanize": {
+      "source_path": "docs/ref/contrib/humanize.txt",
+      "title": "``django.contrib.humanize``",
+      "file": "docs/docs_ref_contrib_humanize.html",
+      "size_bytes": 6423
+    },
+    "sitemaps": {
+      "source_path": "docs/ref/contrib/gis/sitemaps.txt",
+      "title": "Geographic Sitemaps",
+      "file": "docs/docs_ref_contrib_gis_sitemaps.html",
+      "size_bytes": 841
+    },
+    "syndication": {
+      "source_path": "docs/ref/contrib/syndication.txt",
+      "title": "The syndication feed framework",
+      "file": "docs/docs_ref_contrib_syndication.html",
+      "size_bytes": 48780
+    },
+    "messages": {
+      "source_path": "docs/ref/contrib/messages.txt",
+      "title": "The messages framework",
+      "file": "docs/docs_ref_contrib_messages.html",
+      "size_bytes": 20837
+    },
+    "sites": {
+      "source_path": "docs/ref/contrib/sites.txt",
+      "title": "The \"sites\" framework",
+      "file": "docs/docs_ref_contrib_sites.html",
+      "size_bytes": 24567
+    },
+    "contenttypes": {
+      "source_path": "docs/ref/contrib/contenttypes.txt",
+      "title": "The contenttypes framework",
+      "file": "docs/docs_ref_contrib_contenttypes.html",
+      "size_bytes": 32332
+    },
+    "redirects": {
+      "source_path": "docs/ref/contrib/redirects.txt",
+      "title": "The redirects app",
+      "file": "docs/docs_ref_contrib_redirects.html",
+      "size_bytes": 5883
+    },
+    "staticfiles": {
+      "source_path": "docs/ref/contrib/staticfiles.txt",
+      "title": "The ``staticfiles`` app",
+      "file": "docs/docs_ref_contrib_staticfiles.html",
+      "size_bytes": 28277
+    },
+    "auth": {
+      "source_path": "docs/ref/contrib/auth.txt",
+      "title": "``django.contrib.auth``",
+      "file": "docs/docs_ref_contrib_auth.html",
+      "size_bytes": 37650
+    },
+    "filters": {
+      "source_path": "docs/ref/contrib/admin/filters.txt",
+      "title": "``ModelAdmin`` List Filters",
+      "file": "docs/docs_ref_contrib_admin_filters.html",
+      "size_bytes": 9004
+    },
+    "admindocs": {
+      "source_path": "docs/ref/contrib/admin/admindocs.txt",
+      "title": "The Django admin documentation generator",
+      "file": "docs/docs_ref_contrib_admin_admindocs.html",
+      "size_bytes": 6131
+    },
+    "actions": {
+      "source_path": "docs/ref/contrib/admin/actions.txt",
+      "title": "Admin actions",
+      "file": "docs/docs_ref_contrib_admin_actions.html",
+      "size_bytes": 20064
+    },
+    "measure": {
+      "source_path": "docs/ref/contrib/gis/measure.txt",
+      "title": "Measurement Objects",
+      "file": "docs/docs_ref_contrib_gis_measure.html",
+      "size_bytes": 8320
+    },
+    "gdal": {
+      "source_path": "docs/ref/contrib/gis/gdal.txt",
+      "title": "GDAL API",
+      "file": "docs/docs_ref_contrib_gis_gdal.html",
+      "size_bytes": 81350
+    },
+    "layermapping": {
+      "source_path": "docs/ref/contrib/gis/layermapping.txt",
+      "title": "``LayerMapping`` data import utility",
+      "file": "docs/docs_ref_contrib_gis_layermapping.html",
+      "size_bytes": 10398
+    },
+    "forms-api": {
+      "source_path": "docs/ref/contrib/gis/forms-api.txt",
+      "title": "GeoDjango Forms API",
+      "file": "docs/docs_ref_contrib_gis_forms-api.html",
+      "size_bytes": 10111
+    },
+    "testing": {
+      "source_path": "docs/ref/contrib/gis/testing.txt",
+      "title": "Testing GeoDjango apps",
+      "file": "docs/docs_ref_contrib_gis_testing.html",
+      "size_bytes": 4537
+    },
+    "model-api": {
+      "source_path": "docs/ref/contrib/gis/model-api.txt",
+      "title": "GeoDjango Model API",
+      "file": "docs/docs_ref_contrib_gis_model-api.html",
+      "size_bytes": 12475
+    },
+    "db-api": {
+      "source_path": "docs/ref/contrib/gis/db-api.txt",
+      "title": "GeoDjango Database API",
+      "file": "docs/docs_ref_contrib_gis_db-api.html",
+      "size_bytes": 29000
+    },
+    "ogrinspect": {
+      "source_path": "docs/ref/contrib/gis/ogrinspect.txt",
+      "title": "OGR Inspection",
+      "file": "docs/docs_ref_contrib_gis_ogrinspect.html",
+      "size_bytes": 539
+    },
+    "serializers": {
+      "source_path": "docs/ref/contrib/gis/serializers.txt",
+      "title": "``GeoJSON`` Serializer",
+      "file": "docs/docs_ref_contrib_gis_serializers.html",
+      "size_bytes": 2811
+    },
+    "commands": {
+      "source_path": "docs/ref/contrib/gis/commands.txt",
+      "title": "GeoDjango Management Commands",
+      "file": "docs/docs_ref_contrib_gis_commands.html",
+      "size_bytes": 4223
+    },
+    "feeds": {
+      "source_path": "docs/ref/contrib/gis/feeds.txt",
+      "title": "Geographic Feeds",
+      "file": "docs/docs_ref_contrib_gis_feeds.html",
+      "size_bytes": 2986
+    },
+    "geoip2": {
+      "source_path": "docs/ref/contrib/gis/geoip2.txt",
+      "title": "Geolocation with GeoIP2",
+      "file": "docs/docs_ref_contrib_gis_geoip2.html",
+      "size_bytes": 7592
+    },
+    "deployment": {
+      "source_path": "docs/howto/static-files/deployment.txt",
+      "title": "How to deploy static files",
+      "file": "docs/docs_howto_static-files_deployment.html",
+      "size_bytes": 5984
+    },
+    "geoquerysets": {
+      "source_path": "docs/ref/contrib/gis/geoquerysets.txt",
+      "title": "GIS QuerySet API Reference",
+      "file": "docs/docs_ref_contrib_gis_geoquerysets.html",
+      "size_bytes": 42161
+    },
+    "geos": {
+      "source_path": "docs/ref/contrib/gis/geos.txt",
+      "title": "GEOS API",
+      "file": "docs/docs_ref_contrib_gis_geos.html",
+      "size_bytes": 50142
+    },
+    "functions": {
+      "source_path": "docs/ref/contrib/postgres/functions.txt",
+      "title": "PostgreSQL specific database functions",
+      "file": "docs/docs_ref_contrib_postgres_functions.html",
+      "size_bytes": 1895
+    },
+    "tutorial": {
+      "source_path": "docs/ref/contrib/gis/tutorial.txt",
+      "title": "GeoDjango Tutorial",
+      "file": "docs/docs_ref_contrib_gis_tutorial.html",
+      "size_bytes": 37108
+    },
+    "aggregates": {
+      "source_path": "docs/ref/contrib/postgres/aggregates.txt",
+      "title": "PostgreSQL specific aggregation functions",
+      "file": "docs/docs_ref_contrib_postgres_aggregates.html",
+      "size_bytes": 13828
+    },
+    "search": {
+      "source_path": "docs/topics/db/search.txt",
+      "title": "Search",
+      "file": "docs/docs_topics_db_search.html",
+      "size_bytes": 6743
+    },
+    "forms": {
+      "source_path": "docs/ref/contrib/postgres/forms.txt",
+      "title": "PostgreSQL specific form fields and widgets",
+      "file": "docs/docs_ref_contrib_postgres_forms.html",
+      "size_bytes": 9365
+    },
+    "operations": {
+      "source_path": "docs/ref/contrib/postgres/operations.txt",
+      "title": "Database migration operations",
+      "file": "docs/docs_ref_contrib_postgres_operations.html",
+      "size_bytes": 11948
+    },
+    "postgis": {
+      "source_path": "docs/ref/contrib/gis/install/postgis.txt",
+      "title": "Installing PostGIS",
+      "file": "docs/docs_ref_contrib_gis_install_postgis.html",
+      "size_bytes": 3492
+    },
+    "spatialite": {
+      "source_path": "docs/ref/contrib/gis/install/spatialite.txt",
+      "title": "Installing SpatiaLite",
+      "file": "docs/docs_ref_contrib_gis_install_spatialite.html",
+      "size_bytes": 3887
+    },
+    "geolibs": {
+      "source_path": "docs/ref/contrib/gis/install/geolibs.txt",
+      "title": "Installing Geospatial libraries",
+      "file": "docs/docs_ref_contrib_gis_install_geolibs.html",
+      "size_bytes": 10039
+    },
+    "checklist": {
+      "source_path": "docs/howto/deployment/checklist.txt",
+      "title": "Deployment checklist",
+      "file": "docs/docs_howto_deployment_checklist.html",
+      "size_bytes": 12481
+    },
+    "uwsgi": {
+      "source_path": "docs/howto/deployment/wsgi/uwsgi.txt",
+      "title": "How to use Django with uWSGI",
+      "file": "docs/docs_howto_deployment_wsgi_uwsgi.html",
+      "size_bytes": 6201
+    },
+    "modwsgi": {
+      "source_path": "docs/howto/deployment/wsgi/modwsgi.txt",
+      "title": "How to use Django with Apache and ``mod_wsgi``",
+      "file": "docs/docs_howto_deployment_wsgi_modwsgi.html",
+      "size_bytes": 13387
+    },
+    "granian": {
+      "source_path": "docs/howto/deployment/asgi/granian.txt",
+      "title": "How to use Django with Granian",
+      "file": "docs/docs_howto_deployment_asgi_granian.html",
+      "size_bytes": 1329
+    },
+    "apache-auth": {
+      "source_path": "docs/howto/deployment/wsgi/apache-auth.txt",
+      "title": "How to authenticate against Django's user database from Apache",
+      "file": "docs/docs_howto_deployment_wsgi_apache-auth.html",
+      "size_bytes": 9004
+    },
+    "gunicorn": {
+      "source_path": "docs/howto/deployment/wsgi/gunicorn.txt",
+      "title": "How to use Django with Gunicorn",
+      "file": "docs/docs_howto_deployment_wsgi_gunicorn.html",
+      "size_bytes": 1402
+    },
+    "hypercorn": {
+      "source_path": "docs/howto/deployment/asgi/hypercorn.txt",
+      "title": "How to use Django with Hypercorn",
+      "file": "docs/docs_howto_deployment_asgi_hypercorn.html",
+      "size_bytes": 1313
+    },
+    "uvicorn": {
+      "source_path": "docs/howto/deployment/asgi/uvicorn.txt",
+      "title": "How to use Django with Uvicorn",
+      "file": "docs/docs_howto_deployment_asgi_uvicorn.html",
+      "size_bytes": 1999
+    },
+    "daphne": {
+      "source_path": "docs/howto/deployment/asgi/daphne.txt",
+      "title": "How to use Django with Daphne",
+      "file": "docs/docs_howto_deployment_asgi_daphne.html",
+      "size_bytes": 1767
+    },
+    "customizing": {
+      "source_path": "docs/topics/auth/customizing.txt",
+      "title": "Customizing authentication in Django",
+      "file": "docs/docs_topics_auth_customizing.html",
+      "size_bytes": 57836
+    },
+    "default": {
+      "source_path": "docs/topics/auth/default.txt",
+      "title": "Using the Django authentication system",
+      "file": "docs/docs_topics_auth_default.html",
+      "size_bytes": 84627
+    },
+    "passwords": {
+      "source_path": "docs/topics/auth/passwords.txt",
+      "title": "Password management in Django",
+      "file": "docs/docs_topics_auth_passwords.html",
+      "size_bytes": 42433
+    },
+    "modelforms": {
+      "source_path": "docs/topics/forms/modelforms.txt",
+      "title": "Creating forms from models",
+      "file": "docs/docs_topics_forms_modelforms.html",
+      "size_bytes": 61892
+    },
+    "media": {
+      "source_path": "docs/topics/forms/media.txt",
+      "title": "Form Assets (the ``Media`` class)",
+      "file": "docs/docs_topics_forms_media.html",
+      "size_bytes": 19882
+    },
+    "intro": {
+      "source_path": "docs/topics/class-based-views/intro.txt",
+      "title": "Introduction to class-based views",
+      "file": "docs/docs_topics_class-based-views_intro.html",
+      "size_bytes": 15095
+    },
+    "formatting": {
+      "source_path": "docs/topics/i18n/formatting.txt",
+      "title": "Format localization",
+      "file": "docs/docs_topics_i18n_formatting.html",
+      "size_bytes": 7331
+    },
+    "timezones": {
+      "source_path": "docs/topics/i18n/timezones.txt",
+      "title": "Time zones",
+      "file": "docs/docs_topics_i18n_timezones.html",
+      "size_bytes": 30624
+    },
+    "translation": {
+      "source_path": "docs/topics/i18n/translation.txt",
+      "title": "Translation",
+      "file": "docs/docs_topics_i18n_translation.html",
+      "size_bytes": 102763
+    },
+    "tools": {
+      "source_path": "docs/topics/testing/tools.txt",
+      "title": "Testing tools",
+      "file": "docs/docs_topics_testing_tools.html",
+      "size_bytes": 101459
+    },
+    "advanced": {
+      "source_path": "docs/topics/testing/advanced.txt",
+      "title": "Advanced testing topics",
+      "file": "docs/docs_topics_testing_advanced.html",
+      "size_bytes": 44631
+    },
+    "decorators": {
+      "source_path": "docs/topics/http/decorators.txt",
+      "title": "View decorators",
+      "file": "docs/docs_topics_http_decorators.html",
+      "size_bytes": 5742
+    },
+    "shortcuts": {
+      "source_path": "docs/topics/http/shortcuts.txt",
+      "title": "Django shortcut functions",
+      "file": "docs/docs_topics_http_shortcuts.html",
+      "size_bytes": 11999
+    },
+    "generic-views": {
+      "source_path": "docs/topics/http/generic-views.txt",
+      "title": "Generic views",
+      "file": "docs/docs_topics_http_generic-views.html",
+      "size_bytes": 132
+    },
+    "file-uploads": {
+      "source_path": "docs/topics/http/file-uploads.txt",
+      "title": "File Uploads",
+      "file": "docs/docs_topics_http_file-uploads.html",
+      "size_bytes": 22572
+    },
+    "sessions": {
+      "source_path": "docs/topics/http/sessions.txt",
+      "title": "How to use sessions",
+      "file": "docs/docs_topics_http_sessions.html",
+      "size_bytes": 42323
+    },
+    "optimization": {
+      "source_path": "docs/topics/db/optimization.txt",
+      "title": "Database access optimization",
+      "file": "docs/docs_topics_db_optimization.html",
+      "size_bytes": 23613
+    },
+    "fixtures": {
+      "source_path": "docs/topics/db/fixtures.txt",
+      "title": "Fixtures",
+      "file": "docs/docs_topics_db_fixtures.html",
+      "size_bytes": 9022
+    },
+    "managers": {
+      "source_path": "docs/topics/db/managers.txt",
+      "title": "Managers",
+      "file": "docs/docs_topics_db_managers.html",
+      "size_bytes": 18509
+    },
+    "transactions": {
+      "source_path": "docs/topics/db/transactions.txt",
+      "title": "Database transactions",
+      "file": "docs/docs_topics_db_transactions.html",
+      "size_bytes": 32241
+    },
+    "multi-db": {
+      "source_path": "docs/topics/db/multi-db.txt",
+      "title": "Multiple databases",
+      "file": "docs/docs_topics_db_multi-db.html",
+      "size_bytes": 35748
+    },
+    "queries": {
+      "source_path": "docs/topics/db/queries.txt",
+      "title": "Making queries",
+      "file": "docs/docs_topics_db_queries.html",
+      "size_bytes": 102556
+    },
+    "sql": {
+      "source_path": "docs/topics/db/sql.txt",
+      "title": "Performing raw SQL queries",
+      "file": "docs/docs_topics_db_sql.html",
+      "size_bytes": 19067
+    },
+    "instrumentation": {
+      "source_path": "docs/topics/db/instrumentation.txt",
+      "title": "Database instrumentation",
+      "file": "docs/docs_topics_db_instrumentation.html",
+      "size_bytes": 4791
+    },
+    "aggregation": {
+      "source_path": "docs/topics/db/aggregation.txt",
+      "title": "Aggregation",
+      "file": "docs/docs_topics_db_aggregation.html",
+      "size_bytes": 36168
+    },
+    "tablespaces": {
+      "source_path": "docs/topics/db/tablespaces.txt",
+      "title": "Tablespaces",
+      "file": "docs/docs_topics_db_tablespaces.html",
+      "size_bytes": 5246
+    },
+    "fetch-modes": {
+      "source_path": "docs/topics/db/fetch-modes.txt",
+      "title": "Fetch modes",
+      "file": "docs/docs_topics_db_fetch-modes.html",
+      "size_bytes": 8579
+    },
+    "many_to_many": {
+      "source_path": "docs/topics/db/examples/many_to_many.txt",
+      "title": "Many-to-many relationships",
+      "file": "docs/docs_topics_db_examples_many_to_many.html",
+      "size_bytes": 15628
+    },
+    "many_to_one": {
+      "source_path": "docs/topics/db/examples/many_to_one.txt",
+      "title": "Many-to-one relationships",
+      "file": "docs/docs_topics_db_examples_many_to_one.html",
+      "size_bytes": 9593
+    },
+    "one_to_one": {
+      "source_path": "docs/topics/db/examples/one_to_one.txt",
+      "title": "One-to-one relationships",
+      "file": "docs/docs_topics_db_examples_one_to_one.html",
+      "size_bytes": 6539
+    }
+  }
+}

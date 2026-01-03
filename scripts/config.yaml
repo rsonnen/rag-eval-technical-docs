@@ -1,0 +1,92 @@
+# Technical Documentation Corpus Configuration
+#
+# Each project defines how to extract documentation from an open source project.
+# Source types: git (clone repository), tarball (download archive)
+# Converters: identity (markdown), rst, asciidoc, docbook, mdx
+
+projects:
+  # Rust Book - Pure markdown, easiest case
+  rust-book:
+    source_type: git
+    repo_url: https://github.com/rust-lang/book.git
+    sparse_checkout:
+      - src
+    file_pattern: "src/**/*.md"
+    converter: identity
+    metadata:
+      license: "MIT/Apache-2.0"
+      version_tag: main
+
+  # Kubernetes Documentation - Markdown
+  kubernetes:
+    source_type: git
+    repo_url: https://github.com/kubernetes/website.git
+    sparse_checkout:
+      - content/en/docs
+    file_pattern: "content/en/docs/**/*.md"
+    converter: identity
+    metadata:
+      license: "CC-BY-4.0"
+      version_tag: main
+
+  # Django Documentation - reStructuredText
+  django:
+    source_type: git
+    repo_url: https://github.com/django/django.git
+    sparse_checkout:
+      - docs
+    file_pattern: "docs/**/*.txt"
+    converter: rst
+    metadata:
+      license: "BSD-3-Clause"
+      version_tag: main
+
+  # Python Standard Library Docs - reStructuredText
+  python-stdlib:
+    source_type: git
+    repo_url: https://github.com/python/cpython.git
+    sparse_checkout:
+      - Doc/library
+      - Doc/reference
+      - Doc/tutorial
+    file_pattern: "Doc/**/*.rst"
+    converter: rst
+    metadata:
+      license: "PSF-2.0"
+      version_tag: main
+
+  # React Documentation - MDX (Markdown + JSX)
+  react:
+    source_type: git
+    repo_url: https://github.com/reactjs/react.dev.git
+    sparse_checkout:
+      - src/content
+    file_pattern: "src/content/**/*.md"
+    converter: mdx
+    metadata:
+      license: "CC-BY-4.0"
+      version_tag: main
+
+  # Git Documentation - AsciiDoc
+  git:
+    source_type: git
+    repo_url: https://github.com/git/git.git
+    sparse_checkout:
+      - Documentation
+    file_pattern: "Documentation/*.adoc"
+    converter: asciidoc
+    metadata:
+      license: "GPL-2.0"
+      version_tag: master
+
+  # PostgreSQL Documentation - DocBook/SGML
+  postgresql:
+    source_type: git
+    repo_url: https://github.com/postgres/postgres.git
+    sparse_checkout:
+      - doc/src/sgml
+    file_pattern: "doc/src/sgml/*.sgml"
+    converter: docbook
+    metadata:
+      license: "PostgreSQL"
+      version_tag: master

@@ -1,0 +1,1494 @@
+{
+  "corpus": "git_docs",
+  "project": "git",
+  "source_url": "https://github.com/git/git.git",
+  "version": "master",
+  "license": "GPL-2.0",
+  "converter": "asciidoc",
+  "extraction_date": "2025-12-24T14:37:39.772883+00:00",
+  "total_documents": 247,
+  "documents": {
+    "git-whatchanged": {
+      "source_path": "Documentation/git-whatchanged.adoc",
+      "title": "git-whatchanged(1)",
+      "file": "docs/Documentation_git-whatchanged.adoc",
+      "size_bytes": 1299
+    },
+    "rerere-options": {
+      "source_path": "Documentation/rerere-options.adoc",
+      "title": "Rerere Options",
+      "file": "docs/Documentation_rerere-options.adoc",
+      "size_bytes": 418
+    },
+    "git-checkout": {
+      "source_path": "Documentation/git-checkout.adoc",
+      "title": "git-checkout(1)",
+      "file": "docs/Documentation_git-checkout.adoc",
+      "size_bytes": 22239
+    },
+    "scalar": {
+      "source_path": "Documentation/scalar.adoc",
+      "title": "scalar(1)",
+      "file": "docs/Documentation_scalar.adoc",
+      "size_bytes": 14826
+    },
+    "git-check-attr": {
+      "source_path": "Documentation/git-check-attr.adoc",
+      "title": "git-check-attr(1)",
+      "file": "docs/Documentation_git-check-attr.adoc",
+      "size_bytes": 3402
+    },
+    "git-send-email": {
+      "source_path": "Documentation/git-send-email.adoc",
+      "title": "git-send-email(1)",
+      "file": "docs/Documentation_git-send-email.adoc",
+      "size_bytes": 27857
+    },
+    "signoff-option": {
+      "source_path": "Documentation/signoff-option.adoc",
+      "title": "Signoff Option",
+      "file": "docs/Documentation_signoff-option.adoc",
+      "size_bytes": 791
+    },
+    "git-status": {
+      "source_path": "Documentation/git-status.adoc",
+      "title": "git-status(1)",
+      "file": "docs/Documentation_git-status.adoc",
+      "size_bytes": 20380
+    },
+    "diff-options": {
+      "source_path": "Documentation/diff-options.adoc",
+      "title": "+",
+      "file": "docs/Documentation_diff-options.adoc",
+      "size_bytes": 33387
+    },
+    "git-verify-commit": {
+      "source_path": "Documentation/git-verify-commit.adoc",
+      "title": "git-verify-commit(1)",
+      "file": "docs/Documentation_git-verify-commit.adoc",
+      "size_bytes": 573
+    },
+    "git-describe": {
+      "source_path": "Documentation/git-describe.adoc",
+      "title": "git-describe(1)",
+      "file": "docs/Documentation_git-describe.adoc",
+      "size_bytes": 8319
+    },
+    "git-pack-redundant": {
+      "source_path": "Documentation/git-pack-redundant.adoc",
+      "title": "git-pack-redundant(1)",
+      "file": "docs/Documentation_git-pack-redundant.adoc",
+      "size_bytes": 1876
+    },
+    "git-prune-packed": {
+      "source_path": "Documentation/git-prune-packed.adoc",
+      "title": "git-prune-packed(1)",
+      "file": "docs/Documentation_git-prune-packed.adoc",
+      "size_bytes": 946
+    },
+    "git-credential-cache--daemon": {
+      "source_path": "Documentation/git-credential-cache--daemon.adoc",
+      "title": "git-credential-cache{litdd}daemon(1)",
+      "file": "docs/Documentation_git-credential-cache--daemon.adoc",
+      "size_bytes": 891
+    },
+    "git-name-rev": {
+      "source_path": "Documentation/git-name-rev.adoc",
+      "title": "git-name-rev(1)",
+      "file": "docs/Documentation_git-name-rev.adoc",
+      "size_bytes": 3352
+    },
+    "git-for-each-ref": {
+      "source_path": "Documentation/git-for-each-ref.adoc",
+      "title": "git-for-each-ref(1)",
+      "file": "docs/Documentation_git-for-each-ref.adoc",
+      "size_bytes": 16188
+    },
+    "MyFirstObjectWalk": {
+      "source_path": "Documentation/MyFirstObjectWalk.adoc",
+      "title": "git checkout -b revwalk origin/master",
+      "file": "docs/Documentation_MyFirstObjectWalk.adoc",
+      "size_bytes": 29570
+    },
+    "git-svn": {
+      "source_path": "Documentation/git-svn.adoc",
+      "title": "git-svn(1)",
+      "file": "docs/Documentation_git-svn.adoc",
+      "size_bytes": 46374
+    },
+    "gitremote-helpers": {
+      "source_path": "Documentation/gitremote-helpers.adoc",
+      "title": "gitremote-helpers(7)",
+      "file": "docs/Documentation_gitremote-helpers.adoc",
+      "size_bytes": 21653
+    },
+    "gitformat-chunk": {
+      "source_path": "Documentation/gitformat-chunk.adoc",
+      "title": "gitformat-chunk(5)",
+      "file": "docs/Documentation_gitformat-chunk.adoc",
+      "size_bytes": 5560
+    },
+    "git-stash": {
+      "source_path": "Documentation/git-stash.adoc",
+      "title": "git-stash(1)",
+      "file": "docs/Documentation_git-stash.adoc",
+      "size_bytes": 16136
+    },
+    "gitrepository-layout": {
+      "source_path": "Documentation/gitrepository-layout.adoc",
+      "title": "gitrepository-layout(5)",
+      "file": "docs/Documentation_gitrepository-layout.adoc",
+      "size_bytes": 11890
+    },
+    "git-worktree": {
+      "source_path": "Documentation/git-worktree.adoc",
+      "title": "git-worktree(1)",
+      "file": "docs/Documentation_git-worktree.adoc",
+      "size_bytes": 21515
+    },
+    "git-mktag": {
+      "source_path": "Documentation/git-mktag.adoc",
+      "title": "git-mktag(1)",
+      "file": "docs/Documentation_git-mktag.adoc",
+      "size_bytes": 1782
+    },
+    "git-switch": {
+      "source_path": "Documentation/git-switch.adoc",
+      "title": "git-switch(1)",
+      "file": "docs/Documentation_git-switch.adoc",
+      "size_bytes": 8902
+    },
+    "git-help": {
+      "source_path": "Documentation/git-help.adoc",
+      "title": "git-help(1)",
+      "file": "docs/Documentation_git-help.adoc",
+      "size_bytes": 7527
+    },
+    "git-p4": {
+      "source_path": "Documentation/git-p4.adoc",
+      "title": "git-p4(1)",
+      "file": "docs/Documentation_git-p4.adoc",
+      "size_bytes": 28218
+    },
+    "git-init-db": {
+      "source_path": "Documentation/git-init-db.adoc",
+      "title": "git-init-db(1)",
+      "file": "docs/Documentation_git-init-db.adoc",
+      "size_bytes": 409
+    },
+    "git-remote": {
+      "source_path": "Documentation/git-remote.adoc",
+      "title": "git-remote(1)",
+      "file": "docs/Documentation_git-remote.adoc",
+      "size_bytes": 8769
+    },
+    "gitprotocol-capabilities": {
+      "source_path": "Documentation/gitprotocol-capabilities.adoc",
+      "title": "gitprotocol-capabilities(5)",
+      "file": "docs/Documentation_gitprotocol-capabilities.adoc",
+      "size_bytes": 15311
+    },
+    "git-rev-list": {
+      "source_path": "Documentation/git-rev-list.adoc",
+      "title": "git-rev-list(1)",
+      "file": "docs/Documentation_git-rev-list.adoc",
+      "size_bytes": 3223
+    },
+    "git-mergetool": {
+      "source_path": "Documentation/git-mergetool.adoc",
+      "title": "git-mergetool(1)",
+      "file": "docs/Documentation_git-mergetool.adoc",
+      "size_bytes": 4516
+    },
+    "git-revert": {
+      "source_path": "Documentation/git-revert.adoc",
+      "title": "git-revert(1)",
+      "file": "docs/Documentation_git-revert.adoc",
+      "size_bytes": 5425
+    },
+    "line-range-options": {
+      "source_path": "Documentation/line-range-options.adoc",
+      "title": "Line Range Options",
+      "file": "docs/Documentation_line-range-options.adoc",
+      "size_bytes": 766
+    },
+    "git-mailsplit": {
+      "source_path": "Documentation/git-mailsplit.adoc",
+      "title": "git-mailsplit(1)",
+      "file": "docs/Documentation_git-mailsplit.adoc",
+      "size_bytes": 1342
+    },
+    "git-bisect": {
+      "source_path": "Documentation/git-bisect.adoc",
+      "title": "git-bisect(1)",
+      "file": "docs/Documentation_git-bisect.adoc",
+      "size_bytes": 18199
+    },
+    "gitweb": {
+      "source_path": "Documentation/gitweb.adoc",
+      "title": "gitweb(1)",
+      "file": "docs/Documentation_gitweb.adoc",
+      "size_bytes": 26957
+    },
+    "git-submodule": {
+      "source_path": "Documentation/git-submodule.adoc",
+      "title": "git-submodule(1)",
+      "file": "docs/Documentation_git-submodule.adoc",
+      "size_bytes": 21610
+    },
+    "fsck-msgids": {
+      "source_path": "Documentation/fsck-msgids.adoc",
+      "title": "Fsck Msgids",
+      "file": "docs/Documentation_fsck-msgids.adoc",
+      "size_bytes": 6523
+    },
+    "gitweb.conf": {
+      "source_path": "Documentation/gitweb.conf.adoc",
+      "title": "gitweb.conf(5)",
+      "file": "docs/Documentation_gitweb.conf.adoc",
+      "size_bytes": 42025
+    },
+    "git-restore": {
+      "source_path": "Documentation/git-restore.adoc",
+      "title": "git-restore(1)",
+      "file": "docs/Documentation_git-restore.adoc",
+      "size_bytes": 7067
+    },
+    "git-mv": {
+      "source_path": "Documentation/git-mv.adoc",
+      "title": "git-mv(1)",
+      "file": "docs/Documentation_git-mv.adoc",
+      "size_bytes": 2086
+    },
+    "git-cherry": {
+      "source_path": "Documentation/git-cherry.adoc",
+      "title": "git-cherry(1)",
+      "file": "docs/Documentation_git-cherry.adoc",
+      "size_bytes": 3615
+    },
+    "git-request-pull": {
+      "source_path": "Documentation/git-request-pull.adoc",
+      "title": "git-request-pull(1)",
+      "file": "docs/Documentation_git-request-pull.adoc",
+      "size_bytes": 2035
+    },
+    "i18n": {
+      "source_path": "Documentation/i18n.adoc",
+      "title": "+",
+      "file": "docs/Documentation_i18n.adoc",
+      "size_bytes": 2940
+    },
+    "gitnamespaces": {
+      "source_path": "Documentation/gitnamespaces.adoc",
+      "title": "gitnamespaces(7)",
+      "file": "docs/Documentation_gitnamespaces.adoc",
+      "size_bytes": 2510
+    },
+    "ref-reachability-filters": {
+      "source_path": "Documentation/ref-reachability-filters.adoc",
+      "title": "Ref Reachability Filters",
+      "file": "docs/Documentation_ref-reachability-filters.adoc",
+      "size_bytes": 391
+    },
+    "rev-list-description": {
+      "source_path": "Documentation/rev-list-description.adoc",
+      "title": "ifdef::git-rev-list[]",
+      "file": "docs/Documentation_rev-list-description.adoc",
+      "size_bytes": 2525
+    },
+    "fetch-options": {
+      "source_path": "Documentation/fetch-options.adoc",
+      "title": "Fetch Options",
+      "file": "docs/Documentation_fetch-options.adoc",
+      "size_bytes": 12896
+    },
+    "pack-refs-options": {
+      "source_path": "Documentation/pack-refs-options.adoc",
+      "title": "Pack Refs Options",
+      "file": "docs/Documentation_pack-refs-options.adoc",
+      "size_bytes": 2168
+    },
+    "git-diff-pairs": {
+      "source_path": "Documentation/git-diff-pairs.adoc",
+      "title": "git-diff-pairs(1)",
+      "file": "docs/Documentation_git-diff-pairs.adoc",
+      "size_bytes": 2006
+    },
+    "git-init": {
+      "source_path": "Documentation/git-init.adoc",
+      "title": "git-init(1)",
+      "file": "docs/Documentation_git-init.adoc",
+      "size_bytes": 6227
+    },
+    "gitmailmap": {
+      "source_path": "Documentation/gitmailmap.adoc",
+      "title": "gitmailmap(5)",
+      "file": "docs/Documentation_gitmailmap.adoc",
+      "size_bytes": 3551
+    },
+    "merge-strategies": {
+      "source_path": "Documentation/merge-strategies.adoc",
+      "title": "MERGE STRATEGIES",
+      "file": "docs/Documentation_merge-strategies.adoc",
+      "size_bytes": 6514
+    },
+    "git-fmt-merge-msg": {
+      "source_path": "Documentation/git-fmt-merge-msg.adoc",
+      "title": "git-fmt-merge-msg(1)",
+      "file": "docs/Documentation_git-fmt-merge-msg.adoc",
+      "size_bytes": 1942
+    },
+    "git-am": {
+      "source_path": "Documentation/git-am.adoc",
+      "title": "git-am(1)",
+      "file": "docs/Documentation_git-am.adoc",
+      "size_bytes": 9971
+    },
+    "git-send-pack": {
+      "source_path": "Documentation/git-send-pack.adoc",
+      "title": "git-send-pack(1)",
+      "file": "docs/Documentation_git-send-pack.adoc",
+      "size_bytes": 5169
+    },
+    "git-upload-pack": {
+      "source_path": "Documentation/git-upload-pack.adoc",
+      "title": "git-upload-pack(1)",
+      "file": "docs/Documentation_git-upload-pack.adoc",
+      "size_bytes": 3007
+    },
+    "git-show": {
+      "source_path": "Documentation/git-show.adoc",
+      "title": "git-show(1)",
+      "file": "docs/Documentation_git-show.adoc",
+      "size_bytes": 1934
+    },
+    "gitattributes": {
+      "source_path": "Documentation/gitattributes.adoc",
+      "title": "gitattributes(5)",
+      "file": "docs/Documentation_gitattributes.adoc",
+      "size_bytes": 50492
+    },
+    "git-count-objects": {
+      "source_path": "Documentation/git-count-objects.adoc",
+      "title": "git-count-objects(1)",
+      "file": "docs/Documentation_git-count-objects.adoc",
+      "size_bytes": 1384
+    },
+    "diff-algorithm-option": {
+      "source_path": "Documentation/diff-algorithm-option.adoc",
+      "title": "+",
+      "file": "docs/Documentation_diff-algorithm-option.adoc",
+      "size_bytes": 658
+    },
+    "git-web--browse": {
+      "source_path": "Documentation/git-web--browse.adoc",
+      "title": "git-web{litdd}browse(1)",
+      "file": "docs/Documentation_git-web--browse.adoc",
+      "size_bytes": 3576
+    },
+    "git-fsck-objects": {
+      "source_path": "Documentation/git-fsck-objects.adoc",
+      "title": "git-fsck-objects(1)",
+      "file": "docs/Documentation_git-fsck-objects.adoc",
+      "size_bytes": 354
+    },
+    "git-archimport": {
+      "source_path": "Documentation/git-archimport.adoc",
+      "title": "git-archimport(1)",
+      "file": "docs/Documentation_git-archimport.adoc",
+      "size_bytes": 3980
+    },
+    "git-branch": {
+      "source_path": "Documentation/git-branch.adoc",
+      "title": "git-branch(1)",
+      "file": "docs/Documentation_git-branch.adoc",
+      "size_bytes": 16047
+    },
+    "pretty-formats": {
+      "source_path": "Documentation/pretty-formats.adoc",
+      "title": "PRETTY FORMATS",
+      "file": "docs/Documentation_pretty-formats.adoc",
+      "size_bytes": 15804
+    },
+    "git-sh-setup": {
+      "source_path": "Documentation/git-sh-setup.adoc",
+      "title": "git-sh-setup(1)",
+      "file": "docs/Documentation_git-sh-setup.adoc",
+      "size_bytes": 2976
+    },
+    "git-mktree": {
+      "source_path": "Documentation/git-mktree.adoc",
+      "title": "git-mktree(1)",
+      "file": "docs/Documentation_git-mktree.adoc",
+      "size_bytes": 1075
+    },
+    "git-patch-id": {
+      "source_path": "Documentation/git-patch-id.adoc",
+      "title": "git-patch-id(1)",
+      "file": "docs/Documentation_git-patch-id.adoc",
+      "size_bytes": 2431
+    },
+    "git-bundle": {
+      "source_path": "Documentation/git-bundle.adoc",
+      "title": "git-bundle(1)",
+      "file": "docs/Documentation_git-bundle.adoc",
+      "size_bytes": 13310
+    },
+    "config": {
+      "source_path": "Documentation/config.adoc",
+      "title": "CONFIGURATION FILE",
+      "file": "docs/Documentation_config.adoc",
+      "size_bytes": 18677
+    },
+    "git-merge-base": {
+      "source_path": "Documentation/git-merge-base.adoc",
+      "title": "git-merge-base(1)",
+      "file": "docs/Documentation_git-merge-base.adoc",
+      "size_bytes": 7759
+    },
+    "gitformat-loose": {
+      "source_path": "Documentation/gitformat-loose.adoc",
+      "title": "gitformat-loose(5)",
+      "file": "docs/Documentation_gitformat-loose.adoc",
+      "size_bytes": 1865
+    },
+    "gittutorial-2": {
+      "source_path": "Documentation/gittutorial-2.adoc",
+      "title": "gittutorial-2(7)",
+      "file": "docs/Documentation_gittutorial-2.adoc",
+      "size_bytes": 14750
+    },
+    "git-index-pack": {
+      "source_path": "Documentation/git-index-pack.adoc",
+      "title": "git-index-pack(1)",
+      "file": "docs/Documentation_git-index-pack.adoc",
+      "size_bytes": 6297
+    },
+    "git-symbolic-ref": {
+      "source_path": "Documentation/git-symbolic-ref.adoc",
+      "title": "git-symbolic-ref(1)",
+      "file": "docs/Documentation_git-symbolic-ref.adoc",
+      "size_bytes": 2372
+    },
+    "git-config": {
+      "source_path": "Documentation/git-config.adoc",
+      "title": "git-config(1)",
+      "file": "docs/Documentation_git-config.adoc",
+      "size_bytes": 21386
+    },
+    "gitprotocol-http": {
+      "source_path": "Documentation/gitprotocol-http.adoc",
+      "title": "gitprotocol-http(5)",
+      "file": "docs/Documentation_gitprotocol-http.adoc",
+      "size_bytes": 18078
+    },
+    "user-manual": {
+      "source_path": "Documentation/user-manual.adoc",
+      "title": "$ man git-clone",
+      "file": "docs/Documentation_user-manual.adoc",
+      "size_bytes": 174681
+    },
+    "git-commit-tree": {
+      "source_path": "Documentation/git-commit-tree.adoc",
+      "title": "git-commit-tree(1)",
+      "file": "docs/Documentation_git-commit-tree.adoc",
+      "size_bytes": 2712
+    },
+    "git-unpack-file": {
+      "source_path": "Documentation/git-unpack-file.adoc",
+      "title": "git-unpack-file(1)",
+      "file": "docs/Documentation_git-unpack-file.adoc",
+      "size_bytes": 434
+    },
+    "git-fast-import": {
+      "source_path": "Documentation/git-fast-import.adoc",
+      "title": "git-fast-import(1)",
+      "file": "docs/Documentation_git-fast-import.adoc",
+      "size_bytes": 63451
+    },
+    "git-tag": {
+      "source_path": "Documentation/git-tag.adoc",
+      "title": "git-tag(1)",
+      "file": "docs/Documentation_git-tag.adoc",
+      "size_bytes": 14977
+    },
+    "git-fetch-pack": {
+      "source_path": "Documentation/git-fetch-pack.adoc",
+      "title": "git-fetch-pack(1)",
+      "file": "docs/Documentation_git-fetch-pack.adoc",
+      "size_bytes": 4243
+    },
+    "git-version": {
+      "source_path": "Documentation/git-version.adoc",
+      "title": "git-version(1)",
+      "file": "docs/Documentation_git-version.adoc",
+      "size_bytes": 1035
+    },
+    "git-commit": {
+      "source_path": "Documentation/git-commit.adoc",
+      "title": "git-commit(1)",
+      "file": "docs/Documentation_git-commit.adoc",
+      "size_bytes": 21772
+    },
+    "git-check-ref-format": {
+      "source_path": "Documentation/git-check-ref-format.adoc",
+      "title": "git-check-ref-format(1)",
+      "file": "docs/Documentation_git-check-ref-format.adoc",
+      "size_bytes": 5051
+    },
+    "diff-generate-patch": {
+      "source_path": "Documentation/diff-generate-patch.adoc",
+      "title": "Generating patch text with -p",
+      "file": "docs/Documentation_diff-generate-patch.adoc",
+      "size_bytes": 7187
+    },
+    "git-shell": {
+      "source_path": "Documentation/git-shell.adoc",
+      "title": "git-shell(1)",
+      "file": "docs/Documentation_git-shell.adoc",
+      "size_bytes": 2981
+    },
+    "trace2-target-values": {
+      "source_path": "Documentation/trace2-target-values.adoc",
+      "title": "try both.",
+      "file": "docs/Documentation_trace2-target-values.adoc",
+      "size_bytes": 529
+    },
+    "git-merge-one-file": {
+      "source_path": "Documentation/git-merge-one-file.adoc",
+      "title": "git-merge-one-file(1)",
+      "file": "docs/Documentation_git-merge-one-file.adoc",
+      "size_bytes": 387
+    },
+    "git-cvsserver": {
+      "source_path": "Documentation/git-cvsserver.adoc",
+      "title": "git-cvsserver(1)",
+      "file": "docs/Documentation_git-cvsserver.adoc",
+      "size_bytes": 15649
+    },
+    "git-last-modified": {
+      "source_path": "Documentation/git-last-modified.adoc",
+      "title": "git-last-modified(1)",
+      "file": "docs/Documentation_git-last-modified.adoc",
+      "size_bytes": 1366
+    },
+    "git-shortlog": {
+      "source_path": "Documentation/git-shortlog.adoc",
+      "title": "git-shortlog(1)",
+      "file": "docs/Documentation_git-shortlog.adoc",
+      "size_bytes": 4410
+    },
+    "git-prune": {
+      "source_path": "Documentation/git-prune.adoc",
+      "title": "git-prune(1)",
+      "file": "docs/Documentation_git-prune.adoc",
+      "size_bytes": 1919
+    },
+    "git-http-fetch": {
+      "source_path": "Documentation/git-http-fetch.adoc",
+      "title": "git-http-fetch(1)",
+      "file": "docs/Documentation_git-http-fetch.adoc",
+      "size_bytes": 1778
+    },
+    "gitpacking": {
+      "source_path": "Documentation/gitpacking.adoc",
+      "title": "gitpacking(7)",
+      "file": "docs/Documentation_gitpacking.adoc",
+      "size_bytes": 7466
+    },
+    "git-for-each-repo": {
+      "source_path": "Documentation/git-for-each-repo.adoc",
+      "title": "git-for-each-repo(1)",
+      "file": "docs/Documentation_git-for-each-repo.adoc",
+      "size_bytes": 1941
+    },
+    "git-cvsexportcommit": {
+      "source_path": "Documentation/git-cvsexportcommit.adoc",
+      "title": "git-cvsexportcommit(1)",
+      "file": "docs/Documentation_git-cvsexportcommit.adoc",
+      "size_bytes": 3222
+    },
+    "git-gui": {
+      "source_path": "Documentation/git-gui.adoc",
+      "title": "git-gui(1)",
+      "file": "docs/Documentation_git-gui.adoc",
+      "size_bytes": 3461
+    },
+    "diff-format": {
+      "source_path": "Documentation/diff-format.adoc",
+      "title": "Raw output format",
+      "file": "docs/Documentation_diff-format.adoc",
+      "size_bytes": 6597
+    },
+    "gitcredentials": {
+      "source_path": "Documentation/gitcredentials.adoc",
+      "title": "gitcredentials(7)",
+      "file": "docs/Documentation_gitcredentials.adoc",
+      "size_bytes": 12183
+    },
+    "git-show-ref": {
+      "source_path": "Documentation/git-show-ref.adoc",
+      "title": "git-show-ref(1)",
+      "file": "docs/Documentation_git-show-ref.adoc",
+      "size_bytes": 6762
+    },
+    "gitk": {
+      "source_path": "Documentation/gitk.adoc",
+      "title": "gitk(1)",
+      "file": "docs/Documentation_gitk.adoc",
+      "size_bytes": 5413
+    },
+    "git-pack-objects": {
+      "source_path": "Documentation/git-pack-objects.adoc",
+      "title": "git-pack-objects(1)",
+      "file": "docs/Documentation_git-pack-objects.adoc",
+      "size_bytes": 21978
+    },
+    "git-merge-index": {
+      "source_path": "Documentation/git-merge-index.adoc",
+      "title": "git-merge-index(1)",
+      "file": "docs/Documentation_git-merge-index.adoc",
+      "size_bytes": 2445
+    },
+    "git-filter-branch": {
+      "source_path": "Documentation/git-filter-branch.adoc",
+      "title": "git-filter-branch(1)",
+      "file": "docs/Documentation_git-filter-branch.adoc",
+      "size_bytes": 31031
+    },
+    "git-clean": {
+      "source_path": "Documentation/git-clean.adoc",
+      "title": "git-clean(1)",
+      "file": "docs/Documentation_git-clean.adoc",
+      "size_bytes": 4737
+    },
+    "git-multi-pack-index": {
+      "source_path": "Documentation/git-multi-pack-index.adoc",
+      "title": "git-multi-pack-index(1)",
+      "file": "docs/Documentation_git-multi-pack-index.adoc",
+      "size_bytes": 5150
+    },
+    "revisions": {
+      "source_path": "Documentation/revisions.adoc",
+      "title": "SPECIFYING REVISIONS",
+      "file": "docs/Documentation_revisions.adoc",
+      "size_bytes": 17109
+    },
+    "git-format-patch": {
+      "source_path": "Documentation/git-format-patch.adoc",
+      "title": "git-format-patch(1)",
+      "file": "docs/Documentation_git-format-patch.adoc",
+      "size_bytes": 29916
+    },
+    "gitglossary": {
+      "source_path": "Documentation/gitglossary.adoc",
+      "title": "gitglossary(7)",
+      "file": "docs/Documentation_gitglossary.adoc",
+      "size_bytes": 359
+    },
+    "git-check-ignore": {
+      "source_path": "Documentation/git-check-ignore.adoc",
+      "title": "git-check-ignore(1)",
+      "file": "docs/Documentation_git-check-ignore.adoc",
+      "size_bytes": 4159
+    },
+    "gitcvs-migration": {
+      "source_path": "Documentation/gitcvs-migration.adoc",
+      "title": "gitcvs-migration(7)",
+      "file": "docs/Documentation_gitcvs-migration.adoc",
+      "size_bytes": 7743
+    },
+    "git-add": {
+      "source_path": "Documentation/git-add.adoc",
+      "title": "git-add(1)",
+      "file": "docs/Documentation_git-add.adoc",
+      "size_bytes": 16020
+    },
+    "git-push": {
+      "source_path": "Documentation/git-push.adoc",
+      "title": "git-push(1)",
+      "file": "docs/Documentation_git-push.adoc",
+      "size_bytes": 29420
+    },
+    "git-citool": {
+      "source_path": "Documentation/git-citool.adoc",
+      "title": "git-citool(1)",
+      "file": "docs/Documentation_git-citool.adoc",
+      "size_bytes": 543
+    },
+    "gitrevisions": {
+      "source_path": "Documentation/gitrevisions.adoc",
+      "title": "gitrevisions(7)",
+      "file": "docs/Documentation_gitrevisions.adoc",
+      "size_bytes": 824
+    },
+    "gitprotocol-v2": {
+      "source_path": "Documentation/gitprotocol-v2.adoc",
+      "title": "gitprotocol-v2(5)",
+      "file": "docs/Documentation_gitprotocol-v2.adoc",
+      "size_bytes": 35588
+    },
+    "git-diff-tree": {
+      "source_path": "Documentation/git-diff-tree.adoc",
+      "title": "git-diff-tree(1)",
+      "file": "docs/Documentation_git-diff-tree.adoc",
+      "size_bytes": 4188
+    },
+    "git-upload-archive": {
+      "source_path": "Documentation/git-upload-archive.adoc",
+      "title": "git-upload-archive(1)",
+      "file": "docs/Documentation_git-upload-archive.adoc",
+      "size_bytes": 2087
+    },
+    "gitcli": {
+      "source_path": "Documentation/gitcli.adoc",
+      "title": "gitcli(7)",
+      "file": "docs/Documentation_gitcli.adoc",
+      "size_bytes": 11312
+    },
+    "pretty-options": {
+      "source_path": "Documentation/pretty-options.adoc",
+      "title": "Pretty Options",
+      "file": "docs/Documentation_pretty-options.adoc",
+      "size_bytes": 4533
+    },
+    "ReviewingGuidelines": {
+      "source_path": "Documentation/ReviewingGuidelines.adoc",
+      "title": "Reviewing Patches in the Git Project",
+      "file": "docs/Documentation_ReviewingGuidelines.adoc",
+      "size_bytes": 8894
+    },
+    "git-show-index": {
+      "source_path": "Documentation/git-show-index.adoc",
+      "title": "git-show-index(1)",
+      "file": "docs/Documentation_git-show-index.adoc",
+      "size_bytes": 1492
+    },
+    "git-difftool": {
+      "source_path": "Documentation/git-difftool.adoc",
+      "title": "git-difftool(1)",
+      "file": "docs/Documentation_git-difftool.adoc",
+      "size_bytes": 4599
+    },
+    "git-grep": {
+      "source_path": "Documentation/git-grep.adoc",
+      "title": "git-grep(1)",
+      "file": "docs/Documentation_git-grep.adoc",
+      "size_bytes": 11311
+    },
+    "git-quiltimport": {
+      "source_path": "Documentation/git-quiltimport.adoc",
+      "title": "git-quiltimport(1)",
+      "file": "docs/Documentation_git-quiltimport.adoc",
+      "size_bytes": 1693
+    },
+    "git-repo": {
+      "source_path": "Documentation/git-repo.adoc",
+      "title": "git-repo(1)",
+      "file": "docs/Documentation_git-repo.adoc",
+      "size_bytes": 3572
+    },
+    "git-replace": {
+      "source_path": "Documentation/git-replace.adoc",
+      "title": "git-replace(1)",
+      "file": "docs/Documentation_git-replace.adoc",
+      "size_bytes": 5211
+    },
+    "git-unpack-objects": {
+      "source_path": "Documentation/git-unpack-objects.adoc",
+      "title": "git-unpack-objects(1)",
+      "file": "docs/Documentation_git-unpack-objects.adoc",
+      "size_bytes": 1220
+    },
+    "urls-remotes": {
+      "source_path": "Documentation/urls-remotes.adoc",
+      "title": "REMOTES[[REMOTES]]",
+      "file": "docs/Documentation_urls-remotes.adoc",
+      "size_bytes": 4439
+    },
+    "gitignore": {
+      "source_path": "Documentation/gitignore.adoc",
+      "title": "gitignore(5)",
+      "file": "docs/Documentation_gitignore.adoc",
+      "size_bytes": 9203
+    },
+    "gitdatamodel": {
+      "source_path": "Documentation/gitdatamodel.adoc",
+      "title": "gitdatamodel(7)",
+      "file": "docs/Documentation_gitdatamodel.adoc",
+      "size_bytes": 10646
+    },
+    "git-write-tree": {
+      "source_path": "Documentation/git-write-tree.adoc",
+      "title": "git-write-tree(1)",
+      "file": "docs/Documentation_git-write-tree.adoc",
+      "size_bytes": 1031
+    },
+    "git-credential": {
+      "source_path": "Documentation/git-credential.adoc",
+      "title": "git-credential(1)",
+      "file": "docs/Documentation_git-credential.adoc",
+      "size_bytes": 12235
+    },
+    "git-credential-store": {
+      "source_path": "Documentation/git-credential-store.adoc",
+      "title": "git-credential-store(1)",
+      "file": "docs/Documentation_git-credential-store.adoc",
+      "size_bytes": 3637
+    },
+    "git-refs": {
+      "source_path": "Documentation/git-refs.adoc",
+      "title": "git-refs(1)",
+      "file": "docs/Documentation_git-refs.adoc",
+      "size_bytes": 3297
+    },
+    "gitformat-commit-graph": {
+      "source_path": "Documentation/gitformat-commit-graph.adoc",
+      "title": "gitformat-commit-graph(5)",
+      "file": "docs/Documentation_gitformat-commit-graph.adoc",
+      "size_bytes": 8089
+    },
+    "git-rm": {
+      "source_path": "Documentation/git-rm.adoc",
+      "title": "git-rm(1)",
+      "file": "docs/Documentation_git-rm.adoc",
+      "size_bytes": 7279
+    },
+    "git-get-tar-commit-id": {
+      "source_path": "Documentation/git-get-tar-commit-id.adoc",
+      "title": "git-get-tar-commit-id(1)",
+      "file": "docs/Documentation_git-get-tar-commit-id.adoc",
+      "size_bytes": 753
+    },
+    "gitformat-index": {
+      "source_path": "Documentation/gitformat-index.adoc",
+      "title": "gitformat-index(5)",
+      "file": "docs/Documentation_gitformat-index.adoc",
+      "size_bytes": 15180
+    },
+    "gitformat-bundle": {
+      "source_path": "Documentation/gitformat-bundle.adoc",
+      "title": "gitformat-bundle(5)",
+      "file": "docs/Documentation_gitformat-bundle.adoc",
+      "size_bytes": 3256
+    },
+    "ref-storage-format": {
+      "source_path": "Documentation/ref-storage-format.adoc",
+      "title": "Ref Storage Format",
+      "file": "docs/Documentation_ref-storage-format.adoc",
+      "size_bytes": 174
+    },
+    "date-formats": {
+      "source_path": "Documentation/date-formats.adoc",
+      "title": "DATE FORMATS",
+      "file": "docs/Documentation_date-formats.adoc",
+      "size_bytes": 1171
+    },
+    "git-fast-export": {
+      "source_path": "Documentation/git-fast-export.adoc",
+      "title": "git-fast-export(1)",
+      "file": "docs/Documentation_git-fast-export.adoc",
+      "size_bytes": 12662
+    },
+    "git-rev-parse": {
+      "source_path": "Documentation/git-rev-parse.adoc",
+      "title": "git-rev-parse(1)",
+      "file": "docs/Documentation_git-rev-parse.adoc",
+      "size_bytes": 17036
+    },
+    "git-replay": {
+      "source_path": "Documentation/git-replay.adoc",
+      "title": "git-replay(1)",
+      "file": "docs/Documentation_git-replay.adoc",
+      "size_bytes": 5016
+    },
+    "git-diff-files": {
+      "source_path": "Documentation/git-diff-files.adoc",
+      "title": "git-diff-files(1)",
+      "file": "docs/Documentation_git-diff-files.adoc",
+      "size_bytes": 1227
+    },
+    "git-sh-i18n": {
+      "source_path": "Documentation/git-sh-i18n.adoc",
+      "title": "git-sh-i18n(1)",
+      "file": "docs/Documentation_git-sh-i18n.adoc",
+      "size_bytes": 1147
+    },
+    "git-clone": {
+      "source_path": "Documentation/git-clone.adoc",
+      "title": "git-clone(1)",
+      "file": "docs/Documentation_git-clone.adoc",
+      "size_bytes": 16266
+    },
+    "git-blame": {
+      "source_path": "Documentation/git-blame.adoc",
+      "title": "git-blame(1)",
+      "file": "docs/Documentation_git-blame.adoc",
+      "size_bytes": 8904
+    },
+    "git-var": {
+      "source_path": "Documentation/git-var.adoc",
+      "title": "git-var(1)",
+      "file": "docs/Documentation_git-var.adoc",
+      "size_bytes": 3143
+    },
+    "git-instaweb": {
+      "source_path": "Documentation/git-instaweb.adoc",
+      "title": "git-instaweb(1)",
+      "file": "docs/Documentation_git-instaweb.adoc",
+      "size_bytes": 2310
+    },
+    "git-update-server-info": {
+      "source_path": "Documentation/git-update-server-info.adoc",
+      "title": "git-update-server-info(1)",
+      "file": "docs/Documentation_git-update-server-info.adoc",
+      "size_bytes": 801
+    },
+    "git-ls-files": {
+      "source_path": "Documentation/git-ls-files.adoc",
+      "title": "git-ls-files(1)",
+      "file": "docs/Documentation_git-ls-files.adoc",
+      "size_bytes": 12116
+    },
+    "git-reflog": {
+      "source_path": "Documentation/git-reflog.adoc",
+      "title": "git-reflog(1)",
+      "file": "docs/Documentation_git-reflog.adoc",
+      "size_bytes": 5657
+    },
+    "git-ls-tree": {
+      "source_path": "Documentation/git-ls-tree.adoc",
+      "title": "git-ls-tree(1)",
+      "file": "docs/Documentation_git-ls-tree.adoc",
+      "size_bytes": 5515
+    },
+    "line-range-format": {
+      "source_path": "Documentation/line-range-format.adoc",
+      "title": "Line Range Format",
+      "file": "docs/Documentation_line-range-format.adoc",
+      "size_bytes": 1182
+    },
+    "git-diff-index": {
+      "source_path": "Documentation/git-diff-index.adoc",
+      "title": "git-diff-index(1)",
+      "file": "docs/Documentation_git-diff-index.adoc",
+      "size_bytes": 4813
+    },
+    "git-fetch": {
+      "source_path": "Documentation/git-fetch.adoc",
+      "title": "git-fetch(1)",
+      "file": "docs/Documentation_git-fetch.adoc",
+      "size_bytes": 11825
+    },
+    "diff-context-options": {
+      "source_path": "Documentation/diff-context-options.adoc",
+      "title": "Diff Context Options",
+      "file": "docs/Documentation_diff-context-options.adoc",
+      "size_bytes": 372
+    },
+    "git-fsck": {
+      "source_path": "Documentation/git-fsck.adoc",
+      "title": "git-fsck(1)",
+      "file": "docs/Documentation_git-fsck.adoc",
+      "size_bytes": 6134
+    },
+    "gitcore-tutorial": {
+      "source_path": "Documentation/gitcore-tutorial.adoc",
+      "title": "gitcore-tutorial(7)",
+      "file": "docs/Documentation_gitcore-tutorial.adoc",
+      "size_bytes": 62240
+    },
+    "git-verify-pack": {
+      "source_path": "Documentation/git-verify-pack.adoc",
+      "title": "git-verify-pack(1)",
+      "file": "docs/Documentation_git-verify-pack.adoc",
+      "size_bytes": 1076
+    },
+    "git-merge-file": {
+      "source_path": "Documentation/git-merge-file.adoc",
+      "title": "git-merge-file(1)",
+      "file": "docs/Documentation_git-merge-file.adoc",
+      "size_bytes": 4072
+    },
+    "git-imap-send": {
+      "source_path": "Documentation/git-imap-send.adoc",
+      "title": "git-imap-send(1)",
+      "file": "docs/Documentation_git-imap-send.adoc",
+      "size_bytes": 6617
+    },
+    "git-daemon": {
+      "source_path": "Documentation/git-daemon.adoc",
+      "title": "git-daemon(1)",
+      "file": "docs/Documentation_git-daemon.adoc",
+      "size_bytes": 12716
+    },
+    "gitformat-signature": {
+      "source_path": "Documentation/gitformat-signature.adoc",
+      "title": "gitformat-signature(5)",
+      "file": "docs/Documentation_gitformat-signature.adoc",
+      "size_bytes": 8093
+    },
+    "githooks": {
+      "source_path": "Documentation/githooks.adoc",
+      "title": "githooks(5)",
+      "file": "docs/Documentation_githooks.adoc",
+      "size_bytes": 29565
+    },
+    "git-verify-tag": {
+      "source_path": "Documentation/git-verify-tag.adoc",
+      "title": "git-verify-tag(1)",
+      "file": "docs/Documentation_git-verify-tag.adoc",
+      "size_bytes": 564
+    },
+    "git-apply": {
+      "source_path": "Documentation/git-apply.adoc",
+      "title": "git-apply(1)",
+      "file": "docs/Documentation_git-apply.adoc",
+      "size_bytes": 11152
+    },
+    "git-archive": {
+      "source_path": "Documentation/git-archive.adoc",
+      "title": "git-archive(1)",
+      "file": "docs/Documentation_git-archive.adoc",
+      "size_bytes": 8471
+    },
+    "git-interpret-trailers": {
+      "source_path": "Documentation/git-interpret-trailers.adoc",
+      "title": "git-interpret-trailers(1)",
+      "file": "docs/Documentation_git-interpret-trailers.adoc",
+      "size_bytes": 12844
+    },
+    "gitprotocol-pack": {
+      "source_path": "Documentation/gitprotocol-pack.adoc",
+      "title": "gitprotocol-pack(5)",
+      "file": "docs/Documentation_gitprotocol-pack.adoc",
+      "size_bytes": 27678
+    },
+    "blame-options": {
+      "source_path": "Documentation/blame-options.adoc",
+      "title": "Blame Options",
+      "file": "docs/Documentation_blame-options.adoc",
+      "size_bytes": 6101
+    },
+    "git-merge-tree": {
+      "source_path": "Documentation/git-merge-tree.adoc",
+      "title": "git-merge-tree(1)",
+      "file": "docs/Documentation_git-merge-tree.adoc",
+      "size_bytes": 12923
+    },
+    "git-gc": {
+      "source_path": "Documentation/git-gc.adoc",
+      "title": "git-gc(1)",
+      "file": "docs/Documentation_git-gc.adoc",
+      "size_bytes": 6744
+    },
+    "git-sparse-checkout": {
+      "source_path": "Documentation/git-sparse-checkout.adoc",
+      "title": "git-sparse-checkout(1)",
+      "file": "docs/Documentation_git-sparse-checkout.adoc",
+      "size_bytes": 22757
+    },
+    "transfer-data-leaks": {
+      "source_path": "Documentation/transfer-data-leaks.adoc",
+      "title": "SECURITY",
+      "file": "docs/Documentation_transfer-data-leaks.adoc",
+      "size_bytes": 1712
+    },
+    "for-each-ref-options": {
+      "source_path": "Documentation/for-each-ref-options.adoc",
+      "title": "For Each Ref Options",
+      "file": "docs/Documentation_for-each-ref-options.adoc",
+      "size_bytes": 3093
+    },
+    "git-cat-file": {
+      "source_path": "Documentation/git-cat-file.adoc",
+      "title": "git-cat-file(1)",
+      "file": "docs/Documentation_git-cat-file.adoc",
+      "size_bytes": 15012
+    },
+    "git-ls-remote": {
+      "source_path": "Documentation/git-ls-remote.adoc",
+      "title": "git-ls-remote(1)",
+      "file": "docs/Documentation_git-ls-remote.adoc",
+      "size_bytes": 5127
+    },
+    "git-rebase": {
+      "source_path": "Documentation/git-rebase.adoc",
+      "title": "git-rebase(1)",
+      "file": "docs/Documentation_git-rebase.adoc",
+      "size_bytes": 47140
+    },
+    "git-credential-cache": {
+      "source_path": "Documentation/git-credential-cache.adoc",
+      "title": "git-credential-cache(1)",
+      "file": "docs/Documentation_git-credential-cache.adoc",
+      "size_bytes": 3198
+    },
+    "git-mailinfo": {
+      "source_path": "Documentation/git-mailinfo.adoc",
+      "title": "git-mailinfo(1)",
+      "file": "docs/Documentation_git-mailinfo.adoc",
+      "size_bytes": 3868
+    },
+    "giteveryday": {
+      "source_path": "Documentation/giteveryday.adoc",
+      "title": "giteveryday(7)",
+      "file": "docs/Documentation_giteveryday.adoc",
+      "size_bytes": 14422
+    },
+    "git-diagnose": {
+      "source_path": "Documentation/git-diagnose.adoc",
+      "title": "git-diagnose(1)",
+      "file": "docs/Documentation_git-diagnose.adoc",
+      "size_bytes": 2208
+    },
+    "git-hash-object": {
+      "source_path": "Documentation/git-hash-object.adoc",
+      "title": "git-hash-object(1)",
+      "file": "docs/Documentation_git-hash-object.adoc",
+      "size_bytes": 2142
+    },
+    "git-maintenance": {
+      "source_path": "Documentation/git-maintenance.adoc",
+      "title": "git-maintenance(1)",
+      "file": "docs/Documentation_git-maintenance.adoc",
+      "size_bytes": 20357
+    },
+    "git-rerere": {
+      "source_path": "Documentation/git-rerere.adoc",
+      "title": "git-rerere(1)",
+      "file": "docs/Documentation_git-rerere.adoc",
+      "size_bytes": 7781
+    },
+    "gitworkflows": {
+      "source_path": "Documentation/gitworkflows.adoc",
+      "title": "gitworkflows(7)",
+      "file": "docs/Documentation_gitworkflows.adoc",
+      "size_bytes": 17414
+    },
+    "git-fsmonitor--daemon": {
+      "source_path": "Documentation/git-fsmonitor--daemon.adoc",
+      "title": "git-fsmonitor{litdd}daemon(1)",
+      "file": "docs/Documentation_git-fsmonitor--daemon.adoc",
+      "size_bytes": 3612
+    },
+    "git-notes": {
+      "source_path": "Documentation/git-notes.adoc",
+      "title": "git-notes(1)",
+      "file": "docs/Documentation_git-notes.adoc",
+      "size_bytes": 14339
+    },
+    "BreakingChanges": {
+      "source_path": "Documentation/BreakingChanges.adoc",
+      "title": "Upcoming breaking changes",
+      "file": "docs/Documentation_BreakingChanges.adoc",
+      "size_bytes": 17035
+    },
+    "git-range-diff": {
+      "source_path": "Documentation/git-range-diff.adoc",
+      "title": "git-range-diff(1)",
+      "file": "docs/Documentation_git-range-diff.adoc",
+      "size_bytes": 10976
+    },
+    "gitmodules": {
+      "source_path": "Documentation/gitmodules.adoc",
+      "title": "gitmodules(5)",
+      "file": "docs/Documentation_gitmodules.adoc",
+      "size_bytes": 4800
+    },
+    "git-read-tree": {
+      "source_path": "Documentation/git-read-tree.adoc",
+      "title": "git-read-tree(1)",
+      "file": "docs/Documentation_git-read-tree.adoc",
+      "size_bytes": 16918
+    },
+    "git-diff": {
+      "source_path": "Documentation/git-diff.adoc",
+      "title": "git-diff(1)",
+      "file": "docs/Documentation_git-diff.adoc",
+      "size_bytes": 8474
+    },
+    "pull-fetch-param": {
+      "source_path": "Documentation/pull-fetch-param.adoc",
+      "title": "Pull Fetch Param",
+      "file": "docs/Documentation_pull-fetch-param.adoc",
+      "size_bytes": 5632
+    },
+    "ToolsForGit": {
+      "source_path": "Documentation/ToolsForGit.adoc",
+      "title": "Tools for developing Git",
+      "file": "docs/Documentation_ToolsForGit.adoc",
+      "size_bytes": 1349
+    },
+    "gitdiffcore": {
+      "source_path": "Documentation/gitdiffcore.adoc",
+      "title": "gitdiffcore(7)",
+      "file": "docs/Documentation_gitdiffcore.adoc",
+      "size_bytes": 14082
+    },
+    "git-sh-i18n--envsubst": {
+      "source_path": "Documentation/git-sh-i18n--envsubst.adoc",
+      "title": "git-sh-i18n{litdd}envsubst(1)",
+      "file": "docs/Documentation_git-sh-i18n--envsubst.adoc",
+      "size_bytes": 928
+    },
+    "git-http-backend": {
+      "source_path": "Documentation/git-http-backend.adoc",
+      "title": "git-http-backend(1)",
+      "file": "docs/Documentation_git-http-backend.adoc",
+      "size_bytes": 11633
+    },
+    "git-checkout-index": {
+      "source_path": "Documentation/git-checkout-index.adoc",
+      "title": "git-checkout-index(1)",
+      "file": "docs/Documentation_git-checkout-index.adoc",
+      "size_bytes": 5669
+    },
+    "gitformat-pack": {
+      "source_path": "Documentation/gitformat-pack.adoc",
+      "title": "gitformat-pack(5)",
+      "file": "docs/Documentation_gitformat-pack.adoc",
+      "size_bytes": 27242
+    },
+    "gittutorial": {
+      "source_path": "Documentation/gittutorial.adoc",
+      "title": "gittutorial(7)",
+      "file": "docs/Documentation_gittutorial.adoc",
+      "size_bytes": 22973
+    },
+    "glossary-content": {
+      "source_path": "Documentation/glossary-content.adoc",
+      "title": "Glossary Content",
+      "file": "docs/Documentation_glossary-content.adoc",
+      "size_bytes": 33098
+    },
+    "gitprotocol-common": {
+      "source_path": "Documentation/gitprotocol-common.adoc",
+      "title": "gitprotocol-common(5)",
+      "file": "docs/Documentation_gitprotocol-common.adoc",
+      "size_bytes": 3179
+    },
+    "git-show-branch": {
+      "source_path": "Documentation/git-show-branch.adoc",
+      "title": "git-show-branch(1)",
+      "file": "docs/Documentation_git-show-branch.adoc",
+      "size_bytes": 6591
+    },
+    "gitsubmodules": {
+      "source_path": "Documentation/gitsubmodules.adoc",
+      "title": "gitsubmodules(7)",
+      "file": "docs/Documentation_gitsubmodules.adoc",
+      "size_bytes": 10368
+    },
+    "git-log": {
+      "source_path": "Documentation/git-log.adoc",
+      "title": "git-log(1)",
+      "file": "docs/Documentation_git-log.adoc",
+      "size_bytes": 6953
+    },
+    "object-format-disclaimer": {
+      "source_path": "Documentation/object-format-disclaimer.adoc",
+      "title": "Object Format Disclaimer",
+      "file": "docs/Documentation_object-format-disclaimer.adoc",
+      "size_bytes": 470
+    },
+    "git-bisect-lk2009": {
+      "source_path": "Documentation/git-bisect-lk2009.adoc",
+      "title": "Fighting regressions with git bisect",
+      "file": "docs/Documentation_git-bisect-lk2009.adoc",
+      "size_bytes": 49694
+    },
+    "git-tools": {
+      "source_path": "Documentation/git-tools.adoc",
+      "title": "Git Tools",
+      "file": "docs/Documentation_git-tools.adoc",
+      "size_bytes": 422
+    },
+    "git-stage": {
+      "source_path": "Documentation/git-stage.adoc",
+      "title": "git-stage(1)",
+      "file": "docs/Documentation_git-stage.adoc",
+      "size_bytes": 299
+    },
+    "git-bugreport": {
+      "source_path": "Documentation/git-bugreport.adoc",
+      "title": "git-bugreport(1)",
+      "file": "docs/Documentation_git-bugreport.adoc",
+      "size_bytes": 2566
+    },
+    "git-pull": {
+      "source_path": "Documentation/git-pull.adoc",
+      "title": "git-pull(1)",
+      "file": "docs/Documentation_git-pull.adoc",
+      "size_bytes": 7925
+    },
+    "git-commit-graph": {
+      "source_path": "Documentation/git-commit-graph.adoc",
+      "title": "git-commit-graph(1)",
+      "file": "docs/Documentation_git-commit-graph.adoc",
+      "size_bytes": 6034
+    },
+    "git-update-ref": {
+      "source_path": "Documentation/git-update-ref.adoc",
+      "title": "git-update-ref(1)",
+      "file": "docs/Documentation_git-update-ref.adoc",
+      "size_bytes": 7611
+    },
+    "sequencer": {
+      "source_path": "Documentation/sequencer.adoc",
+      "title": "Sequencer",
+      "file": "docs/Documentation_sequencer.adoc",
+      "size_bytes": 472
+    },
+    "git-column": {
+      "source_path": "Documentation/git-column.adoc",
+      "title": "git-column(1)",
+      "file": "docs/Documentation_git-column.adoc",
+      "size_bytes": 2206
+    },
+    "git-merge": {
+      "source_path": "Documentation/git-merge.adoc",
+      "title": "git-merge(1)",
+      "file": "docs/Documentation_git-merge.adoc",
+      "size_bytes": 15143
+    },
+    "git-mergetool--lib": {
+      "source_path": "Documentation/git-mergetool--lib.adoc",
+      "title": "git-mergetool{litdd}lib(1)",
+      "file": "docs/Documentation_git-mergetool--lib.adoc",
+      "size_bytes": 1467
+    },
+    "git-receive-pack": {
+      "source_path": "Documentation/git-receive-pack.adoc",
+      "title": "git-receive-pack(1)",
+      "file": "docs/Documentation_git-receive-pack.adoc",
+      "size_bytes": 10219
+    },
+    "rev-list-options": {
+      "source_path": "Documentation/rev-list-options.adoc",
+      "title": "Rev List Options",
+      "file": "docs/Documentation_rev-list-options.adoc",
+      "size_bytes": 49754
+    },
+    "git-backfill": {
+      "source_path": "Documentation/git-backfill.adoc",
+      "title": "git-backfill(1)",
+      "file": "docs/Documentation_git-backfill.adoc",
+      "size_bytes": 2579
+    },
+    "git-pack-refs": {
+      "source_path": "Documentation/git-pack-refs.adoc",
+      "title": "git-pack-refs(1)",
+      "file": "docs/Documentation_git-pack-refs.adoc",
+      "size_bytes": 1695
+    },
+    "git-remote-fd": {
+      "source_path": "Documentation/git-remote-fd.adoc",
+      "title": "git-remote-fd(1)",
+      "file": "docs/Documentation_git-remote-fd.adoc",
+      "size_bytes": 1628
+    },
+    "git-check-mailmap": {
+      "source_path": "Documentation/git-check-mailmap.adoc",
+      "title": "git-check-mailmap(1)",
+      "file": "docs/Documentation_git-check-mailmap.adoc",
+      "size_bytes": 1580
+    },
+    "DecisionMaking": {
+      "source_path": "Documentation/DecisionMaking.adoc",
+      "title": "Decision-Making Process in the Git Project",
+      "file": "docs/Documentation_DecisionMaking.adoc",
+      "size_bytes": 3856
+    },
+    "git-hook": {
+      "source_path": "Documentation/git-hook.adoc",
+      "title": "git-hook(1)",
+      "file": "docs/Documentation_git-hook.adoc",
+      "size_bytes": 1028
+    },
+    "git-cvsimport": {
+      "source_path": "Documentation/git-cvsimport.adoc",
+      "title": "git-cvsimport(1)",
+      "file": "docs/Documentation_git-cvsimport.adoc",
+      "size_bytes": 7753
+    },
+    "MyFirstContribution": {
+      "source_path": "Documentation/MyFirstContribution.adoc",
+      "title": "My First Contribution to the Git Project",
+      "file": "docs/Documentation_MyFirstContribution.adoc",
+      "size_bytes": 56529
+    },
+    "git-repack": {
+      "source_path": "Documentation/git-repack.adoc",
+      "title": "git-repack(1)",
+      "file": "docs/Documentation_git-repack.adoc",
+      "size_bytes": 11465
+    },
+    "git": {
+      "source_path": "Documentation/git.adoc",
+      "title": "git(1)",
+      "file": "docs/Documentation_git.adoc",
+      "size_bytes": 45852
+    },
+    "git-reset": {
+      "source_path": "Documentation/git-reset.adoc",
+      "title": "git-reset(1)",
+      "file": "docs/Documentation_git-reset.adoc",
+      "size_bytes": 19228
+    },
+    "git-stripspace": {
+      "source_path": "Documentation/git-stripspace.adoc",
+      "title": "git-stripspace(1)",
+      "file": "docs/Documentation_git-stripspace.adoc",
+      "size_bytes": 1967
+    },
+    "git-annotate": {
+      "source_path": "Documentation/git-annotate.adoc",
+      "title": "git-annotate(1)",
+      "file": "docs/Documentation_git-annotate.adoc",
+      "size_bytes": 772
+    },
+    "urls": {
+      "source_path": "Documentation/urls.adoc",
+      "title": "GIT URLS[[URLS]]",
+      "file": "docs/Documentation_urls.adoc",
+      "size_bytes": 3465
+    },
+    "git-http-push": {
+      "source_path": "Documentation/git-http-push.adoc",
+      "title": "git-http-push(1)",
+      "file": "docs/Documentation_git-http-push.adoc",
+      "size_bytes": 2995
+    },
+    "git-update-index": {
+      "source_path": "Documentation/git-update-index.adoc",
+      "title": "git-update-index(1)",
+      "file": "docs/Documentation_git-update-index.adoc",
+      "size_bytes": 24041
+    },
+    "git-remote-ext": {
+      "source_path": "Documentation/git-remote-ext.adoc",
+      "title": "git-remote-ext(1)",
+      "file": "docs/Documentation_git-remote-ext.adoc",
+      "size_bytes": 3977
+    },
+    "git-cherry-pick": {
+      "source_path": "Documentation/git-cherry-pick.adoc",
+      "title": "git-cherry-pick(1)",
+      "file": "docs/Documentation_git-cherry-pick.adoc",
+      "size_bytes": 9184
+    },
+    "gitfaq": {
+      "source_path": "Documentation/gitfaq.adoc",
+      "title": "gitfaq(7)",
+      "file": "docs/Documentation_gitfaq.adoc",
+      "size_bytes": 26467
+    },
+    "merge-options": {
+      "source_path": "Documentation/merge-options.adoc",
+      "title": "Merge Options",
+      "file": "docs/Documentation_merge-options.adoc",
+      "size_bytes": 7432
+    }
+  }
+}
